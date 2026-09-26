@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "fetchedAt": "2026-09-26T07:11:18.618426+00:00",
+  "fetchedAt": "2026-09-26T07:40:14.637899+00:00",
   "source": "TWSE／TPEx Open Data",
   "notices": [
     {
@@ -11,25 +11,11 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=8472"
     },
     {
-      "code": "6949",
-      "date": "2026-09-25",
-      "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣0.5元」，\r\n公告期間：115年08月06日至115年11月05日。",
-      "source": "TWSE Open Data",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
-    },
-    {
       "code": "5904",
       "date": "2026-09-25",
       "title": "公告本公司股票面額變更由「新台幣10元」變更為「新台幣1元」\r\n公告期間：115年7月2日至115年10月1日",
       "source": "TPEx Open Data OTC",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5904"
-    },
-    {
-      "code": "4958",
-      "date": "2026-09-25",
-      "title": "公告本公司將於115年10月26日提前贖回海外第五次無擔保\r\n轉換公司債(ISIN：XS3170882131)",
-      "source": "TWSE Open Data",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4958"
     },
     {
       "code": "4747",
@@ -44,42 +30,15 @@
       "title": "公告本公司名稱由「宏易創新國際股份有限公司」\r\n更名為「天意能創股份有限公司」，\r\n公告期間：115年7月09日至115年10月08日。",
       "source": "TPEx Open Data OTC",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4530"
-    },
-    {
-      "code": "3593",
-      "date": "2026-09-25",
-      "title": "公告本公司董事會通過變更營業地址",
-      "source": "TWSE Open Data",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3593"
-    },
-    {
-      "code": "2891",
-      "date": "2026-09-25",
-      "title": "代子公司中國信託商業銀行公告授信資產之轉讓",
-      "source": "TWSE Open Data",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2891"
-    },
-    {
-      "code": "2072",
-      "date": "2026-09-25",
-      "title": "公告本公司名稱由「世紀離岸風電設備股份有限公司」更名\r\n為「世紀能源設備股份有限公司」，公告期間：115年8月26日至\r\n115年11月25日。",
-      "source": "TWSE Open Data",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2072"
-    },
-    {
-      "code": "1721",
-      "date": "2026-09-25",
-      "title": "公告本公司名稱由「三晃股份有限公司」更名為\r\n「國慶科技股份有限公司」\r\n，公告期間：115年07月01日至115年9月30日。",
-      "source": "TWSE Open Data",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1721"
     }
   ],
   "sourceStats": [
     {
       "source": "TWSE Open Data",
-      "rows": 6,
-      "notices": 6,
-      "ok": true
+      "rows": 0,
+      "notices": 0,
+      "ok": false,
+      "error": "<urlopen error timed out>"
     },
     {
       "source": "TPEx Open Data OTC",
@@ -88,6 +47,6 @@
       "ok": true
     }
   ],
-  "partial": false,
+  "partial": true,
   "status": "更新成功"
 }
