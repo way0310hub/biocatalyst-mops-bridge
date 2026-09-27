@@ -184,13 +184,15 @@ def fetch_tpex_emerging_notices() -> list[dict]:
     notice as a MOPS link with TYPEK=rotc and the company/date/time identifiers.
     """
     body = request_bytes("https://www.tpex.org.tw/zh-tw/market-important.html")
-    text = body.decode("utf-8", errors="replace")
+    text = unescape(body.decode("utf-8", errors="replace"))
 
     notices: list[dict] = []
-    # Match only emerging-company cards. The page may use either quote style
-    # and may wrap the title/date in nested spans or paragraphs.
-    pattern = r'<a[^>]*href=["\\\']([^"\\\']*TYPEK=rotc[^"\\\']*)["\\\'][^>]*>(.*?)</a>'
+    # Decode HTML entities first because the page renders query separators as
+    # &amp;, then inspect every official market-important card link.
+    pattern = r'<a[^>]*href=["\']([^"\']*COMPANY_ID=\\d+[^"\']*)["\'][^>]*>(.*?)</a>'
     for href, inner in re.findall(pattern, text, flags=re.I | re.S):
+        if not re.search(r"(?:TYPEK=|TYPEK%3D)rotc", href, flags=re.I):
+            continue
         code_match = re.search(r"COMPANY_ID=(\\d+)", href, flags=re.I)
         date_match = re.search(r"SPOKE_DATE=(\\d{8})", href, flags=re.I)
         time_match = re.search(r"SPOKE_TIME=(\\d{6})", href, flags=re.I)
@@ -198,7 +200,10 @@ def fetch_tpex_emerging_notices() -> list[dict]:
             continue
 
         card_text = clean_text(inner)
-        title_match = re.match(r"^\\[([^\\]]+)\\]\\s*(.*?)(?:\\s+\\d{2,3}/\\d{1,2}/\\d{1,2}\\s+\\d{1,2}:\\d{2}:\\d{2})?$", card_text)
+        title_match = re.match(
+            r"^\\[([^\\]]+)\\]\\s*(.*?)(?:\\s+\\d{2,3}/\\d{1,2}/\\d{1,2}\\s+\\d{1,2}:\\d{2}:\\d{2})?$",
+            card_text,
+        )
         if not title_match:
             continue
 
