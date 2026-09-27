@@ -1,60 +1,78 @@
 {
   "ok": true,
-  "fetchedAt": "2026-09-27T04:41:55.839896+00:00",
-  "source": "TWSE／TPEx Open Data",
+  "fetchedAt": "2026-09-27T12:43:36.812710+08:00",
+  "source": "MOPS + TWSE／TPEx Open Data",
+  "historyFrom": "2025-09-27",
+  "historyTo": "2026-09-27",
   "notices": [
     {
-      "code": "6949",
-      "date": "2026-09-26",
-      "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣0.5元」，\r\n公告期間：115年08月06日至115年11月05日。",
-      "source": "TWSE Open Data",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
-    },
-    {
       "code": "2072",
+      "company": "世紀風電",
       "date": "2026-09-26",
+      "time": "70004",
       "title": "公告本公司名稱由「世紀離岸風電設備股份有限公司」更名\r\n為「世紀能源設備股份有限公司」，公告期間：115年8月26日至\r\n115年11月25日。",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2072"
     },
     {
-      "code": "2023",
-      "date": "2026-09-26",
-      "title": "公告本公司第二十五次買回庫藏股執行情形",
-      "source": "TWSE Open Data",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2023"
-    },
-    {
       "code": "1721",
+      "company": "國慶科技",
       "date": "2026-09-26",
+      "time": "70004",
       "title": "公告本公司名稱由「三晃股份有限公司」更名為\r\n「國慶科技股份有限公司」\r\n，公告期間：115年07月01日至115年9月30日。",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1721"
     },
     {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-09-26",
+      "time": "70003",
+      "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣0.5元」，\r\n公告期間：115年08月06日至115年11月05日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "2023",
+      "company": "燁輝",
+      "date": "2026-09-26",
+      "time": "142449",
+      "title": "公告本公司第二十五次買回庫藏股執行情形",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2023"
+    },
+    {
       "code": "8472",
+      "company": "納維康",
       "date": "2026-09-25",
+      "time": "70003",
       "title": "公告本公司名稱由「夠麻吉股份有限公司」更名為\r\n「納維康生技股份有限公司」，公告期間：115年6月29日\r\n至115年9月28日",
       "source": "TPEx Open Data OTC",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=8472"
     },
     {
       "code": "5904",
+      "company": "寶雅*",
       "date": "2026-09-25",
+      "time": "70003",
       "title": "公告本公司股票面額變更由「新台幣10元」變更為「新台幣1元」\r\n公告期間：115年7月2日至115年10月1日",
       "source": "TPEx Open Data OTC",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5904"
     },
     {
       "code": "4747",
+      "company": "強生*",
       "date": "2026-09-25",
+      "time": "70003",
       "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣5元」\r\n公告期間：115年7月22日至115年10月21日",
       "source": "TPEx Open Data OTC",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4747"
     },
     {
       "code": "4530",
+      "company": "天意能創",
       "date": "2026-09-25",
+      "time": "70003",
       "title": "公告本公司名稱由「宏易創新國際股份有限公司」\r\n更名為「天意能創股份有限公司」，\r\n公告期間：115年7月09日至115年10月08日。",
       "source": "TPEx Open Data OTC",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4530"
@@ -71,6 +89,54 @@
       "source": "TPEx Open Data OTC",
       "rows": 4,
       "notices": 4,
+      "ok": true
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-09-24",
+      "notices": 0,
+      "ok": true
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-09-25",
+      "notices": 0,
+      "ok": true
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-09-26",
+      "notices": 0,
+      "ok": true
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-09-27",
+      "notices": 0,
+      "ok": true
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-09-22",
+      "notices": 0,
+      "ok": true
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-09-20",
+      "notices": 0,
+      "ok": true
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-09-21",
+      "notices": 0,
+      "ok": true
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-09-23",
+      "notices": 0,
       "ok": true
     }
   ],
