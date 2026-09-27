@@ -182,6 +182,29 @@ def fetch_mops_day(target: date) -> list[dict]:
 
 
 
+
+def mops_company_url(code: str, market_type: str, start: date, end: date) -> str:
+    params = {
+        "encodeURIComponent": "1",
+        "step": "1",
+        "firstin": "1",
+        "off": "1",
+        "TYPEK": market_type,
+        "co_id": code,
+        "year": str(start.year - 1911),
+        "month": "",
+        "b_date": start.strftime("%Y%m%d"),
+        "e_date": end.strftime("%Y%m%d"),
+    }
+    return f"https://mops.twse.com.tw/mops/web/ajax_t05st01?{urlencode(params)}"
+
+
+def fetch_mops_company_history(code: str, market_type: str, start: date, end: date) -> list[dict]:
+    return parse_mops_rows(
+        request_bytes(mops_company_url(code, market_type, start, end)),
+        start,
+    )
+
 def fetch_tpex_emerging_notices() -> list[dict]:
     """Fetch the latest emerging-company notice cards from TPEx's official page.
 
