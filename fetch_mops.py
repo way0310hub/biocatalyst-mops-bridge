@@ -17,6 +17,11 @@ from zoneinfo import ZoneInfo
 OUT = Path("public/mops.json")
 HISTORY_DAYS = 365
 MOPS_LOOKBACK_DAYS = int(os.environ.get("MOPS_LOOKBACK_DAYS", "7"))
+MOPS_HISTORY_CODES = [
+    code.strip()
+    for code in os.environ.get("MOPS_HISTORY_CODES", "").split(",")
+    if code.strip()
+]
 TW = ZoneInfo("Asia/Taipei")
 
 OPEN_DATA_SOURCES = [
@@ -277,6 +282,37 @@ def main() -> None:
     except Exception as exc:
         failures += 1
         stats.append({"source": "TPEx 官方市場重大訊息", "notices": 0, "ok": False, "error": str(exc)[:160]})
+
+    if MOPS_HISTORY_CODES:
+        history_start = today - timedelta(days=HISTORY_DAYS)
+        with ThreadPoolExecutor(max_workers=2) as pool:
+            futures = {
+                pool.submit(fetch_mops_company_history, code, "all", history_start, today): code
+                for code in MOPS_HISTORY_CODES
+            }
+            for future in as_completed(futures):
+                code = futures[future]
+                try:
+                    parsed = future.result()
+                    notices.extend(parsed)
+                    fetched_any = True
+                    stats.append({
+                        "source": "MOPS 歷史公司查詢",
+                        "code": code,
+                        "from": history_start.isoformat(),
+                        "to": today.isoformat(),
+                        "notices": len(parsed),
+                        "ok": True,
+                    })
+                except Exception as exc:
+                    failures += 1
+                    stats.append({
+                        "source": "MOPS 歷史公司查詢",
+                        "code": code,
+                        "notices": 0,
+                        "ok": False,
+                        "error": str(exc)[:160],
+                    })
 
     mops_dates = [today - timedelta(days=offset) for offset in range(MOPS_LOOKBACK_DAYS + 1)]
     with ThreadPoolExecutor(max_workers=4) as pool:
