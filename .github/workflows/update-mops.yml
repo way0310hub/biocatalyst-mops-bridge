@@ -34,7 +34,7 @@ jobs:
       - name: Fetch official data
         env:
           MOPS_LOOKBACK_DAYS: ${{ inputs.lookback_days || '7' }}
-          MOPS_HISTORY_CODES: 6949,7729,6696
+          MOPS_HISTORY_CODES: ${{ github.event_name == 'workflow_dispatch' && inputs.history_codes || '' }}
         run: python fetch_mops.py
 
       - name: Publish updated JSON
