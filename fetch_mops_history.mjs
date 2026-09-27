@@ -57,7 +57,7 @@ async function queryMonth(page, code, year, month, newCompany, firstPage) {
   await page.locator("#searchBtn").click();
   await page.waitForTimeout(1600);
 
-  return page.locator("#searchBlock table tbody tr").evaluateAll((rows) =>
+  return page.locator("#searchBlock table tr").evaluateAll((rows) =>
     rows.map((row) => Array.from(row.querySelectorAll("td")).map((cell) => cell.innerText.trim()))
   );
 }
