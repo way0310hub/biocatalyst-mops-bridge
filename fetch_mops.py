@@ -177,31 +177,31 @@ def fetch_mops_day(target: date) -> list[dict]:
 
 
 def fetch_tpex_emerging_notices() -> list[dict]:
-    """Fetch the latest emerging-company notice exposed on TPEx's official page.
+    """Fetch the latest emerging-company notice cards from TPEx's official page.
 
-    TPEx publishes an emerging-company major-notice card on its public market
-    page, but the OpenAPI Swagger currently has no emerging-company major-notice
-    endpoint. The card link contains the MOPS company/date/time identifiers.
+    TPEx's OpenAPI Swagger currently has no emerging-company major-notice
+    endpoint. The official market-important page exposes the latest emerging
+    notice as a MOPS link with TYPEK=rotc and the company/date/time identifiers.
     """
     body = request_bytes("https://www.tpex.org.tw/zh-tw/market-important.html")
     text = body.decode("utf-8", errors="replace")
-    section = re.search(
-        r"興櫃公司重大訊息(.*?)更多興櫃公司重大訊息",
-        text,
-        flags=re.I | re.S,
-    )
-    if not section:
-        return []
 
     notices: list[dict] = []
-    for anchor in re.findall(r'<a[^>]+href="([^"]*COMPANY_ID=\d+[^"]*)"[^>]*>(.*?)</a>', section.group(1), flags=re.I | re.S):
-        href, inner = anchor
-        code_match = re.search(r"COMPANY_ID=(\d+)", href)
-        date_match = re.search(r"SPOKE_DATE=(\d{8})", href)
-        time_match = re.search(r"SPOKE_TIME=(\d{6})", href)
-        title_match = re.search(r"<strong[^>]*>\s*\[([^\]]+)\]\s*(.*?)</strong>", inner, flags=re.I | re.S)
-        if not (code_match and date_match and title_match):
+    # Match only emerging-company cards. The page may use either quote style
+    # and may wrap the title/date in nested spans or paragraphs.
+    pattern = r'<a[^>]*href=["\\\']([^"\\\']*TYPEK=rotc[^"\\\']*)["\\\'][^>]*>(.*?)</a>'
+    for href, inner in re.findall(pattern, text, flags=re.I | re.S):
+        code_match = re.search(r"COMPANY_ID=(\\d+)", href, flags=re.I)
+        date_match = re.search(r"SPOKE_DATE=(\\d{8})", href, flags=re.I)
+        time_match = re.search(r"SPOKE_TIME=(\\d{6})", href, flags=re.I)
+        if not (code_match and date_match):
             continue
+
+        card_text = clean_text(inner)
+        title_match = re.match(r"^\\[([^\\]]+)\\]\\s*(.*?)(?:\\s+\\d{2,3}/\\d{1,2}/\\d{1,2}\\s+\\d{1,2}:\\d{2}:\\d{2})?$", card_text)
+        if not title_match:
+            continue
+
         code = code_match.group(1).zfill(4)
         raw_date = date_match.group(1)
         item_date = f"{raw_date[:4]}-{raw_date[4:6]}-{raw_date[6:]}"
@@ -209,16 +209,18 @@ def fetch_tpex_emerging_notices() -> list[dict]:
         time_value = f"{raw_time[:2]}:{raw_time[2:4]}:{raw_time[4:]}" if len(raw_time) == 6 else raw_time
         company = clean_text(title_match.group(1))
         title = clean_text(title_match.group(2)).rstrip(".")
-        if title:
-            notices.append({
-                "code": code,
-                "company": company,
-                "date": item_date,
-                "time": time_value,
-                "title": title,
-                "source": "TPEx 官方市場重大訊息",
-                "url": f"https://mops.twse.com.tw/mops/#/web/t146sb05?companyId={code}",
-            })
+        if not title:
+            continue
+
+        notices.append({
+            "code": code,
+            "company": company,
+            "date": item_date,
+            "time": time_value,
+            "title": title,
+            "source": "TPEx 官方市場重大訊息",
+            "url": f"https://mops.twse.com.tw/mops/#/web/t146sb05?companyId={code}",
+        })
     return notices
 
 def load_existing() -> list[dict]:
