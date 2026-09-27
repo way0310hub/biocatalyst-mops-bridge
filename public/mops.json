@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "fetchedAt": "2026-09-27T13:31:58.940574+08:00",
+  "fetchedAt": "2026-09-27T13:33:02.188238+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-09-27",
   "historyTo": "2026-09-27",
@@ -97,62 +97,36 @@
       "ok": true
     },
     {
-      "source": "MOPS 歷史公司查詢",
-      "code": "7729",
-      "from": "2025-09-27",
-      "to": "2026-09-27",
+      "source": "MOPS 重大訊息",
+      "date": "2026-09-26",
       "notices": 0,
-      "ok": true
-    },
-    {
-      "source": "MOPS 歷史公司查詢",
-      "code": "6949",
-      "from": "2025-09-27",
-      "to": "2026-09-27",
-      "notices": 0,
-      "ok": true
-    },
-    {
-      "source": "MOPS 歷史公司查詢",
-      "code": "6696",
-      "from": "2025-09-27",
-      "to": "2026-09-27",
-      "notices": 0,
-      "ok": true
+      "ok": false,
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
     },
     {
       "source": "MOPS 重大訊息",
       "date": "2026-09-24",
       "notices": 0,
-      "ok": true
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-09-27",
-      "notices": 0,
-      "ok": true
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-09-26",
-      "notices": 0,
-      "ok": true
+      "ok": false,
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
     },
     {
       "source": "MOPS 重大訊息",
       "date": "2026-09-25",
       "notices": 0,
-      "ok": true
+      "ok": false,
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-09-27",
+      "notices": 0,
+      "ok": false,
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
     },
     {
       "source": "MOPS 重大訊息",
       "date": "2026-09-21",
-      "notices": 0,
-      "ok": true
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-09-20",
       "notices": 0,
       "ok": true
     },
@@ -164,11 +138,17 @@
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-09-20",
+      "notices": 0,
+      "ok": true
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-09-23",
       "notices": 0,
       "ok": true
     }
   ],
-  "partial": false,
-  "status": "更新成功"
+  "partial": true,
+  "status": "部分來源更新成功・保留前次成功資料"
 }
