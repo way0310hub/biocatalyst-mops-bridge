@@ -46,7 +46,7 @@ jobs:
       - name: Query MOPS history through official page
         if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'push' }}
         env:
-          MOPS_HISTORY_CODES: ${{ inputs.history_codes }}
+          MOPS_HISTORY_CODES: ${{ github.event_name == 'workflow_dispatch' && inputs.history_codes || '6949,7729,6696' }}
           MOPS_HISTORY_DAYS: ${{ inputs.lookback_days || '365' }}
         run: node fetch_mops_history.mjs
 
