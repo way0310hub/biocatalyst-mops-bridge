@@ -11,6 +11,10 @@ on:
         description: "MOPS 回補天數（例：7 或 365）"
         required: false
         default: "7"
+      history_codes:
+        description: "公司代號（逗號分隔；例如 6949,7729,6696）"
+        required: false
+        default: ""
   push:
     paths:
       - "fetch_mops.py"
@@ -30,7 +34,7 @@ jobs:
       - name: Fetch official data
         env:
           MOPS_LOOKBACK_DAYS: ${{ inputs.lookback_days || '7' }}
-          MOPS_HISTORY_CODES: 6949,7729,6696
+          MOPS_HISTORY_CODES: ${{ github.event_name == 'workflow_dispatch' && inputs.history_codes || '' }}
         run: python fetch_mops.py
 
       - name: Publish updated JSON
