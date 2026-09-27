@@ -41,8 +41,9 @@ async function queryMonth(page, code, year, month) {
     waitUntil: "domcontentloaded",
     timeout: 60000,
   });
+  await page.locator("#companyId").waitFor({ state: "visible", timeout: 60000 });
   await page.locator("#companyId").fill(code);
-  await page.waitForTimeout(400);
+  await page.waitForTimeout(800);
   const companyButton = page.locator("button").filter({ hasText: new RegExp(`^\\s*${code}\\s`) }).first();
   if (await companyButton.count()) {
     await companyButton.click();
@@ -50,7 +51,7 @@ async function queryMonth(page, code, year, month) {
   await page.locator("#year").fill(String(year - 1911));
   await page.locator("#month").selectOption(String(month));
   await page.locator("#searchBtn").click();
-  await page.waitForTimeout(1200);
+  await page.waitForTimeout(1600);
 
   return page.locator("#searchBlock table tbody tr").evaluateAll((rows) =>
     rows.map((row) => Array.from(row.querySelectorAll("td")).map((cell) => cell.innerText.trim()))
@@ -77,6 +78,7 @@ async function main() {
     for (const code of codes) {
       let count = 0;
       for (const { year, month } of months) {
+        console.log(`MOPS history query ${code} ${year}-${String(month).padStart(2, "0")}`);
         const rows = await queryMonth(page, code, year, month);
         for (const cells of rows) {
           if (cells.length < 5 || !/^\\d{4}$/.test(clean(cells[0]))) continue;
@@ -119,5 +121,6 @@ main().catch((error) => {
     ok: false, fetchedAt: new Date().toISOString(), codes, notices: [],
     sourceStats: [], status: "官方網頁查詢失敗", error: String(error).slice(0, 300)
   }, null, 2));
+  console.error(error && error.stack ? error.stack : error);
   process.exitCode = 1;
 });
