@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "fetchedAt": "2026-09-27T14:21:45.141734+08:00",
+  "fetchedAt": "2026-09-27T14:27:14.931314+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-09-27",
   "historyTo": "2026-09-27",
@@ -69,6 +69,15 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4747"
     },
     {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-09-26",
+      "time": "17:02:03",
+      "title": "本公司授權合作夥伴公告 -本公司新藥產品Stemchymal正式獲得 「再生醫療等製品製造販賣業許可(MAH)」。",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
       "code": "2023",
       "company": "燁輝",
       "date": "2026-09-26",
@@ -121,6 +130,1545 @@
       "title": "公告本公司名稱由「宏易創新國際股份有限公司」\r\n更名為「天意能創股份有限公司」，\r\n公告期間：115年7月09日至115年10月08日。",
       "source": "TPEx Open Data OTC",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4530"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-09-08",
+      "time": "15:04:44",
+      "title": "公告本公司董事會決議更換主辦輔導推薦證券商 暨協辦輔導推薦證券商事宜",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-09-07",
+      "time": "15:56:43",
+      "title": "代重要子公司Belite Bio, Inc公告用於治療斯特格病變新藥 LBS-008透過日本先驅藥品認證(Sakigake Designation)向日本 厚生勞動省(MHLW)提交新藥查驗登記申請(NDA)(補充公告)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-09-07",
+      "time": "09:06:39",
+      "title": "代重要子公司Belite Bio, Inc公告用於治療斯特格病變新藥8 LBS-00透過日本先驅藥品認證(Sakigake Designation)向日本厚生 勞動省(MHLW)提交新藥查驗登記申請(NDA)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-09-01",
+      "time": "20:03:14",
+      "title": "代重要子公司Belite Bio, Inc公告受邀參加H.C. Wainwright& Co.投資銀行舉辦之第28屆全球投資年會(H.C. Wainwright 28th Annual Global Investment Conference)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-09-01",
+      "time": "20:02:52",
+      "title": "代重要子公司Belite Bio, Inc公告受邀參加Morgan Stanley 投資銀行舉辦之第24屆全球醫療年會(Morgan Stanley 24th Annual Global Healthcare Conference)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-09-01",
+      "time": "20:02:17",
+      "title": "代重要子公司Belite Bio, Inc公告受邀參加Cantor Fitzgerald 投資銀行舉辦之全球醫療論壇(Global Healthcare Conference)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-09-01",
+      "time": "20:01:50",
+      "title": "代重要子公司Belite Bio, Inc公告受邀參加Wells Fargo 投資銀行舉辦之第21屆醫療年會(Wells Fargo 21st Annual Healthcare Conference)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-09-01",
+      "time": "07:00:03",
+      "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣0.5元」， 公告期間：115年08月06日至115年11月05日。",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-09-01",
+      "time": "07:00:03",
+      "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣1元」， 公告期間：115年8月5日至115年11月4日。",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-08-31",
+      "time": "06:25:57",
+      "title": "公告美國食品藥物管理局(FDA)對LBS-007急性白血病之 第一/二期臨床試驗設計變更無提出意見",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-08-30",
+      "time": "17:14:01",
+      "title": "公告本公司發言人異動",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-08-26",
+      "time": "15:29:40",
+      "title": "係因本公司有價證券於集中交易市場達公布注意交易資訊 標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-08-25",
+      "time": "06:47:23",
+      "title": "代重要子公司Belite Bio, Inc公告將於115年9月2日 舉辦線上商業日(Virtual Commercial Day)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-08-21",
+      "time": "20:03:08",
+      "title": "代重要子公司Belite Bio, Inc公告受邀參加第19屆亞太 玻璃體視網膜學會2026年會(APVRS 2026)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-08-21",
+      "time": "20:02:41",
+      "title": "代重要子公司Belite Bio, Inc公告受邀參加瑞士 眼科學會2026年會(SOG 2026)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-08-20",
+      "time": "22:37:46",
+      "title": "公告本公司「NKp30(ISOLATED NUCLEIC ACID MOLECULE COMPRISING NKP30 TRANSMEMBRANE DOMAIN AND CHIMERIC ANTIGEN RECEPTOR COMPRISING THE SAME)」多鏈CAR-T技術取得日本專利",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-08-14",
+      "time": "15:23:07",
+      "title": "公告本公司董事會決議115年度限制員工權利新股增資基準日",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-08-14",
+      "time": "15:22:30",
+      "title": "公告本公司董事會追認修訂「115年度限制員工權利新股發 行辦法」",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-08-14",
+      "time": "15:22:00",
+      "title": "公告本公司配合會計師事務所內部調整更換簽證會計師",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-08-14",
+      "time": "15:21:31",
+      "title": "公告本公司提報董事會115年第二季合併財務報告",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-08-13",
+      "time": "16:07:27",
+      "title": "代重要子公司Belite Bio, Inc公告董事會決議通過 現金增資子公司Belite Bio (HK) Limited",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-08-13",
+      "time": "16:05:52",
+      "title": "代重要子公司Belite Bio, Inc公告董事會決議通過 現金增資子公司Belite Bio Holdings Corp.",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-08-12",
+      "time": "04:05:52",
+      "title": "代重要子公司Belite Bio, Inc公告LBS-008用於治療斯特格 病變之新藥查驗登記申請(NDA)獲美國食品藥物管理局(FDA)受理 並授予優先審查資格",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-08-06",
+      "time": "20:01:12",
+      "title": "代重要子公司Belite Bio, Inc公告115年第2季法人 說明會將於115年8月14日召開",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-08-06",
+      "time": "18:08:28",
+      "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣0.5元」， 公告期間：115年08月06日至115年11月05日。",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-08-06",
+      "time": "18:06:35",
+      "title": "公告本公司董事會決議提高對中國大陸子公司投資額度",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-08-06",
+      "time": "18:04:07",
+      "title": "本公司董事會決議通過股票面額變更之換股作業計畫",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-08-06",
+      "time": "18:03:08",
+      "title": "公告本公司董事會訂定股票面額變更之換發股票基準日",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-08-06",
+      "time": "18:01:55",
+      "title": "公告本公司董事會通過115年第2季合併財務報表",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-08-05",
+      "time": "15:16:35",
+      "title": "公告本公司董事會決議修訂「114年度第一次員工認股權憑證 發行及認股辦法」",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-08-05",
+      "time": "15:16:01",
+      "title": "公告本公司董事會決議修訂「113年度第一次員工認股權憑證 發行及認股辦法」",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-08-05",
+      "time": "15:15:24",
+      "title": "公告本公司董事會決議修訂「107年度第一次員工認 股權憑證發行及認股辦法」及「109年度第一次員工認股 權憑證發行及認股辦法」",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-08-05",
+      "time": "15:03:33",
+      "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣1元」， 公告期間：115年8月5日至115年11月4日。",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-08-05",
+      "time": "15:03:31",
+      "title": "公告本公司董事會決議通過股票面額變更之換發股票基準日",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-08-05",
+      "time": "15:02:55",
+      "title": "公告本公司董事會決議通過股票面額變更之換發股票作業計畫",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-07-31",
+      "time": "15:18:44",
+      "title": "公告本公司更換股務代理機構案經集保公司准予備查",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-07-30",
+      "time": "18:48:13",
+      "title": "公告本公司召開法人說明會相關資訊",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-07-29",
+      "time": "16:38:15",
+      "title": "代本公司之子公司台灣細胞製造(股)公司公告總經理異動",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-07-29",
+      "time": "16:37:49",
+      "title": "公告本公司115年度第二季合併財務報告董事會召開日期",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-07-23",
+      "time": "19:31:06",
+      "title": "公告本公司與友華生技簽訂框架合作協議案",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-07-23",
+      "time": "19:20:39",
+      "title": "公告本公司第二屆薪資報酬委員會委員",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-07-23",
+      "time": "19:17:04",
+      "title": "公告本公司董事會決議員工認股權憑證轉換普通股增資基準日",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-07-22",
+      "time": "15:09:19",
+      "title": "公告本公司法人董事代表人異動",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-07-20",
+      "time": "20:13:03",
+      "title": "代重要子公司Belite Bio, Inc公告受邀參加美國 視網膜專家學會2026年會（ASRS 2026）（補充公告）",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-07-17",
+      "time": "16:02:47",
+      "title": "公告本公司股票面額變更為新台幣1元之變更登記已取得 經濟部核准",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-07-15",
+      "time": "20:08:57",
+      "title": "代重要子公司Belite Bio, Inc公告受邀參加H.C. Wainwright & Co.投資銀行舉辦之第六屆眼科線上年會(H.C. Wainwright 6th Annual Ophthalmology Virtual Conference)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-07-14",
+      "time": "16:37:44",
+      "title": "公告本公司股票面額變更為新台幣0.5元之變更登記 已取得經濟部核准",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-07-06",
+      "time": "20:02:24",
+      "title": "代重要子公司Belite Bio, Inc公告受邀參加Piper Sandler 線上眼科投資人論壇(Piper Sandler Virtual Ophthalmology Investor Symposium)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-07-06",
+      "time": "19:19:09",
+      "title": "代重要子公司Belite Bio, Inc公告受邀參加美國 視網膜專家學會2026年會（ASRS 2026）",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-07-06",
+      "time": "19:18:41",
+      "title": "代重要子公司Belite Bio, Inc公告受邀參加第63屆國際 臨床視覺電生理學會年會（ISCEV 2026）",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-07-06",
+      "time": "06:31:39",
+      "title": "衛生福利部核准本公司之新藥產品Stemchymal核定列入 「臺灣再生醫療製劑輔導專案(T-RMAT)」",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-07-01",
+      "time": "15:15:18",
+      "title": "公告本公司115年第一次現金增資催繳期間屆滿暨股票發放事宜",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-06-30",
+      "time": "15:03:56",
+      "title": "公告本公司董事會決議員工認股權憑證轉換普通股增資基準日",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-06-30",
+      "time": "15:03:36",
+      "title": "公告本公司115年股東常會決議通過解除董事 競業禁止之限制案",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-06-30",
+      "time": "15:03:11",
+      "title": "公告本公司115年股東常會重要決議事項",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-06-29",
+      "time": "21:22:51",
+      "title": "公告本公司115年股東常會全面改選董事當選名單",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-06-29",
+      "time": "21:20:59",
+      "title": "公告本公司115年股東常會決議通過解除新任董事及 其代表人競業禁止之限制",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-06-29",
+      "time": "21:18:27",
+      "title": "公告本公司第二屆審計委員會委員",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-06-29",
+      "time": "21:17:22",
+      "title": "公告本公司董事會選任董事長",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-06-29",
+      "time": "21:16:04",
+      "title": "公告本公司115年股東常會重要決議事項",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-06-24",
+      "time": "16:11:57",
+      "title": "公告本公司獲代理商通知 -本公司新藥產品Stemchymal 已向日本主管機關提出「生產及銷售許可申請」審查申請",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-06-22",
+      "time": "15:55:30",
+      "title": "澄清媒體報導",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-06-18",
+      "time": "19:16:31",
+      "title": "公告本公司獲代理商通知 -本公司新藥產品Stemchymal 已向日本主管機關提出「製造販賣業許可 (MAH)」審查申請",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-06-18",
+      "time": "17:12:51",
+      "title": "本公司115年股東常會通過解除董事競業禁止之限制案",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-06-18",
+      "time": "16:28:37",
+      "title": "公告本公司民國115年股東常會重要決議事項",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-06-18",
+      "time": "16:27:28",
+      "title": "公告法人董事指派代表人出席115/06/18股東會",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-06-18",
+      "time": "15:25:16",
+      "title": "係因本公司有價證券於集中交易市場達公布注意交易資訊 標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-06-17",
+      "time": "18:10:19",
+      "title": "公告本公司取得會計師114年內部控制專案審查報告",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-06-13",
+      "time": "11:13:03",
+      "title": "代重要子公司Belite Bio, Inc公告用於治療斯特格病變 新藥LBS-008向美國食品藥物管理局(FDA)完成新藥查驗登記申 請滾動式送件(Rolling Submission of NDA)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-06-03",
+      "time": "17:02:40",
+      "title": "公告本公司115年第一次現金增資收足股款暨增資基準日",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-06-02",
+      "time": "20:26:16",
+      "title": "代100%持有之子公司沛?(上海)醫藥科技有限公司公告，本 公司研發針對類風濕關節炎(RA)之口服新藥PP011，接獲中國國 家藥品監督管理局（NMPA）同意進行第一期健康受試者臨床試驗",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-06-02",
+      "time": "20:03:26",
+      "title": "代重要子公司Belite Bio, Inc公告受邀參加高盛 第47屆全球醫療論壇(Goldman Sachs 47th Annual Global Healthcare Conference)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-05-26",
+      "time": "15:49:22",
+      "title": "本公司受邀參加台新證券舉辦之「台新2026年第二季全球投資論壇」",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-05-20",
+      "time": "14:57:01",
+      "title": "公告本公司研發主管異動案",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-05-18",
+      "time": "19:20:55",
+      "title": "公告本公司董事會決議召開115年股東常會(增列報告事項)。",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-05-18",
+      "time": "19:01:09",
+      "title": "公告本公司董事會決議員工認股權憑證轉換普通股增資基準日",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-05-15",
+      "time": "20:25:34",
+      "title": "代重要子公司Belite Bio, Inc公告受邀參加第27屆眼底病 論壇暨國際視網膜研討會（Retina China 2026）",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-05-14",
+      "time": "18:44:01",
+      "title": "公告本公司115年第一次現金增資董事放棄認購股數 達得認購股數二分之一以上，並洽特定人認購事宜",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-05-14",
+      "time": "18:43:14",
+      "title": "本公司115年第一次現金增資股款催繳公告",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-05-14",
+      "time": "05:09:50",
+      "title": "代重要子公司Belite Bio, Inc公告115年第1季法人 說明會將於115年5月21日召開",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-05-13",
+      "time": "15:32:02",
+      "title": "公告本公司與Terumo BCT Inc.簽署合作協議進行合作開發 智慧化細胞擴增系統之製程。",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-05-11",
+      "time": "15:17:37",
+      "title": "公告本公司董事會決議召開115年股東常會相關事宜 (增列召集事項)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-05-11",
+      "time": "15:15:01",
+      "title": "公告本公司董事會決議發行115年度限制員工權利新股",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-05-11",
+      "time": "15:14:10",
+      "title": "公告本公司董事會決議以私募方式辦理現金增資發行新股案",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-05-11",
+      "time": "15:13:14",
+      "title": "公告本公司董事會決議不分派股利(新增資本公積彌補虧損)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-05-11",
+      "time": "15:11:44",
+      "title": "公告本公司董事會通過公司章程修改每股面額",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-05-05",
+      "time": "17:31:44",
+      "title": "公告本公司114年現金增資發行新股之資金運用計畫變更",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-05-05",
+      "time": "17:31:17",
+      "title": "董事會決議召開股東會事宜(新增議案)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-05-05",
+      "time": "17:30:23",
+      "title": "公告本公司董事會決議發行限制員工權利新股案",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-05-05",
+      "time": "15:41:48",
+      "title": "公告本公司產品開發暨行銷長任命案",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-05-05",
+      "time": "15:40:42",
+      "title": "公告本公司董事會通過公司章程修改每股面額",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-05-05",
+      "time": "15:40:03",
+      "title": "公告本公司董事會通過更換股務代理機構",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-05-05",
+      "time": "15:39:08",
+      "title": "公告本公司董事會決議員工認股權憑證轉換普通股之增資基準日",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-05-05",
+      "time": "15:38:16",
+      "title": "公告本公司董事會通過115年第1季合併財務報表",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-05-05",
+      "time": "15:37:32",
+      "title": "法人董事指派代表人出席115/05/05董事會",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-04-28",
+      "time": "16:18:46",
+      "title": "公告本公司董事會決議不分派股利",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-04-28",
+      "time": "16:18:11",
+      "title": "公告本公司董事會決議召開115年股東常會相關事宜 (增列討論事項)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-04-28",
+      "time": "16:06:59",
+      "title": "公告本公司董事會通過114年度合併財務報告",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-04-28",
+      "time": "16:06:29",
+      "title": "公告本公司董事會決議修正114年度第一次員工認 股權憑證發行及認股辦法",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-04-28",
+      "time": "16:05:15",
+      "title": "公告本公司董事會決議員工認股權憑證轉換普通股增資基準日",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-04-27",
+      "time": "20:02:44",
+      "title": "代重要子公司Belite Bio, Inc公告受邀參加2026視網膜療法 創新高峰會(Retinal Therapeutics Innovation Summit 2026)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-04-27",
+      "time": "14:58:13",
+      "title": "公告本公司115年度第一季合併財務報告董事會召開日期",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-04-23",
+      "time": "20:04:27",
+      "title": "代重要子公司Belite Bio, Inc公告受邀參加Stifel 2026年 線上虛擬眼科論壇(Stifel 2026 Virtual Ophthalmology Forum)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-04-23",
+      "time": "20:04:07",
+      "title": "代重要子公司Belite Bio, Inc公告受邀參加H.C. Wainwright & Co.投資銀行舉辦之第四屆生技交流投資年會(H.C. Wainwright 4th Annual BioConnect Investor Conference)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-04-23",
+      "time": "20:03:46",
+      "title": "代重要子公司Belite Bio, Inc公告受邀參加美國銀行 證券(BofA Securities)舉辦之2026醫療論壇 (2026 Health Care Conference)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-04-23",
+      "time": "20:03:17",
+      "title": "代重要子公司Belite Bio, Inc公告受邀參加Deutsche Bank投資銀行舉辦之存託憑證線上投資論壇(Depositary Receipts Virtual Investor Conference)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-04-23",
+      "time": "18:48:35",
+      "title": "公告本公司與Cyto-Facto Inc.簽署委託服務協議，進行CDMO 委託開發與製造服務合作。",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-04-23",
+      "time": "18:14:19",
+      "title": "公司接獲獨立數據監測委員會(IDMC)通知，PL001 (CD19嵌合抗原受體T細胞製劑)之療效通過第二期臨床 試驗期中分析，達統計上顯著意義",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-04-22",
+      "time": "04:10:21",
+      "title": "代重要子公司Belite Bio, Inc公告用於治療斯特格病變 新藥LBS-008向美國食品藥物管理局(FDA)啟動新藥查驗登記申 請滾動式送件(Rolling Submission of NDA)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-04-20",
+      "time": "16:46:34",
+      "title": "本公司受邀參加元大證券舉辦之法人說明會",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-04-20",
+      "time": "16:46:01",
+      "title": "公告本公司115年第一次現金增資基準日暨相關事宜 (補充代收股款及存儲專戶行庫)(更正主旨年度)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-04-17",
+      "time": "15:26:16",
+      "title": "公告本公司114年第一次現金增資基準日暨相關事宜 (補充代收股款及存儲專戶行庫)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-04-15",
+      "time": "15:02:50",
+      "title": "係因本公司有價證券於集中交易市場達公布注意交易資訊 標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-04-14",
+      "time": "18:34:21",
+      "title": "公告本公司115年第一次現金增資基準日暨相關事宜",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-02-24",
+      "time": "17:45:15",
+      "title": "公告本公司於證券法規遵循輔導契約存續期間內終止委任 證券承銷商",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-02-24",
+      "time": "17:41:55",
+      "title": "公告本公司114年度第四季合併財務報告董事會召開日期",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-02-23",
+      "time": "21:25:39",
+      "title": "代重要子公司Belite Bio, Inc公告114年第4季法人說明會 將於115年3月3日召開",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-01-29",
+      "time": "21:01:31",
+      "title": "代重要子公司Belite Bio, Inc公告受邀參加第41屆 亞太眼科學會(APAO)2026年會",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-01-28",
+      "time": "18:49:50",
+      "title": "本公司取得衛生福利部同意臨床試驗計畫書變更申請",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-01-27",
+      "time": "21:03:18",
+      "title": "代重要子公司Belite Bio, Inc公告LBS-008斯特格病變 青少年病患之第二/三期臨床試驗收案完成",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-01-27",
+      "time": "15:42:05",
+      "title": "公告本公司董事會決議員工認股權憑證轉換普通股增資基準日",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-01-27",
+      "time": "15:41:37",
+      "title": "公告本公司董事會決議召開115年股東常會相關事宜",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-01-26",
+      "time": "15:44:30",
+      "title": "本公司114年現金增資催繳期間屆滿暨股票發放事宜",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-01-22",
+      "time": "15:35:02",
+      "title": "係因本公司有價證券於集中交易市場達公布注意交易資訊 標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-01-14",
+      "time": "16:25:12",
+      "title": "公告本公司與Cyto-Facto Inc.簽署合作意向書（LOI）， 規劃評估進行CDMO委託開發與製造服務合作。",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-01-08",
+      "time": "16:06:53",
+      "title": "本公司114年現金增資收足股款暨增資基準日公告",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2026-01-05",
+      "time": "16:53:04",
+      "title": "公告本公司114年第一次私募普通股收足股款暨增資基準日",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2026-01-01",
+      "time": "10:24:07",
+      "title": "代重要子公司Belite Bio, Inc公告完成現金增資(補充公告)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2025-12-30",
+      "time": "07:54:54",
+      "title": "代重要子公司Belite Bio, Inc公告完成現金增資(補充公告)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2025-12-24",
+      "time": "18:14:35",
+      "title": "本公司114年現金增資股款催繳公告",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2025-12-24",
+      "time": "18:14:11",
+      "title": "公告本公司114年度現金增資全體董事放棄認購股數 達得認購股數二分之一以上，並洽特定人認購事宜",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2025-12-22",
+      "time": "18:32:09",
+      "title": "公告董事會決議辦理114年度第一次私募普通股定價 及相關事宜",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2025-12-17",
+      "time": "15:22:08",
+      "title": "公告本公司董事會決議發行114年度第一次員工認股權憑證",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2025-12-17",
+      "time": "15:19:57",
+      "title": "公告本公司董事會決議員工認股權憑證轉換普通股增資基準日",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2025-12-16",
+      "time": "08:21:11",
+      "title": "代重要子公司Belite Bio, Inc公告完成現金增資(補充公告)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2025-12-12",
+      "time": "16:06:27",
+      "title": "公告本公司114年第一次股東臨時會重要決議事項",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2025-12-08",
+      "time": "16:10:11",
+      "title": "更正本公司114年第一次股東臨時會議事手冊及議案參考資料",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2025-12-04",
+      "time": "16:11:25",
+      "title": "本公司受邀參加富邦證券舉辦之2025富邦生技產業企業日",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2025-12-04",
+      "time": "08:59:18",
+      "title": "代重要子公司Belite Bio, Inc公告完成現金增資",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2025-12-03",
+      "time": "16:10:06",
+      "title": "公告本公司114年現金增資發行新股認股基準日等相關事宜 (補充公告發行價格、代收股款及存儲價款專戶機構)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2025-12-03",
+      "time": "15:58:01",
+      "title": "本公司受邀參加台灣證券交易所股份有限公司舉辦之法人說明書",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2025-12-02",
+      "time": "15:38:17",
+      "title": "代重要子公司Belite Bio, Inc公告董事會決議辦理現金增資",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2025-12-02",
+      "time": "07:06:18",
+      "title": "公告本公司召開重大訊息說明記者會之新聞稿內容",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2025-12-01",
+      "time": "21:42:10",
+      "title": "本公司受邀參加富邦證券舉辦之倍利生技投資論壇",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2025-12-01",
+      "time": "20:29:47",
+      "title": "代重要子公司Belite Bio, Inc公告LBS-008針對斯特格病變青少 年病患全球第三期臨床試驗之關鍵性數據，主要評估指標之統計 結果正面，達到統計上顯著意義",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2025-12-01",
+      "time": "19:40:51",
+      "title": "公告本公司召開重大訊息說明記者會",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2025-11-25",
+      "time": "18:47:09",
+      "title": "公告本公司114年現金增資發行新股認股基準日等相關事宜",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2025-11-24",
+      "time": "21:19:09",
+      "title": "代重要子公司Belite Bio (HK) Limited公告董事會決議讓與RBP4 專門技術及相關帳列資產與現金增資子公司Belite Bio (Swiss) AG",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2025-11-16",
+      "time": "19:20:42",
+      "title": "代子公司Belite Bio (Swiss) AG公告轉投資設立日本子公司及 指派轉投資子公司董事事宜",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2025-11-10",
+      "time": "21:28:22",
+      "title": "代重要子公司Belite Bio, Inc公告董事會決議通過現金增資 子公司Belite Bio (HK) Limited",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2025-11-04",
+      "time": "21:44:07",
+      "title": "公告本公司董事會決議設立大陸子公司",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2025-11-04",
+      "time": "21:42:58",
+      "title": "公告本公司背書保證達「公開發行公司資金貸與及背書保證處 理準則」第二十五條第一項第三款及第四款規定之標準",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2025-11-04",
+      "time": "18:34:09",
+      "title": "公告本公司董事會決議員工認股權憑證轉換普通股之增資基準日",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2025-11-04",
+      "time": "18:33:05",
+      "title": "公告本公司董事會通過114年第3季合併財務報表",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2025-11-04",
+      "time": "18:31:41",
+      "title": "公告法人董事指派代表人出席114/11/04董事會",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2025-11-03",
+      "time": "21:18:41",
+      "title": "代重要子公司Belite Bio, Inc公告114年第3季法人說明會將 於114年11月11日召開",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2025-11-03",
+      "time": "15:56:49",
+      "title": "係因本公司有價證券於集中交易市場達公布注意交易資訊 標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2025-10-31",
+      "time": "19:11:01",
+      "title": "公告本公司114年第一次現金增資催繳期間屆滿暨股票發放事宜",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2025-10-29",
+      "time": "20:15:44",
+      "title": "代重要子公司Belite Bio, Inc公告受邀參加Deutsche Bank投資 銀行舉辦之美國存託憑證線上投資論壇(ADR Virtual Investor Conference)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2025-10-27",
+      "time": "19:04:04",
+      "title": "公告本公司114年度第三季合併財務報告董事會召開日期",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2025-10-23",
+      "time": "21:58:36",
+      "title": "公告本公司董事會決議召開114年第一次股東臨時會",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2025-10-23",
+      "time": "21:25:45",
+      "title": "公告本公司董事會決議員工認股權憑證轉換普通股增資基準日",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2025-10-23",
+      "time": "21:25:05",
+      "title": "公告本公司董事會決議辦理私募現金增資發行普通股案",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "7729",
+      "company": "仲恩生醫",
+      "date": "2025-10-23",
+      "time": "21:24:40",
+      "title": "公告本公司董事會決議發行限制員工權利新股案",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2025-10-21",
+      "time": "12:01:18",
+      "title": "澄清媒體報導",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2025-10-16",
+      "time": "20:11:23",
+      "title": "代重要子公司Belite Bio, Inc公告受邀參加Maxim Group投資銀行 舉辦之成長高峰會(Maxim Growth Summit)",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2025-10-01",
+      "time": "17:03:06",
+      "title": "公告法人董事指派代表人出席114/10/01董事會",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2025-10-01",
+      "time": "15:55:17",
+      "title": "係因本公司有價證券於集中交易市場達公布注意交易資訊 標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2025-09-30",
+      "time": "17:06:40",
+      "title": "公告本公司研發主管異動",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2025-09-30",
+      "time": "15:36:55",
+      "title": "代重要子公司Belite公告重新指派轉投資子公司Belite Bio (Shanghai) Limited倍亮生技醫藥(上海)有限公司董事及代表人",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
+    },
+    {
+      "code": "6696",
+      "company": "仁新*",
+      "date": "2025-09-29",
+      "time": "21:17:11",
+      "title": "公告LBS-007急性白血病之第一/二期臨床試驗，獲中國國家藥品 監督管理局(NMPA)核准執行",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
     }
   ],
   "sourceStats": [
@@ -142,32 +1690,32 @@
       "ok": true
     },
     {
-      "source": "MOPS 歷史公司查詢",
-      "code": "7729",
+      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+      "codes": [
+        "6949",
+        "7729",
+        "6696"
+      ],
       "from": "2025-09-27",
       "to": "2026-09-27",
-      "notices": 0,
-      "ok": true
-    },
-    {
-      "source": "MOPS 歷史公司查詢",
-      "code": "6949",
-      "from": "2025-09-27",
-      "to": "2026-09-27",
-      "notices": 0,
-      "ok": true
-    },
-    {
-      "source": "MOPS 歷史公司查詢",
-      "code": "6696",
-      "from": "2025-09-27",
-      "to": "2026-09-27",
-      "notices": 0,
+      "notices": 172,
       "ok": true
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-09-26",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-09-24",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-09-25",
       "notices": 0,
       "ok": false
     },
@@ -179,13 +1727,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-09-26",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-09-25",
+      "date": "2026-09-22",
       "notices": 0,
       "ok": false
     },
@@ -198,12 +1740,6 @@
     {
       "source": "MOPS 重大訊息",
       "date": "2026-09-21",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-09-22",
       "notices": 0,
       "ok": false
     },
