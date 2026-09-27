@@ -1,10 +1,46 @@
 {
   "ok": true,
-  "fetchedAt": "2026-09-28T05:12:03.805621+08:00",
+  "fetchedAt": "2026-09-28T05:40:15.925611+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-09-28",
   "historyTo": "2026-09-28",
   "notices": [
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-09-27",
+      "time": "70004",
+      "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣0.5元」，\r\n公告期間：115年08月06日至115年11月05日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "2072",
+      "company": "世紀風電",
+      "date": "2026-09-27",
+      "time": "70004",
+      "title": "公告本公司名稱由「世紀離岸風電設備股份有限公司」更名\r\n為「世紀能源設備股份有限公司」，公告期間：115年8月26日至\r\n115年11月25日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2072"
+    },
+    {
+      "code": "1721",
+      "company": "國慶科技",
+      "date": "2026-09-27",
+      "time": "70004",
+      "title": "公告本公司名稱由「三晃股份有限公司」更名為\r\n「國慶科技股份有限公司」\r\n，公告期間：115年07月01日至115年9月30日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1721"
+    },
+    {
+      "code": "2509",
+      "company": "全坤建",
+      "date": "2026-09-27",
+      "time": "165242",
+      "title": "公告本公司「全坤御峰」工地火災事件說明",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2509"
+    },
     {
       "code": "8472",
       "company": "納維康",
@@ -1691,19 +1727,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-09-26",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
       "date": "2026-09-27",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-09-25",
       "notices": 0,
       "ok": false
     },
@@ -1715,7 +1739,25 @@
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-09-26",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-09-25",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-09-24",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-09-22",
       "notices": 0,
       "ok": false
     },
@@ -1728,12 +1770,6 @@
     {
       "source": "MOPS 重大訊息",
       "date": "2026-09-23",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-09-22",
       "notices": 0,
       "ok": false
     },
