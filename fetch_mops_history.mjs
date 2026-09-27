@@ -3,8 +3,8 @@
  * Query MOPS history through the official rendered page.
  * This is used only for explicit MOPS_HISTORY_CODES backfills.
  */
-const { chromium } = require("playwright");
-const fs = require("node:fs");
+import { chromium } from "playwright";
+import fs from "node:fs";
 
 const codes = (process.env.MOPS_HISTORY_CODES || "")
   .split(",")
