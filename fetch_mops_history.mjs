@@ -36,17 +36,19 @@ function clean(raw) {
   return String(raw || "").replace(/\\s+/g, " ").trim();
 }
 
-async function queryMonth(page, code, year, month) {
-  await page.goto("https://mops.twse.com.tw/mops/#/web/t05st01", {
-    waitUntil: "domcontentloaded",
-    timeout: 60000,
-  });
-  await page.locator("#companyId").waitFor({ state: "visible", timeout: 60000 });
-  await page.locator("#companyId").fill(code);
-  await page.waitForTimeout(800);
-  const companyButton = page.locator("button").filter({ hasText: new RegExp(`^\\s*${code}\\s`) }).first();
-  if (await companyButton.count()) {
-    await companyButton.click();
+async function queryMonth(page, code, year, month, firstQuery) {
+  if (firstQuery) {
+    await page.goto("https://mops.twse.com.tw/mops/#/web/t05st01", {
+      waitUntil: "domcontentloaded",
+      timeout: 60000,
+    });
+    await page.locator("#companyId").waitFor({ state: "visible", timeout: 60000 });
+    await page.locator("#companyId").fill(code);
+    await page.waitForTimeout(800);
+    const companyButton = page.locator("button").filter({ hasText: new RegExp(`^\\s*${code}\\s`) }).first();
+    if (await companyButton.count()) {
+      await companyButton.click();
+    }
   }
   await page.locator("#year").fill(String(year - 1911));
   await page.locator("#month").selectOption(String(month));
@@ -77,9 +79,11 @@ async function main() {
   try {
     for (const code of codes) {
       let count = 0;
+      let firstQuery = true;
       for (const { year, month } of months) {
         console.log(`MOPS history query ${code} ${year}-${String(month).padStart(2, "0")}`);
-        const rows = await queryMonth(page, code, year, month);
+        const rows = await queryMonth(page, code, year, month, firstQuery);
+        firstQuery = false;
         for (const cells of rows) {
           if (cells.length < 5 || !/^\\d{4}$/.test(clean(cells[0]))) continue;
           const date = rocDate(cells[2]);
