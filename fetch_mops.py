@@ -175,6 +175,52 @@ def fetch_mops_day(target: date) -> list[dict]:
     return parse_mops_rows(request_bytes(mops_day_url(target)), target)
 
 
+
+def fetch_tpex_emerging_notices() -> list[dict]:
+    """Fetch the latest emerging-company notice exposed on TPEx's official page.
+
+    TPEx publishes an emerging-company major-notice card on its public market
+    page, but the OpenAPI Swagger currently has no emerging-company major-notice
+    endpoint. The card link contains the MOPS company/date/time identifiers.
+    """
+    body = request_bytes("https://www.tpex.org.tw/zh-tw/market-important.html")
+    text = body.decode("utf-8", errors="replace")
+    section = re.search(
+        r"興櫃公司重大訊息(.*?)更多興櫃公司重大訊息",
+        text,
+        flags=re.I | re.S,
+    )
+    if not section:
+        return []
+
+    notices: list[dict] = []
+    for anchor in re.findall(r'<a[^>]+href="([^"]*COMPANY_ID=\d+[^"]*)"[^>]*>(.*?)</a>', section.group(1), flags=re.I | re.S):
+        href, inner = anchor
+        code_match = re.search(r"COMPANY_ID=(\d+)", href)
+        date_match = re.search(r"SPOKE_DATE=(\d{8})", href)
+        time_match = re.search(r"SPOKE_TIME=(\d{6})", href)
+        title_match = re.search(r"<strong[^>]*>\s*\[([^\]]+)\]\s*(.*?)</strong>", inner, flags=re.I | re.S)
+        if not (code_match and date_match and title_match):
+            continue
+        code = code_match.group(1).zfill(4)
+        raw_date = date_match.group(1)
+        item_date = f"{raw_date[:4]}-{raw_date[4:6]}-{raw_date[6:]}"
+        raw_time = time_match.group(1) if time_match else ""
+        time_value = f"{raw_time[:2]}:{raw_time[2:4]}:{raw_time[4:]}" if len(raw_time) == 6 else raw_time
+        company = clean_text(title_match.group(1))
+        title = clean_text(title_match.group(2)).rstrip(".")
+        if title:
+            notices.append({
+                "code": code,
+                "company": company,
+                "date": item_date,
+                "time": time_value,
+                "title": title,
+                "source": "TPEx 官方市場重大訊息",
+                "url": f"https://mops.twse.com.tw/mops/#/web/t146sb05?companyId={code}",
+            })
+    return notices
+
 def load_existing() -> list[dict]:
     try:
         payload = json.loads(OUT.read_text(encoding="utf-8"))
@@ -214,6 +260,15 @@ def main() -> None:
         except Exception as exc:
             failures += 1
             stats.append({"source": source, "rows": 0, "notices": 0, "ok": False, "error": str(exc)[:160]})
+
+    try:
+        emerging = fetch_tpex_emerging_notices()
+        notices.extend(emerging)
+        fetched_any = True
+        stats.append({"source": "TPEx 官方市場重大訊息", "notices": len(emerging), "ok": True})
+    except Exception as exc:
+        failures += 1
+        stats.append({"source": "TPEx 官方市場重大訊息", "notices": 0, "ok": False, "error": str(exc)[:160]})
 
     mops_dates = [today - timedelta(days=offset) for offset in range(MOPS_LOOKBACK_DAYS + 1)]
     with ThreadPoolExecutor(max_workers=4) as pool:
