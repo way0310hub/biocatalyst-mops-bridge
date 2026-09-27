@@ -1,5 +1,5 @@
 name: Update MOPS data
-# temporary diagnostic push run
+# temporary diagnostic push run 2
 
 concurrency:
   group: biocatalyst-mops-update
