@@ -2,6 +2,11 @@ name: Update MOPS data
 
 on:
   workflow_dispatch:
+    inputs:
+      lookback_days:
+        description: "MOPS 回補天數（例：7 或 365）"
+        required: false
+        default: "7"
   push:
     paths:
       - "fetch_mops.py"
@@ -19,6 +24,8 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Fetch official data
+        env:
+          MOPS_LOOKBACK_DAYS: ${{ inputs.lookback_days || '7' }}
         run: python fetch_mops.py
 
       - name: Publish updated JSON
