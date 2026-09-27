@@ -55,7 +55,7 @@ async function queryMonth(page, code, year, month, newCompany, firstPage) {
   await page.locator("#year").fill(String(year - 1911));
   await page.locator("#month").selectOption(String(month));
   await page.locator("#searchBtn").click();
-  await page.waitForTimeout(1600);
+  await page.waitForTimeout(3500);
 
   return page.locator("#searchBlock table tr").evaluateAll((rows) =>
     rows.map((row) => Array.from(row.querySelectorAll("td")).map((cell) => cell.innerText.trim()))
@@ -86,6 +86,7 @@ async function main() {
       for (const { year, month } of months) {
         console.log(`MOPS history query ${code} ${year}-${String(month).padStart(2, "0")}`);
         const rows = await queryMonth(page, code, year, month, newCompany, firstPage);
+        console.log(`MOPS rows ${code} ${year}-${String(month).padStart(2, "0")}: ${rows.length}`);
         newCompany = false;
         firstPage = false;
         for (const cells of rows) {
