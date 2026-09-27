@@ -32,19 +32,19 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Set up Node.js
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.history_codes != '' }}
+        if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'push' }}
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
       - name: Install browser for MOPS history query
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.history_codes != '' }}
+        if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'push' }}
         run: |
           npm install --no-save playwright@1.52.0
           npx playwright install --with-deps chromium
 
       - name: Query MOPS history through official page
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.history_codes != '' }}
+        if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'push' }}
         env:
           MOPS_HISTORY_CODES: ${{ inputs.history_codes }}
           MOPS_HISTORY_DAYS: ${{ inputs.lookback_days || '365' }}
