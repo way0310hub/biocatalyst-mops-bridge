@@ -283,8 +283,15 @@ def load_existing() -> list[dict]:
     return [item for item in notices if isinstance(item, dict) and item.get("code") and item.get("title")]
 
 
-def item_key(item: dict) -> tuple[str, str]:
-    return (str(item.get("code", "")), re.sub(r"\s+", " ", str(item.get("title", "")).strip()))
+def item_key(item: dict) -> tuple[str, str, str, str]:
+    # 同一公司可能在不同日期／時間重複發布相同主旨；不能只用
+    # 公司代號＋主旨去重，否則會把不同公告錯誤合併。
+    return (
+        str(item.get("code", "")),
+        str(item.get("date", "")),
+        str(item.get("time", "")),
+        re.sub(r"\s+", " ", str(item.get("title", "")).strip()),
+    )
 
 
 def item_sort_key(item: dict) -> tuple[str, str, str]:
@@ -299,12 +306,14 @@ def main() -> None:
     stats: list[dict] = []
     fetched_any = False
     failures = 0
+    open_data_notices = 0
 
     for source, url in OPEN_DATA_SOURCES:
         try:
             rows = fetch_json(url)
             parsed = [item for row in rows if (item := normalize_open_data(row, source))]
             notices.extend(parsed)
+            open_data_notices += len(parsed)
             fetched_any = True
             stats.append({"source": source, "rows": len(rows), "notices": len(parsed), "ok": True})
         except Exception as exc:
@@ -365,7 +374,23 @@ def main() -> None:
                 failures += 1
                 stats.append({"source": "MOPS 重大訊息", "date": target.isoformat(), "notices": 0, "ok": False, "error": str(exc)[:160]})
 
-    unique: dict[tuple[str, str], dict] = {}
+    # 若 MOPS 在整個回補期間都回傳 0 筆，但官方 TWSE/TPEx Open Data
+    # 明確有公告，代表目前使用的舊 AJAX 端點很可能只回傳空殼／空結果。
+    # 不能把這種情況標示成「更新成功」。
+    mops_stats = [item for item in stats if item.get("source") == "MOPS 重大訊息"]
+    mops_total = sum(int(item.get("notices", 0)) for item in mops_stats)
+    if mops_stats and mops_total == 0 and open_data_notices > 0:
+        for item in mops_stats:
+            item["ok"] = False
+        stats.append({
+            "source": "MOPS 重大訊息",
+            "notices": 0,
+            "ok": False,
+            "error": "MOPS 舊 AJAX 查詢在回補期間全部回傳 0 筆；可能是新版 SPA 動態端點，未視為有效更新。",
+        })
+        failures += 1
+
+    unique: dict[tuple[str, str, str, str], dict] = {}
     for item in notices:
         if str(item.get("date", "")) < cutoff.isoformat():
             continue
