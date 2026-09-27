@@ -23,6 +23,7 @@ MOPS_HISTORY_CODES = [
     for code in os.environ.get("MOPS_HISTORY_CODES", "").split(",")
     if code.strip()
 ]
+MOPS_BROWSER_HISTORY_FILE = Path("public/mops_history.json")
 TW = ZoneInfo("Asia/Taipei")
 
 OPEN_DATA_SOURCES = [
@@ -271,6 +272,20 @@ def fetch_tpex_emerging_notices() -> list[dict]:
         })
     return notices
 
+def load_browser_history() -> tuple[list[dict], dict]:
+    try:
+        payload = json.loads(MOPS_BROWSER_HISTORY_FILE.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError, OSError):
+        return [], {}
+    if not isinstance(payload, dict) or payload.get("ok") is not True:
+        return [], payload if isinstance(payload, dict) else {}
+    notices = payload.get("notices", [])
+    if not isinstance(notices, list):
+        return [], payload
+    valid = [item for item in notices if isinstance(item, dict) and item.get("code") and item.get("title")]
+    return valid, payload
+
+
 def load_existing() -> list[dict]:
     try:
         payload = json.loads(OUT.read_text(encoding="utf-8"))
@@ -329,7 +344,20 @@ def main() -> None:
         failures += 1
         stats.append({"source": "TPEx 官方市場重大訊息", "notices": 0, "ok": False, "error": str(exc)[:160]})
 
-    if MOPS_HISTORY_CODES:
+    browser_history, browser_history_meta = load_browser_history()
+    if browser_history:
+        notices.extend(browser_history)
+        fetched_any = True
+        stats.append({
+            "source": "MOPS 歷史重大訊息（官方網頁查詢）",
+            "codes": browser_history_meta.get("codes", MOPS_HISTORY_CODES),
+            "from": browser_history_meta.get("from"),
+            "to": browser_history_meta.get("to"),
+            "notices": len(browser_history),
+            "ok": True,
+        })
+
+    if MOPS_HISTORY_CODES and not browser_history:
         history_start = today - timedelta(days=HISTORY_DAYS)
         with ThreadPoolExecutor(max_workers=2) as pool:
             futures = {
