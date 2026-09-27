@@ -1,20 +1,29 @@
 #!/usr/bin/env python3
-"""Fetch official TWSE/TPEx major announcements into public/mops.json."""
+"""Build a durable, multi-source MOPS announcement history for BioCatalyst TW."""
 from __future__ import annotations
 
 import json
 import re
 import ssl
 import urllib.request
-from datetime import datetime, timezone
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import date, datetime, timedelta, timezone
+from html import unescape
 from pathlib import Path
+from urllib.parse import urlencode
+from zoneinfo import ZoneInfo
 
-SOURCES = [
+OUT = Path("public/mops.json")
+HISTORY_DAYS = 365
+MOPS_LOOKBACK_DAYS = 7
+TW = ZoneInfo("Asia/Taipei")
+
+OPEN_DATA_SOURCES = [
     ("TWSE Open Data", "https://openapi.twse.com.tw/v1/opendata/t187ap04_L"),
     ("TPEx Open Data OTC", "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap04_O"),
 ]
 
-OUT = Path("public/mops.json")
+MOPS_ENDPOINT = "https://mops.twse.com.tw/mops/web/ajax_t05st02"
 
 
 def value(row: dict, names: tuple[str, ...]) -> str:
@@ -23,9 +32,9 @@ def value(row: dict, names: tuple[str, ...]) -> str:
             return str(row[name]).strip()
     normalized = {str(k).strip().lower(): v for k, v in row.items()}
     for name in names:
-        v = normalized.get(name.strip().lower())
-        if v not in (None, ""):
-            return str(v).strip()
+        item = normalized.get(name.strip().lower())
+        if item not in (None, ""):
+            return str(item).strip()
     return ""
 
 
@@ -33,69 +42,218 @@ def normalize_date(raw: str) -> str:
     raw = raw.strip()
     if not raw:
         return ""
-    m = re.match(r"^(\d{3})(\d{2})(\d{2})", raw)
-    if m:
-        return f"{int(m.group(1)) + 1911:04d}-{int(m.group(2)):02d}-{int(m.group(3)):02d}"
-    m = re.match(r"^(\d{3})[/-](\d{1,2})[/-](\d{1,2})", raw)
-    if m:
-        return f"{int(m.group(1)) + 1911:04d}-{int(m.group(2)):02d}-{int(m.group(3)):02d}"
-    m = re.match(r"^(\d{4})[/-]?(\d{1,2})[/-]?(\d{1,2})", raw)
-    if m:
-        return f"{int(m.group(1)):04d}-{int(m.group(2)):02d}-{int(m.group(3)):02d}"
+    match = re.search(r"(\d{3})[/-]?(\d{1,2})[/-]?(\d{1,2})", raw)
+    if match:
+        return f"{int(match.group(1)) + 1911:04d}-{int(match.group(2)):02d}-{int(match.group(3)):02d}"
+    match = re.search(r"(\d{4})[/-]?(\d{1,2})[/-]?(\d{1,2})", raw)
+    if match:
+        return f"{int(match.group(1)):04d}-{int(match.group(2)):02d}-{int(match.group(3)):02d}"
     return raw[:10]
 
 
-def fetch(url: str):
-    request = urllib.request.Request(url, headers={"User-Agent": "BioCatalystTW-MOPS-Bridge/1.0"})
+def clean_text(raw: str) -> str:
+    raw = re.sub(r"<[^>]+>", " ", raw)
+    return re.sub(r"\s+", " ", unescape(raw)).strip()
+
+
+def request_bytes(url: str, data: bytes | None = None) -> bytes:
+    headers = {
+        "User-Agent": "BioCatalystTW-MOPS-Bridge/2.0",
+        "Accept": "text/html,application/json",
+        "Referer": "https://mops.twse.com.tw/mops/",
+    }
+    request = urllib.request.Request(url, data=data, headers=headers)
     context = ssl.create_default_context()
-    with urllib.request.urlopen(request, timeout=20, context=context) as response:
-        payload = json.loads(response.read().decode("utf-8-sig"))
+    with urllib.request.urlopen(request, timeout=30, context=context) as response:
+        return response.read()
+
+
+def fetch_json(url: str) -> list[dict]:
+    payload = json.loads(request_bytes(url).decode("utf-8-sig"))
     if isinstance(payload, list):
-        return payload
+        return [row for row in payload if isinstance(row, dict)]
     if isinstance(payload, dict) and isinstance(payload.get("data"), list):
-        return payload["data"]
+        return [row for row in payload["data"] if isinstance(row, dict)]
     return []
 
 
-def normalize(row: dict, source: str) -> dict | None:
+def normalize_open_data(row: dict, source: str) -> dict | None:
     code = value(row, ("公司代號", "股票代號", "證券代號", "SecuritiesCompanyCode", "公司代碼"))
-    date = normalize_date(value(row, ("發言日期", "公告日期", "日期", "Date", "發言日期時間", "發佈日期")))
     title = value(row, ("主旨", "標題", "重大訊息主旨", "Subject", "title"))
+    raw_date = value(row, ("發言日期", "公告日期", "日期", "Date", "發言日期時間", "發佈日期"))
+    raw_time = value(row, ("發言時間", "公告時間", "時間", "Time"))
+    company = value(row, ("公司名稱", "公司名", "CompanyName", "name"))
     if not code or not title:
         return None
     code = re.sub(r"\D", "", code).zfill(4)
+    item_date = normalize_date(raw_date)
     return {
         "code": code,
-        "date": date,
+        "company": company,
+        "date": item_date,
+        "time": raw_time,
         "title": title,
         "source": source,
         "url": f"https://mops.twse.com.tw/mops/#/web/t146sb05?companyId={code}",
     }
 
 
+def mops_day_url(target: date) -> str:
+    params = {
+        "encodeURIComponent": "1",
+        "step": "1",
+        "step00": "0",
+        "firstin": "1",
+        "off": "1",
+        "TYPEK": "all",
+        "year": str(target.year - 1911),
+        "month": f"{target.month:02d}",
+        "day": f"{target.day:02d}",
+    }
+    return f"{MOPS_ENDPOINT}?{urlencode(params)}"
+
+
+def parse_mops_rows(body: bytes, target: date) -> list[dict]:
+    text = body.decode("utf-8", errors="replace")
+    if "�" in text or ("公司代號" not in text and "公司名稱" not in text):
+        text = body.decode("big5", errors="replace")
+
+    notices: list[dict] = []
+    for row_html in re.findall(r"<tr[^>]*>(.*?)</tr>", text, flags=re.I | re.S):
+        cells = [
+            clean_text(cell)
+            for cell in re.findall(r"<(?:td|th)[^>]*>(.*?)</(?:td|th)>", row_html, flags=re.I | re.S)
+        ]
+        cells = [cell for cell in cells if cell]
+        if len(cells) < 4:
+            continue
+
+        code = next((re.sub(r"\D", "", cell).zfill(4) for cell in cells if re.fullmatch(r"\D*(\d{4})\D*", cell)), "")
+        if not code:
+            continue
+
+        date_index = next(
+            (index for index, cell in enumerate(cells) if re.search(r"\d{3}[/-]\d{1,2}[/-]\d{1,2}", cell)),
+            None,
+        )
+        item_date = normalize_date(cells[date_index]) if date_index is not None else target.isoformat()
+        time_value = next((cell for cell in cells if re.fullmatch(r"\d{1,2}:\d{2}(:\d{2})?", cell)), "")
+
+        company = ""
+        if date_index is not None and date_index > 0:
+            company = cells[date_index - 1]
+        if not company:
+            company = next((cell for cell in cells if cell != code and len(cell) > 1), "")
+
+        title = ""
+        if len(cells) > 6:
+            title = cells[6]
+        if not title or title in {code, company, item_date, time_value}:
+            candidates = [
+                cell for cell in cells
+                if cell not in {code, company, item_date, time_value}
+                and len(cell) >= 6
+                and not re.fullmatch(r"\d+", cell)
+            ]
+            title = max(candidates, key=len, default="")
+        if not title:
+            continue
+
+        notices.append({
+            "code": code,
+            "company": company,
+            "date": item_date,
+            "time": time_value,
+            "title": title,
+            "source": "MOPS 重大訊息",
+            "url": f"https://mops.twse.com.tw/mops/#/web/t146sb05?companyId={code}",
+        })
+    return notices
+
+
+def fetch_mops_day(target: date) -> list[dict]:
+    return parse_mops_rows(request_bytes(mops_day_url(target)), target)
+
+
+def load_existing() -> list[dict]:
+    try:
+        payload = json.loads(OUT.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError, OSError):
+        return []
+    if isinstance(payload, dict):
+        notices = payload.get("notices", [])
+    else:
+        notices = payload
+    return [item for item in notices if isinstance(item, dict) and item.get("code") and item.get("title")]
+
+
+def item_key(item: dict) -> tuple[str, str]:
+    return (str(item.get("code", "")), re.sub(r"\s+", " ", str(item.get("title", "")).strip()))
+
+
+def item_sort_key(item: dict) -> tuple[str, str, str]:
+    return (str(item.get("date", "")), str(item.get("time", "")), str(item.get("code", "")))
+
+
 def main() -> None:
-    notices = []
-    stats = []
-    for source, url in SOURCES:
+    today = datetime.now(TW).date()
+    cutoff = today - timedelta(days=HISTORY_DAYS)
+    existing = load_existing()
+    notices = [item for item in existing if str(item.get("date", "")) >= cutoff.isoformat()]
+    stats: list[dict] = []
+    fetched_any = False
+    failures = 0
+
+    for source, url in OPEN_DATA_SOURCES:
         try:
-            rows = fetch(url)
-            parsed = [n for row in rows if isinstance(row, dict) for n in [normalize(row, source)] if n]
+            rows = fetch_json(url)
+            parsed = [item for row in rows if (item := normalize_open_data(row, source))]
             notices.extend(parsed)
+            fetched_any = True
             stats.append({"source": source, "rows": len(rows), "notices": len(parsed), "ok": True})
-        except Exception as exc:  # one unavailable market must not erase prior data
+        except Exception as exc:
+            failures += 1
             stats.append({"source": source, "rows": 0, "notices": 0, "ok": False, "error": str(exc)[:160]})
 
-    unique = {}
+    mops_dates = [today - timedelta(days=offset) for offset in range(MOPS_LOOKBACK_DAYS + 1)]
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        futures = {pool.submit(fetch_mops_day, target): target for target in mops_dates}
+        for future in as_completed(futures):
+            target = futures[future]
+            try:
+                parsed = future.result()
+                notices.extend(parsed)
+                fetched_any = True
+                stats.append({"source": "MOPS 重大訊息", "date": target.isoformat(), "notices": len(parsed), "ok": True})
+            except Exception as exc:
+                failures += 1
+                stats.append({"source": "MOPS 重大訊息", "date": target.isoformat(), "notices": 0, "ok": False, "error": str(exc)[:160]})
+
+    unique: dict[tuple[str, str], dict] = {}
     for item in notices:
-        unique[(item["code"], item["date"], item["title"])] = item
+        if str(item.get("date", "")) < cutoff.isoformat():
+            continue
+        key = item_key(item)
+        if key not in unique or item_sort_key(item) > item_sort_key(unique[key]):
+            unique[key] = item
+
+    ordered = sorted(unique.values(), key=item_sort_key, reverse=True)
     result = {
-        "ok": bool(unique),
-        "fetchedAt": datetime.now(timezone.utc).isoformat(),
-        "source": "TWSE／TPEx Open Data",
-        "notices": sorted(unique.values(), key=lambda x: (x["date"], x["code"]), reverse=True),
+        "ok": bool(ordered),
+        "fetchedAt": datetime.now(TW).isoformat(),
+        "source": "MOPS + TWSE／TPEx Open Data",
+        "historyFrom": cutoff.isoformat(),
+        "historyTo": today.isoformat(),
+        "notices": ordered,
         "sourceStats": stats,
-        "partial": not all(s["ok"] for s in stats),
-        "status": "更新成功" if unique else "本次沒有取得公告，沿用前次成功資料",
+        "partial": failures > 0,
+        "status": (
+            "更新成功"
+            if fetched_any and failures == 0
+            else "部分來源更新成功・保留前次成功資料"
+            if fetched_any
+            else "本次抓取失敗・沿用前次成功資料"
+        ),
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
