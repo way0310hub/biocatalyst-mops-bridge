@@ -74,13 +74,15 @@ def request_bytes(url: str, data: bytes | None = None) -> bytes:
     context = ssl.create_default_context()
     if "mops.twse.com.tw" in url:
         jar = http.cookiejar.CookieJar()
-        opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar))
+        opener = urllib.request.build_opener(
+            urllib.request.HTTPCookieProcessor(jar),
+            urllib.request.HTTPSHandler(context=context),
+        )
         opener.open(
             urllib.request.Request("https://mops.twse.com.tw/mops/#/", headers=headers),
             timeout=30,
-            context=context,
         ).close()
-        with opener.open(request, timeout=30, context=context) as response:
+        with opener.open(request, timeout=30) as response:
             return response.read()
     with urllib.request.urlopen(request, timeout=30, context=context) as response:
         return response.read()
