@@ -7,6 +7,7 @@ import os
 import re
 import ssl
 import urllib.request
+import http.cookiejar
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime, timedelta, timezone
 from html import unescape
@@ -64,12 +65,23 @@ def clean_text(raw: str) -> str:
 
 def request_bytes(url: str, data: bytes | None = None) -> bytes:
     headers = {
-        "User-Agent": "BioCatalystTW-MOPS-Bridge/2.0",
-        "Accept": "text/html,application/json",
-        "Referer": "https://mops.twse.com.tw/mops/",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/131.0 BioCatalystTW-MOPS-Bridge/2.0",
+        "Accept": "text/html,application/json,application/xhtml+xml",
+        "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
+        "Referer": "https://mops.twse.com.tw/mops/#/",
     }
     request = urllib.request.Request(url, data=data, headers=headers)
     context = ssl.create_default_context()
+    if "mops.twse.com.tw" in url:
+        jar = http.cookiejar.CookieJar()
+        opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar))
+        opener.open(
+            urllib.request.Request("https://mops.twse.com.tw/mops/#/", headers=headers),
+            timeout=30,
+            context=context,
+        ).close()
+        with opener.open(request, timeout=30, context=context) as response:
+            return response.read()
     with urllib.request.urlopen(request, timeout=30, context=context) as response:
         return response.read()
 
