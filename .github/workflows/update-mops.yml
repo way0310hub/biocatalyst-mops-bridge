@@ -2,6 +2,10 @@ name: Update MOPS data
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "fetch_mops.py"
+      - ".github/workflows/update-mops.yml"
   schedule:
     - cron: "*/30 * * * *"
 
