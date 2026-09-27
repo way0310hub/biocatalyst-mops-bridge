@@ -27,13 +27,13 @@ function monthKeys(from, to) {
 }
 
 function rocDate(raw) {
-  const match = String(raw || "").match(/(\\d{3})[\\/](\\d{1,2})[\\/](\\d{1,2})/);
+  const match = String(raw || "").match(/(\d{3})[\/](\d{1,2})[\/](\d{1,2})/);
   if (!match) return "";
   return `${Number(match[1]) + 1911}-${String(Number(match[2])).padStart(2, "0")}-${String(Number(match[3])).padStart(2, "0")}`;
 }
 
 function clean(raw) {
-  return String(raw || "").replace(/\\s+/g, " ").trim();
+  return String(raw || "").replace(/\s+/g, " ").trim();
 }
 
 async function queryMonth(page, code, year, month, newCompany, firstPage) {
@@ -90,7 +90,7 @@ async function main() {
         newCompany = false;
         firstPage = false;
         for (const cells of rows) {
-          if (cells.length < 5 || !/^\\d{4}$/.test(clean(cells[0]))) continue;
+          if (cells.length < 5 || !/^\d{4}$/.test(clean(cells[0]))) continue;
           const date = rocDate(cells[2]);
           if (!date || date < start.toISOString().slice(0, 10) ||
               date > today.toISOString().slice(0, 10)) continue;
