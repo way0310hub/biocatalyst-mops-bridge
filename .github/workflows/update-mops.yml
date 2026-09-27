@@ -1,5 +1,9 @@
 name: Update MOPS data
 
+concurrency:
+  group: biocatalyst-mops-update
+  cancel-in-progress: true
+
 on:
   workflow_dispatch:
     inputs:
