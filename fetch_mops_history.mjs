@@ -36,12 +36,14 @@ function clean(raw) {
   return String(raw || "").replace(/\\s+/g, " ").trim();
 }
 
-async function queryMonth(page, code, year, month, firstQuery) {
-  if (firstQuery) {
+async function queryMonth(page, code, year, month, newCompany, firstPage) {
+  if (firstPage) {
     await page.goto("https://mops.twse.com.tw/mops/#/web/t05st01", {
       waitUntil: "domcontentloaded",
       timeout: 60000,
     });
+  }
+  if (firstPage || newCompany) {
     await page.locator("#companyId").waitFor({ state: "visible", timeout: 60000 });
     await page.locator("#companyId").fill(code);
     await page.waitForTimeout(800);
@@ -75,15 +77,17 @@ async function main() {
   const notices = [];
   const sourceStats = [];
   const months = monthKeys(start, today);
+  let firstPage = true;
 
   try {
     for (const code of codes) {
       let count = 0;
-      let firstQuery = true;
+      let newCompany = true;
       for (const { year, month } of months) {
         console.log(`MOPS history query ${code} ${year}-${String(month).padStart(2, "0")}`);
-        const rows = await queryMonth(page, code, year, month, firstQuery);
-        firstQuery = false;
+        const rows = await queryMonth(page, code, year, month, newCompany, firstPage);
+        newCompany = false;
+        firstPage = false;
         for (const cells of rows) {
           if (cells.length < 5 || !/^\\d{4}$/.test(clean(cells[0]))) continue;
           const date = rocDate(cells[2]);
