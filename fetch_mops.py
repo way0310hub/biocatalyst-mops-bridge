@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import ssl
 import urllib.request
@@ -15,7 +16,7 @@ from zoneinfo import ZoneInfo
 
 OUT = Path("public/mops.json")
 HISTORY_DAYS = 365
-MOPS_LOOKBACK_DAYS = 7
+MOPS_LOOKBACK_DAYS = int(os.environ.get("MOPS_LOOKBACK_DAYS", "7"))
 TW = ZoneInfo("Asia/Taipei")
 
 OPEN_DATA_SOURCES = [
@@ -181,7 +182,7 @@ def fetch_tpex_emerging_notices() -> list[dict]:
 
     TPEx's OpenAPI Swagger currently has no emerging-company major-notice
     endpoint. The official market-important page exposes the latest emerging
-    notice as a MOPS link with TYPEK=rotc and the company/date/time identifiers.
+    notice as a MOPS link with TYPEK=rotc and company/date/time identifiers.
     """
     body = request_bytes("https://www.tpex.org.tw/zh-tw/market-important.html")
     text = unescape(body.decode("utf-8", errors="replace"))
@@ -189,19 +190,19 @@ def fetch_tpex_emerging_notices() -> list[dict]:
     notices: list[dict] = []
     # Decode HTML entities first because the page renders query separators as
     # &amp;, then inspect every official market-important card link.
-    pattern = r'<a[^>]*href=["\']([^"\']*COMPANY_ID=\\d+[^"\']*)["\'][^>]*>(.*?)</a>'
+    pattern = r'<a[^>]*href=["\']([^"\']*COMPANY_ID=\d+[^"\']*)["\'][^>]*>(.*?)</a>'
     for href, inner in re.findall(pattern, text, flags=re.I | re.S):
         if not re.search(r"(?:TYPEK=|TYPEK%3D)rotc", href, flags=re.I):
             continue
-        code_match = re.search(r"COMPANY_ID=(\\d+)", href, flags=re.I)
-        date_match = re.search(r"SPOKE_DATE=(\\d{8})", href, flags=re.I)
-        time_match = re.search(r"SPOKE_TIME=(\\d{6})", href, flags=re.I)
+        code_match = re.search(r"COMPANY_ID=(\d+)", href, flags=re.I)
+        date_match = re.search(r"SPOKE_DATE=(\d{8})", href, flags=re.I)
+        time_match = re.search(r"SPOKE_TIME=(\d{6})", href, flags=re.I)
         if not (code_match and date_match):
             continue
 
         card_text = clean_text(inner)
         title_match = re.match(
-            r"^\\[([^\\]]+)\\]\\s*(.*?)(?:\\s+\\d{2,3}/\\d{1,2}/\\d{1,2}\\s+\\d{1,2}:\\d{2}:\\d{2})?$",
+            r"^\[([^\]]+)\]\s*(.*?)(?:\s+\d{2,3}/\d{1,2}/\d{1,2}\s+\d{1,2}:\d{2}:\d{2})?$",
             card_text,
         )
         if not title_match:
