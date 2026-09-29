@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "fetchedAt": "2026-09-29T10:42:02.469893+08:00",
+  "fetchedAt": "2026-09-29T11:13:28.767708+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-09-29",
   "historyTo": "2026-09-29",
@@ -1863,9 +1863,10 @@
   "sourceStats": [
     {
       "source": "TWSE Open Data",
-      "rows": 13,
-      "notices": 13,
-      "ok": true
+      "rows": 0,
+      "notices": 0,
+      "ok": false,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "source": "TPEx Open Data OTC",
@@ -1880,7 +1881,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-09-29",
+      "date": "2026-09-28",
       "notices": 0,
       "ok": false
     },
@@ -1892,19 +1893,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-09-27",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-09-28",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-09-25",
+      "date": "2026-09-29",
       "notices": 0,
       "ok": false
     },
@@ -1922,7 +1911,19 @@
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-09-27",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-09-22",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-09-25",
       "notices": 0,
       "ok": false
     },
