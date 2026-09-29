@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "fetchedAt": "2026-09-29T23:44:53.763841+08:00",
+  "fetchedAt": "2026-09-30T00:14:07.742700+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
-  "historyFrom": "2025-09-29",
-  "historyTo": "2026-09-29",
+  "historyFrom": "2025-09-30",
+  "historyTo": "2026-09-30",
   "notices": [
     {
       "code": "8472",
@@ -1912,15 +1912,6 @@
       "title": "代重要子公司Belite公告重新指派轉投資子公司Belite Bio (Shanghai) Limited倍亮生技醫藥(上海)有限公司董事及代表人",
       "source": "MOPS 歷史重大訊息（官方網頁查詢）",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
-    },
-    {
-      "code": "6696",
-      "company": "仁新*",
-      "date": "2025-09-29",
-      "time": "21:17:11",
-      "title": "公告LBS-007急性白血病之第一/二期臨床試驗，獲中國國家藥品 監督管理局(NMPA)核准執行",
-      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
     }
   ],
   "sourceStats": [
@@ -1943,37 +1934,25 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-09-29",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-09-26",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
       "date": "2026-09-27",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-09-30",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-09-29",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-09-28",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-09-22",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-09-24",
       "notices": 0,
       "ok": false
     },
@@ -1986,6 +1965,18 @@
     {
       "source": "MOPS 重大訊息",
       "date": "2026-09-23",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-09-24",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-09-26",
       "notices": 0,
       "ok": false
     },
