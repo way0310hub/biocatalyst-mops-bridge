@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "fetchedAt": "2026-09-30T23:46:11.731377+08:00",
+  "fetchedAt": "2026-10-01T00:15:13.995693+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
-  "historyFrom": "2025-09-30",
-  "historyTo": "2026-09-30",
+  "historyFrom": "2025-10-01",
+  "historyTo": "2026-10-01",
   "notices": [
     {
       "code": "5547",
@@ -3469,24 +3469,6 @@
       "title": "係因本公司有價證券於集中交易市場達公布注意交易資訊 標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
       "source": "MOPS 歷史重大訊息（官方網頁查詢）",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
-    },
-    {
-      "code": "6949",
-      "company": "沛爾生醫*-創",
-      "date": "2025-09-30",
-      "time": "17:06:40",
-      "title": "公告本公司研發主管異動",
-      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
-    },
-    {
-      "code": "6696",
-      "company": "仁新*",
-      "date": "2025-09-30",
-      "time": "15:36:55",
-      "title": "代重要子公司Belite公告重新指派轉投資子公司Belite Bio (Shanghai) Limited倍亮生技醫藥(上海)有限公司董事及代表人",
-      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
     }
   ],
   "sourceStats": [
@@ -3509,7 +3491,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-09-28",
+      "date": "2026-10-01",
       "notices": 0,
       "ok": false
     },
@@ -3521,7 +3503,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-09-26",
+      "date": "2026-09-28",
       "notices": 0,
       "ok": false
     },
@@ -3539,19 +3521,19 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-09-24",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-09-23",
+      "date": "2026-09-26",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
       "date": "2026-09-25",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-09-24",
       "notices": 0,
       "ok": false
     },
