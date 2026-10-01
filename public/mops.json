@@ -1,10 +1,19 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-01T13:44:27.192898+08:00",
+  "fetchedAt": "2026-10-01T14:18:23.461748+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-10-01",
   "historyTo": "2026-10-01",
   "notices": [
+    {
+      "code": "3629",
+      "company": "地心引力",
+      "date": "2026-09-30",
+      "time": "94342",
+      "title": "公告本公司董事會決議減資彌補虧損召開重大訊息說明記者會內容",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3629"
+    },
     {
       "code": "6949",
       "company": "沛爾生醫*-創",
@@ -13,6 +22,33 @@
       "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣0.5元」，\r\n公告期間：115年08月06日至115年11月05日。",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "5904",
+      "company": "寶雅*",
+      "date": "2026-09-30",
+      "time": "70004",
+      "title": "公告本公司股票面額變更由「新台幣10元」變更為「新台幣1元」\r\n公告期間：115年7月2日至115年10月1日",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5904"
+    },
+    {
+      "code": "4747",
+      "company": "強生*",
+      "date": "2026-09-30",
+      "time": "70004",
+      "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣5元」\r\n公告期間：115年7月22日至115年10月21日",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4747"
+    },
+    {
+      "code": "4530",
+      "company": "天意能創",
+      "date": "2026-09-30",
+      "time": "70004",
+      "title": "公告本公司名稱由「宏易創新國際股份有限公司」\r\n更名為「天意能創股份有限公司」，\r\n公告期間：115年7月09日至115年10月08日。",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4530"
     },
     {
       "code": "2072",
@@ -49,6 +85,42 @@
       "title": "代子公司展達通訊(蘇州)有限公司公告民事訴訟案之一審訴訟結果",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3447"
+    },
+    {
+      "code": "8084",
+      "company": "巨虹",
+      "date": "2026-09-30",
+      "time": "230412",
+      "title": "公告本公司接獲證券櫃檯買賣中心通知列為變更交易方法，\r\n買賣本公司有價證券時應先收足款券始得辦理買賣",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=8084"
+    },
+    {
+      "code": "8084",
+      "company": "巨虹",
+      "date": "2026-09-30",
+      "time": "225435",
+      "title": "公告本公司今日召開重大訊息說明記者會新聞稿",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=8084"
+    },
+    {
+      "code": "6023",
+      "company": "元大期貨",
+      "date": "2026-09-30",
+      "time": "224045",
+      "title": "元大期貨更正公告與利害關係人共同申請變更自有不動產都市更新案權利變換計畫",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6023"
+    },
+    {
+      "code": "4304",
+      "company": "勝昱",
+      "date": "2026-09-30",
+      "time": "222701",
+      "title": "公告本公司董事會通過總經理委任案",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4304"
     },
     {
       "code": "2885",
@@ -114,6 +186,24 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6695"
     },
     {
+      "code": "4120",
+      "company": "友華",
+      "date": "2026-09-30",
+      "time": "205347",
+      "title": "本公司董事會決議處分康霈生技股份有限公司普通股",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4120"
+    },
+    {
+      "code": "4120",
+      "company": "友華",
+      "date": "2026-09-30",
+      "time": "205337",
+      "title": "本公司處分康霈生技股份有限公司普通股",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4120"
+    },
+    {
       "code": "2883",
       "company": "凱基金",
       "date": "2026-09-30",
@@ -121,6 +211,33 @@
       "title": "代子公司凱基人壽公告調整大同大樓都更案都市更新事業\r\n計畫及權利變換計畫(第二次修正)",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2883"
+    },
+    {
+      "code": "8171",
+      "company": "天宇",
+      "date": "2026-09-30",
+      "time": "200548",
+      "title": "公告本公司115年8月份自結應收帳款餘額(含已逾期及未逾期)\r\n、占資產及股本比例",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=8171"
+    },
+    {
+      "code": "5439",
+      "company": "高技",
+      "date": "2026-09-30",
+      "time": "200409",
+      "title": "公告本公司內部稽核主管異動",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5439"
+    },
+    {
+      "code": "5439",
+      "company": "高技",
+      "date": "2026-09-30",
+      "time": "200300",
+      "title": "公告本公司財務主管、會計主管、公司治理主管暨發言人\r\n異動",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5439"
     },
     {
       "code": "1439",
@@ -139,6 +256,15 @@
       "title": "(補充)公告本公司董事會決議處分轉投資事業「漢神購物中心股份有限公司」部分股權",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1439"
+    },
+    {
+      "code": "6844",
+      "company": "諾貝兒",
+      "date": "2026-09-30",
+      "time": "193819",
+      "title": "公告本公司內部稽核主管異動",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6844"
     },
     {
       "code": "2883",
@@ -166,6 +292,24 @@
       "title": "本公司開發中新藥ELIXCYTE-CKD向台灣衛生福利部食品\r\n藥物管理署(TFDA)提出治療慢性腎臟病第II/III期臨床試驗\r\n審查(IND)",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6794"
+    },
+    {
+      "code": "5321",
+      "company": "美而快",
+      "date": "2026-09-30",
+      "time": "191112",
+      "title": "公告本公司未來三個月預計之現金收支狀況及上一月份之銀\r\n行融資額度使用情形",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5321"
+    },
+    {
+      "code": "5321",
+      "company": "美而快",
+      "date": "2026-09-30",
+      "time": "191053",
+      "title": "公告本公司115年08月份自結合併財務報表之負債比率、\r\n流動比率及速動比率",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5321"
     },
     {
       "code": "3041",
@@ -249,6 +393,33 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2891"
     },
     {
+      "code": "8477",
+      "company": "創業家",
+      "date": "2026-09-30",
+      "time": "182831",
+      "title": "公告本公司代理發言人異動",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=8477"
+    },
+    {
+      "code": "4946",
+      "company": "辣椒",
+      "date": "2026-09-30",
+      "time": "182724",
+      "title": "公告本公司最近一年累積處分有價證券達公告標準",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4946"
+    },
+    {
+      "code": "5014",
+      "company": "建錩",
+      "date": "2026-09-30",
+      "time": "182657",
+      "title": "代子公司江蘇得來速不銹鋼有限公司公告\r\n新增資金貸與",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5014"
+    },
+    {
       "code": "2885",
       "company": "元大金",
       "date": "2026-09-30",
@@ -258,6 +429,15 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2885"
     },
     {
+      "code": "8477",
+      "company": "創業家",
+      "date": "2026-09-30",
+      "time": "182521",
+      "title": "公告本公司審計委員會及薪資報酬委員會委員辭任",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=8477"
+    },
+    {
       "code": "5880",
       "company": "合庫金",
       "date": "2026-09-30",
@@ -265,6 +445,15 @@
       "title": "代孫公司合作金庫證券投資顧問股份有限公司公告\r\n第2屆法人代表人董事及監察人名單",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5880"
+    },
+    {
+      "code": "8477",
+      "company": "創業家",
+      "date": "2026-09-30",
+      "time": "182246",
+      "title": "公告本公司獨立董事辭任",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=8477"
     },
     {
       "code": "2891",
@@ -393,6 +582,15 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3045"
     },
     {
+      "code": "6123",
+      "company": "上奇",
+      "date": "2026-09-30",
+      "time": "175946",
+      "title": "公告本公司內部稽核主管異動",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6123"
+    },
+    {
       "code": "2408",
       "company": "南亞科",
       "date": "2026-09-30",
@@ -474,6 +672,24 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2601"
     },
     {
+      "code": "5493",
+      "company": "三聯",
+      "date": "2026-09-30",
+      "time": "174628",
+      "title": "代子公司Sara Electronic Instruments S.R.L.\r\n公告股東臨時會重要決議事項",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5493"
+    },
+    {
+      "code": "5493",
+      "company": "三聯",
+      "date": "2026-09-30",
+      "time": "174551",
+      "title": "代子公司Sara Electronic Instruments S.R.L.\r\n公告決議召集股東臨時會",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5493"
+    },
+    {
       "code": "1218",
       "company": "泰山",
       "date": "2026-09-30",
@@ -492,6 +708,15 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=9933"
     },
     {
+      "code": "3529",
+      "company": "力旺",
+      "date": "2026-09-30",
+      "time": "174051",
+      "title": "本公司舉辦2026年第3季線上法人說明會",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3529"
+    },
+    {
       "code": "6239",
       "company": "力成",
       "date": "2026-09-30",
@@ -508,6 +733,15 @@
       "title": "公告本公司發言人及代理發言人異動",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1702"
+    },
+    {
+      "code": "3224",
+      "company": "三顧",
+      "date": "2026-09-30",
+      "time": "173720",
+      "title": "本公司貸與曾孫公司MetaTech (S) Pte Ltd. 美金500萬元",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3224"
     },
     {
       "code": "6184",
@@ -537,6 +771,51 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6184"
     },
     {
+      "code": "5511",
+      "company": "德昌",
+      "date": "2026-09-30",
+      "time": "173132",
+      "title": "公告本公司董事會決議認購鑽全實業股份有限公司私募普通股",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5511"
+    },
+    {
+      "code": "6023",
+      "company": "元大期貨",
+      "date": "2026-09-30",
+      "time": "172503",
+      "title": "元大期貨更正公告與利害關係人共同申請變更自有不動產都市更新案權利變換計畫",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6023"
+    },
+    {
+      "code": "3522",
+      "company": "御嵿",
+      "date": "2026-09-30",
+      "time": "172352",
+      "title": "115年09月銀行融資額度與使用情形暨未來三個月現金收支\r\n預估情形",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3522"
+    },
+    {
+      "code": "3522",
+      "company": "御嵿",
+      "date": "2026-09-30",
+      "time": "172336",
+      "title": "公告本公司115年08月自結合併財務報告之負債比率、\r\n流動比率及速動比率。",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3522"
+    },
+    {
+      "code": "2740",
+      "company": "華軒",
+      "date": "2026-09-30",
+      "time": "172256",
+      "title": "公告本公司內部稽核主管異動",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2740"
+    },
+    {
       "code": "2891",
       "company": "中信金",
       "date": "2026-09-30",
@@ -562,6 +841,15 @@
       "title": "代子公司台灣人壽保險股份有限公司公告\r\n解除經理人競業禁止之限制",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2891"
+    },
+    {
+      "code": "8424",
+      "company": "惠普",
+      "date": "2026-09-30",
+      "time": "171947",
+      "title": "更正法說會中英文簡報內容。",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=8424"
     },
     {
       "code": "4155",
@@ -627,6 +915,15 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5215"
     },
     {
+      "code": "5209",
+      "company": "新鼎",
+      "date": "2026-09-30",
+      "time": "171504",
+      "title": "本公司代子公司萬鼎工程服務股份有限公司公告資金貸與\r\n達公開發行公司資金貸與及背書保證處理準則第二十二條\r\n第一項第三款標準",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5209"
+    },
+    {
       "code": "3055",
       "company": "蔚華科",
       "date": "2026-09-30",
@@ -643,6 +940,15 @@
       "title": "永豐金證券代子公司永豐證創投公告一年內累積處分有價證券予\r\n永豐金證券交易金額達新臺幣三億元以上",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2890"
+    },
+    {
+      "code": "7782",
+      "company": "光速火箭",
+      "date": "2026-09-30",
+      "time": "171331",
+      "title": "更正本公司115年7月關係人交易申報資訊",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7782"
     },
     {
       "code": "2610",
@@ -690,6 +996,15 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4958"
     },
     {
+      "code": "3466",
+      "company": "德晉",
+      "date": "2026-09-30",
+      "time": "170633",
+      "title": "公告本公司公司治理主管異動",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3466"
+    },
+    {
       "code": "2892",
       "company": "第一金",
       "date": "2026-09-30",
@@ -706,6 +1021,15 @@
       "title": "公告本公司115年第一次私募普通股收足股款暨增資基準日",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2368"
+    },
+    {
+      "code": "7715",
+      "company": "裕山",
+      "date": "2026-09-30",
+      "time": "170241",
+      "title": "代子公司定捷科技工程股份有限公司公告決議解除第一屆\r\n新任董事競業禁止之限制",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7715"
     },
     {
       "code": "1529",
@@ -726,6 +1050,15 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2892"
     },
     {
+      "code": "7715",
+      "company": "裕山",
+      "date": "2026-09-30",
+      "time": "170156",
+      "title": "代子公司定捷科技工程股份有限公司公告單一法人股東\r\n指派董事及監察人之代表人",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7715"
+    },
+    {
       "code": "1527",
       "company": "鑽全",
       "date": "2026-09-30",
@@ -733,6 +1066,51 @@
       "title": "公告本公司董事會決議通過以私募方式辦理現金增資發行普通股",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1527"
+    },
+    {
+      "code": "7715",
+      "company": "裕山",
+      "date": "2026-09-30",
+      "time": "170101",
+      "title": "代子公司定捷科技工程股份有限公司公告總經理任命",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7715"
+    },
+    {
+      "code": "7715",
+      "company": "裕山",
+      "date": "2026-09-30",
+      "time": "170017",
+      "title": "代子公司定捷科技工程股份有限公司公告董事長異動",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7715"
+    },
+    {
+      "code": "1815",
+      "company": "富喬",
+      "date": "2026-09-30",
+      "time": "170000",
+      "title": "代子公司Fulltech Fiber Glass (Thailand) Co., Ltd.公告取得廠務工程",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1815"
+    },
+    {
+      "code": "8277",
+      "company": "商丞",
+      "date": "2026-09-30",
+      "time": "165822",
+      "title": "【補充公告】公告本公司審計委員會及薪酬委員會之成員變動",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=8277"
+    },
+    {
+      "code": "6167",
+      "company": "久正",
+      "date": "2026-09-30",
+      "time": "165725",
+      "title": "代子公司公告與本公司簡易合併案(合併基準日異動)。",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6167"
     },
     {
       "code": "2002",
@@ -744,6 +1122,24 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2002"
     },
     {
+      "code": "4123",
+      "company": "晟德",
+      "date": "2026-09-30",
+      "time": "165705",
+      "title": "代重要子公司豐華生物科技(股)公司公告向關係人取得使用權資產\r\n(調整租賃面積及增加管理費)",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4123"
+    },
+    {
+      "code": "6167",
+      "company": "久正",
+      "date": "2026-09-30",
+      "time": "165653",
+      "title": "公告本公司與子公司簡易合併案(合併基準日異動)。",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6167"
+    },
+    {
       "code": "7760",
       "company": "享溫馨",
       "date": "2026-09-30",
@@ -751,6 +1147,15 @@
       "title": "公告本公司註銷庫藏股辦理變更登記完成",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7760"
+    },
+    {
+      "code": "8277",
+      "company": "商丞",
+      "date": "2026-09-30",
+      "time": "165413",
+      "title": "公告本公司儲存事業群總經理退休",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=8277"
     },
     {
       "code": "2889",
@@ -762,6 +1167,15 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2889"
     },
     {
+      "code": "4541",
+      "company": "晟田",
+      "date": "2026-09-30",
+      "time": "165104",
+      "title": "本公司115年現金增資股款催繳公告",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4541"
+    },
+    {
       "code": "2881",
       "company": "富邦金",
       "date": "2026-09-30",
@@ -769,6 +1183,15 @@
       "title": "富邦金控代子公司台北富邦商業銀行股份有限公司\r\n公告授信資產之債權處分",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2881"
+    },
+    {
+      "code": "6021",
+      "company": "美好證",
+      "date": "2026-09-30",
+      "time": "164809",
+      "title": "公告本公司買回庫藏股執行完畢(更正已買回股份總金額及\r\n平均每股買回價格)",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6021"
     },
     {
       "code": "2887",
@@ -906,6 +1329,15 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6887"
     },
     {
+      "code": "5209",
+      "company": "新鼎",
+      "date": "2026-09-30",
+      "time": "163025",
+      "title": "代子公司萬鼎工程服務股份有限公司公告董事會通過\r\n投資成立鈜鼎建設股份有限公司",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5209"
+    },
+    {
       "code": "6887",
       "company": "寶綠特-KY",
       "date": "2026-09-30",
@@ -942,6 +1374,15 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5292"
     },
     {
+      "code": "6997",
+      "company": "博弘",
+      "date": "2026-09-30",
+      "time": "162630",
+      "title": "本公司代重要子公司宏庭科技(股)公司公告董事會一致推舉\r\n陳仲儒先生擔任董事長",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6997"
+    },
+    {
       "code": "5292",
       "company": "華懋",
       "date": "2026-09-30",
@@ -949,6 +1390,15 @@
       "title": "公告本公司重要營運主管職務調整",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5292"
+    },
+    {
+      "code": "3625",
+      "company": "西勝",
+      "date": "2026-09-30",
+      "time": "162341",
+      "title": "公告本公司115年08月份自結合併財務報表之流動比率、\r\n速動比率及負債比率。",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3625"
     },
     {
       "code": "7822",
@@ -978,6 +1428,51 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=9941"
     },
     {
+      "code": "3587",
+      "company": "閎康",
+      "date": "2026-09-30",
+      "time": "160346",
+      "title": "公告本公司115年第一次股東臨時會重要決議事項",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3587"
+    },
+    {
+      "code": "4563",
+      "company": "百德",
+      "date": "2026-09-30",
+      "time": "160217",
+      "title": "公告本公司法人董事改派代表人",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4563"
+    },
+    {
+      "code": "4745",
+      "company": "合富-KY",
+      "date": "2026-09-30",
+      "time": "155949",
+      "title": "代子公司康君諮詢管理(上海)公告累計取得理財產品達公告標準",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4745"
+    },
+    {
+      "code": "3064",
+      "company": "泰偉",
+      "date": "2026-09-30",
+      "time": "155535",
+      "title": "公告本公司115年8月份自結合併財務報表之流動比率、速動\r\n比率及負債比率",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3064"
+    },
+    {
+      "code": "3521",
+      "company": "台鋼建設",
+      "date": "2026-09-30",
+      "time": "155350",
+      "title": "公告本公司115年08月份自結合併財務報表\r\n之流動比率、速動比率及負債比率",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3521"
+    },
+    {
       "code": "9933",
       "company": "中鼎",
       "date": "2026-09-30",
@@ -987,6 +1482,15 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=9933"
     },
     {
+      "code": "7743",
+      "company": "金利食安",
+      "date": "2026-09-30",
+      "time": "155232",
+      "title": "本公司受邀參加永豐金證券舉辦之法人說明會",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7743"
+    },
+    {
       "code": "3711",
       "company": "日月光投控",
       "date": "2026-09-30",
@@ -994,6 +1498,15 @@
       "title": "代子公司矽品精密工業(股)公司公告取得廠務工程",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3711"
+    },
+    {
+      "code": "5410",
+      "company": "國眾",
+      "date": "2026-09-30",
+      "time": "154714",
+      "title": "公告本公司內部稽核主管異動",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5410"
     },
     {
       "code": "3701",
@@ -1077,6 +1590,15 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1216"
     },
     {
+      "code": "6233",
+      "company": "旺玖",
+      "date": "2026-09-30",
+      "time": "153705",
+      "title": "公告董事會決議通過買回公司股份",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6233"
+    },
+    {
       "code": "6541",
       "company": "泰福-KY",
       "date": "2026-09-30",
@@ -1095,6 +1617,15 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6861"
     },
     {
+      "code": "3628",
+      "company": "盈正",
+      "date": "2026-09-30",
+      "time": "153642",
+      "title": "公告本公司代理發言人異動",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3628"
+    },
+    {
       "code": "6541",
       "company": "泰福-KY",
       "date": "2026-09-30",
@@ -1102,6 +1633,33 @@
       "title": "公告本公司人事異動",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6541"
+    },
+    {
+      "code": "3628",
+      "company": "盈正",
+      "date": "2026-09-30",
+      "time": "153332",
+      "title": "公告本公司公司治理主管異動",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3628"
+    },
+    {
+      "code": "6418",
+      "company": "詠昇",
+      "date": "2026-09-30",
+      "time": "153317",
+      "title": "公告本公司內部財務主管、會計主管、公司治理主管、代理發言人\r\n異動",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6418"
+    },
+    {
+      "code": "3064",
+      "company": "泰偉",
+      "date": "2026-09-30",
+      "time": "153131",
+      "title": "代重要子公司泰偉開發顧問股份有限公司公告\r\n召開115年股東臨時會事宜",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3064"
     },
     {
       "code": "3037",
@@ -1122,6 +1680,24 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6405"
     },
     {
+      "code": "3276",
+      "company": "宇環",
+      "date": "2026-09-30",
+      "time": "152016",
+      "title": "公告本公司內部稽核主管異動",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3276"
+    },
+    {
+      "code": "8444",
+      "company": "綠河-KY",
+      "date": "2026-09-30",
+      "time": "151916",
+      "title": "公告本公司115年8月自結合併財務報告之負債比率、流動比率及\r\n速動比率",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=8444"
+    },
+    {
       "code": "7812",
       "company": "稜研科技*-創",
       "date": "2026-09-30",
@@ -1129,6 +1705,33 @@
       "title": "本公司創新板上市掛牌首五個營業日穩定價格操作結果",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7812"
+    },
+    {
+      "code": "3710",
+      "company": "連展投控",
+      "date": "2026-09-30",
+      "time": "151651",
+      "title": "代重要子公司Grand Assets Limited公告董事長異動",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3710"
+    },
+    {
+      "code": "3710",
+      "company": "連展投控",
+      "date": "2026-09-30",
+      "time": "151338",
+      "title": "公告115年8月份自結合併財務報告之\r\n負債比率、流動比率及速動比率",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3710"
+    },
+    {
+      "code": "8044",
+      "company": "網家",
+      "date": "2026-09-30",
+      "time": "151028",
+      "title": "公告本公司115年8月自結財務比率",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=8044"
     },
     {
       "code": "4119",
@@ -1185,6 +1788,15 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3701"
     },
     {
+      "code": "4416",
+      "company": "三圓",
+      "date": "2026-09-30",
+      "time": "150409",
+      "title": "公告本公司之關係人退票事宜",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4416"
+    },
+    {
       "code": "1905",
       "company": "華紙",
       "date": "2026-09-30",
@@ -1212,6 +1824,15 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1905"
     },
     {
+      "code": "6462",
+      "company": "神盾",
+      "date": "2026-09-30",
+      "time": "145531",
+      "title": "公告本公司115年8月份自結個體財務報告之流動比率、\r\n速動比率及銀行可使用融資額度情形",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6462"
+    },
+    {
       "code": "2885",
       "company": "元大金",
       "date": "2026-09-30",
@@ -1230,6 +1851,15 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6472"
     },
     {
+      "code": "4502",
+      "company": "健信",
+      "date": "2026-09-30",
+      "time": "144000",
+      "title": "公告本公司及子公司115年08月之負債比率、流動比率及速動比率",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4502"
+    },
+    {
       "code": "2614",
       "company": "東森",
       "date": "2026-09-30",
@@ -1237,6 +1867,42 @@
       "title": "代子公司東凱租賃股份有限公司公告新增資金貸與金額\r\n達最近期財務報表淨值百分之二以上",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2614"
+    },
+    {
+      "code": "4804",
+      "company": "大略-KY",
+      "date": "2026-09-30",
+      "time": "143219",
+      "title": "公告本公司115年08月份自結財務報表之自結負債比率、\r\n自結流動比率及自結速動比率",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4804"
+    },
+    {
+      "code": "8472",
+      "company": "納維康",
+      "date": "2026-09-30",
+      "time": "143204",
+      "title": "公告115年08月自結合併財務報告負債比率.流動比率.速動比率",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=8472"
+    },
+    {
+      "code": "5351",
+      "company": "鈺創",
+      "date": "2026-09-30",
+      "time": "143143",
+      "title": "公告本公司買回股份期間屆滿執行情形",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5351"
+    },
+    {
+      "code": "6129",
+      "company": "普誠",
+      "date": "2026-09-30",
+      "time": "143036",
+      "title": "公告本公司115年現金增資認股基準日等相關事宜\r\n(補充公告每股增資發行價格、代收股款及存儲專戶行庫)",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6129"
     },
     {
       "code": "2606",
@@ -1284,6 +1950,15 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2312"
     },
     {
+      "code": "7792",
+      "company": "安葆",
+      "date": "2026-09-30",
+      "time": "141709",
+      "title": "本公司有價證券近期多次達公布注意交易資訊標準，\r\n故公告相關訊息，以利投資人區別暸解",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7792"
+    },
+    {
       "code": "2328",
       "company": "廣宇",
       "date": "2026-09-30",
@@ -1309,6 +1984,15 @@
       "title": "公告本公司法人董事尼得科株式會社代表人辭任",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6230"
+    },
+    {
+      "code": "4907",
+      "company": "富宇",
+      "date": "2026-09-30",
+      "time": "140843",
+      "title": "更正本公司115年度第二季財務報告附表一及iXBRL申報\r\n之為他人背書保證資訊。",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4907"
     },
     {
       "code": "2497",
@@ -1365,6 +2049,42 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1529"
     },
     {
+      "code": "6023",
+      "company": "元大期貨",
+      "date": "2026-09-30",
+      "time": "135845",
+      "title": "元大期貨公告董事會決議通過發行次順位普通公司債",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6023"
+    },
+    {
+      "code": "5345",
+      "company": "馥鴻",
+      "date": "2026-09-30",
+      "time": "134859",
+      "title": "公告本公司獨立董事林學祥辭任審計委員會職務",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5345"
+    },
+    {
+      "code": "5345",
+      "company": "馥鴻",
+      "date": "2026-09-30",
+      "time": "134833",
+      "title": "公告本公司獨立董事林學祥辭任，於115年09月30日生效",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5345"
+    },
+    {
+      "code": "6264",
+      "company": "富裔",
+      "date": "2026-09-30",
+      "time": "134603",
+      "title": "公告本公司115年8月自結合併財務報告之負債比率\r\n、流動比率及速動比率",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6264"
+    },
+    {
       "code": "4722",
       "company": "國精化",
       "date": "2026-09-30",
@@ -1383,6 +2103,24 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2516"
     },
     {
+      "code": "5457",
+      "company": "宣德",
+      "date": "2026-09-30",
+      "time": "133915",
+      "title": "公告本公司代理發言人異動",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5457"
+    },
+    {
+      "code": "5345",
+      "company": "馥鴻",
+      "date": "2026-09-30",
+      "time": "133116",
+      "title": "公告本公司115年第一次股東臨時會重要決議事項",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5345"
+    },
+    {
       "code": "2524",
       "company": "京城",
       "date": "2026-09-30",
@@ -1390,6 +2128,15 @@
       "title": "公告董事會決議簽訂高雄市左營區新康段25地號個案工程營造契約。",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2524"
+    },
+    {
+      "code": "6174",
+      "company": "安碁",
+      "date": "2026-09-30",
+      "time": "115444",
+      "title": "公告本公司國內第三次無擔保轉換公司債收足應募價款",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6174"
     },
     {
       "code": "6579",
@@ -4893,8 +5640,8 @@
     },
     {
       "source": "TPEx Open Data OTC",
-      "rows": 60,
-      "notices": 60,
+      "rows": 83,
+      "notices": 83,
       "ok": true
     },
     {
@@ -4910,7 +5657,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-01",
+      "date": "2026-09-30",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-09-29",
       "notices": 0,
       "ok": false
     },
@@ -4922,19 +5675,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-09-30",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-09-26",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-09-24",
+      "date": "2026-10-01",
       "notices": 0,
       "ok": false
     },
@@ -4946,10 +5687,15 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-09-29",
+      "date": "2026-09-24",
       "notices": 0,
-      "ok": false,
-      "error": "<urlopen error timed out>"
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-09-26",
+      "notices": 0,
+      "ok": false
     },
     {
       "source": "MOPS 重大訊息",
