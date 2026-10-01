@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-01T23:45:10.248960+08:00",
+  "fetchedAt": "2026-10-02T00:13:05.080727+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
-  "historyFrom": "2025-10-01",
-  "historyTo": "2026-10-01",
+  "historyFrom": "2025-10-02",
+  "historyTo": "2026-10-02",
   "notices": [
     {
       "code": "3629",
@@ -5611,24 +5611,6 @@
       "title": "代重要子公司Belite Bio, Inc公告受邀參加Maxim Group投資銀行 舉辦之成長高峰會(Maxim Growth Summit)",
       "source": "MOPS 歷史重大訊息（官方網頁查詢）",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
-    },
-    {
-      "code": "6949",
-      "company": "沛爾生醫*-創",
-      "date": "2025-10-01",
-      "time": "17:03:06",
-      "title": "公告法人董事指派代表人出席114/10/01董事會",
-      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
-    },
-    {
-      "code": "6949",
-      "company": "沛爾生醫*-創",
-      "date": "2025-10-01",
-      "time": "15:55:17",
-      "title": "係因本公司有價證券於集中交易市場達公布注意交易資訊 標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
-      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
     }
   ],
   "sourceStats": [
@@ -5651,13 +5633,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-09-30",
+      "date": "2026-09-29",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-09-28",
+      "date": "2026-10-02",
       "notices": 0,
       "ok": false
     },
@@ -5669,7 +5651,19 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-09-29",
+      "date": "2026-09-28",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-09-30",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-09-27",
       "notices": 0,
       "ok": false
     },
@@ -5681,19 +5675,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-09-24",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
       "date": "2026-09-25",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-09-27",
       "notices": 0,
       "ok": false
     },
