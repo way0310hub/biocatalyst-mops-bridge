@@ -1,10 +1,55 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-04T02:26:34.551404+08:00",
+  "fetchedAt": "2026-10-04T08:12:44.880806+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-10-04",
   "historyTo": "2026-10-04",
   "notices": [
+    {
+      "code": "3432",
+      "company": "台端",
+      "date": "2026-10-03",
+      "time": "85921",
+      "title": "依臺灣證券交易所股份有限公司臺證上一字第1121801204\r\n號函辦理",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3432"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-10-03",
+      "time": "70004",
+      "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣0.5元」，\r\n公告期間：115年08月06日至115年11月05日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "2072",
+      "company": "世紀風電",
+      "date": "2026-10-03",
+      "time": "70004",
+      "title": "公告本公司名稱由「世紀離岸風電設備股份有限公司」更名\r\n為「世紀能源設備股份有限公司」，公告期間：115年8月26日至\r\n115年11月25日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2072"
+    },
+    {
+      "code": "7827",
+      "company": "漢康-KY創",
+      "date": "2026-10-03",
+      "time": "170054",
+      "title": "代子公司FBD Biologics Limited公告，HCB303美國新藥\r\n臨床試驗申請（IND）獲准進行臨床試驗",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7827"
+    },
+    {
+      "code": "2537",
+      "company": "聯上發",
+      "date": "2026-10-03",
+      "time": "121213",
+      "title": "公告本公司投資興建個案「聯上澐朗」工地火災事件說明。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2537"
+    },
     {
       "code": "4530",
       "company": "天意能創",
@@ -7650,14 +7695,14 @@
   "sourceStats": [
     {
       "source": "TWSE Open Data",
-      "rows": 70,
-      "notices": 70,
+      "rows": 5,
+      "notices": 5,
       "ok": true
     },
     {
       "source": "TPEx Open Data OTC",
-      "rows": 36,
-      "notices": 36,
+      "rows": 42,
+      "notices": 42,
       "ok": true
     },
     {
@@ -7667,51 +7712,59 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-04",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-02",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
       "date": "2026-10-03",
       "notices": 0,
-      "ok": false
+      "ok": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)>"
     },
     {
       "source": "MOPS 重大訊息",
       "date": "2026-10-01",
       "notices": 0,
-      "ok": false
+      "ok": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)>"
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-09-30",
+      "date": "2026-10-02",
       "notices": 0,
-      "ok": false
+      "ok": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)>"
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-09-28",
+      "date": "2026-10-04",
       "notices": 0,
-      "ok": false
+      "ok": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)>"
     },
     {
       "source": "MOPS 重大訊息",
       "date": "2026-09-29",
       "notices": 0,
-      "ok": false
+      "ok": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)>"
     },
     {
       "source": "MOPS 重大訊息",
       "date": "2026-09-27",
       "notices": 0,
-      "ok": false
+      "ok": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)>"
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-09-30",
+      "notices": 0,
+      "ok": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)>"
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-09-28",
+      "notices": 0,
+      "ok": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)>"
     },
     {
       "source": "MOPS 重大訊息",
