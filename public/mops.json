@@ -1,10 +1,37 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-05T05:48:09.189344+08:00",
+  "fetchedAt": "2026-10-05T06:12:21.797497+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-10-05",
   "historyTo": "2026-10-05",
   "notices": [
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-10-04",
+      "time": "70003",
+      "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣0.5元」，\r\n公告期間：115年08月06日至115年11月05日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "2072",
+      "company": "世紀風電",
+      "date": "2026-10-04",
+      "time": "70003",
+      "title": "公告本公司名稱由「世紀離岸風電設備股份有限公司」更名\r\n為「世紀能源設備股份有限公司」，公告期間：115年8月26日至\r\n115年11月25日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2072"
+    },
+    {
+      "code": "2891",
+      "company": "中信金",
+      "date": "2026-10-04",
+      "time": "180441",
+      "title": "代子公司The Tokyo Star Bank, Limited公告董事辭世",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2891"
+    },
     {
       "code": "3432",
       "company": "台端",
@@ -7731,10 +7758,9 @@
   "sourceStats": [
     {
       "source": "TWSE Open Data",
-      "rows": 0,
-      "notices": 0,
-      "ok": false,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "rows": 3,
+      "notices": 3,
+      "ok": true
     },
     {
       "source": "TPEx Open Data OTC",
@@ -7755,6 +7781,12 @@
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-10-05",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-10-02",
       "notices": 0,
       "ok": false
@@ -7767,13 +7799,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-05",
+      "date": "2026-10-01",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-01",
+      "date": "2026-09-29",
       "notices": 0,
       "ok": false
     },
@@ -7786,12 +7818,6 @@
     {
       "source": "MOPS 重大訊息",
       "date": "2026-09-30",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-09-29",
       "notices": 0,
       "ok": false
     },
