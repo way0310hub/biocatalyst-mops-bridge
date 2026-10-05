@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-05T13:47:52.658168+08:00",
+  "fetchedAt": "2026-10-05T14:20:41.314232+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-10-05",
   "historyTo": "2026-10-05",
@@ -13,6 +13,24 @@
       "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣0.5元」，\r\n公告期間：115年08月06日至115年11月05日。",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "4747",
+      "company": "強生*",
+      "date": "2026-10-04",
+      "time": "70003",
+      "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣5元」\r\n公告期間：115年7月22日至115年10月21日",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4747"
+    },
+    {
+      "code": "4530",
+      "company": "天意能創",
+      "date": "2026-10-04",
+      "time": "70003",
+      "title": "公告本公司名稱由「宏易創新國際股份有限公司」\r\n更名為「天意能創股份有限公司」，\r\n公告期間：115年7月09日至115年10月08日。",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4530"
     },
     {
       "code": "2072",
@@ -7764,8 +7782,8 @@
     },
     {
       "source": "TPEx Open Data OTC",
-      "rows": 4,
-      "notices": 4,
+      "rows": 2,
+      "notices": 2,
       "ok": true
     },
     {
@@ -7775,37 +7793,19 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-04",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-02",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-03",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
       "date": "2026-10-05",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-09-29",
+      "date": "2026-10-04",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-09-28",
+      "date": "2026-10-01",
       "notices": 0,
       "ok": false
     },
@@ -7817,7 +7817,25 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-01",
+      "date": "2026-09-29",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-03",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-02",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-09-28",
       "notices": 0,
       "ok": false
     },
