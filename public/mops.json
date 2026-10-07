@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-07T23:50:15.584815+08:00",
+  "fetchedAt": "2026-10-08T00:16:02.938073+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
-  "historyFrom": "2025-10-07",
-  "historyTo": "2026-10-07",
+  "historyFrom": "2025-10-08",
+  "historyTo": "2026-10-08",
   "notices": [
     {
       "code": "5534",
@@ -9392,25 +9392,19 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-07",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-04",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
       "date": "2026-10-05",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-09-30",
+      "date": "2026-10-07",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-08",
       "notices": 0,
       "ok": false
     },
@@ -9423,6 +9417,12 @@
     {
       "source": "MOPS 重大訊息",
       "date": "2026-10-02",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-04",
       "notices": 0,
       "ok": false
     },
