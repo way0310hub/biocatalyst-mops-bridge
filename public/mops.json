@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-08T21:17:58.029966+08:00",
+  "fetchedAt": "2026-10-08T21:46:29.064790+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-10-08",
   "historyTo": "2026-10-08",
@@ -10331,7 +10331,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-08",
+      "date": "2026-10-06",
       "notices": 0,
       "ok": false
     },
@@ -10343,13 +10343,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-07",
+      "date": "2026-10-08",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "notices": 0,
       "ok": false
     },
@@ -10367,13 +10367,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-03",
+      "date": "2026-10-02",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-02",
+      "date": "2026-10-03",
       "notices": 0,
       "ok": false
     },
