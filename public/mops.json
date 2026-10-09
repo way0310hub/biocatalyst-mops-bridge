@@ -1,10 +1,64 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-10T05:12:54.937403+08:00",
+  "fetchedAt": "2026-10-10T05:44:42.032571+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-10-10",
   "historyTo": "2026-10-10",
   "notices": [
+    {
+      "code": "2301",
+      "company": "光寶科",
+      "date": "2026-10-09",
+      "time": "92352",
+      "title": "代子公司LITE-ON, INC.公告以自地委建\r\n美國 McKinney廠簽訂新建工程統包合約",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2301"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-10-09",
+      "time": "70004",
+      "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣0.5元」，\r\n公告期間：115年08月06日至115年11月05日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "2072",
+      "company": "世紀風電",
+      "date": "2026-10-09",
+      "time": "70004",
+      "title": "公告本公司名稱由「世紀離岸風電設備股份有限公司」更名\r\n為「世紀能源設備股份有限公司」，公告期間：115年8月26日至\r\n115年11月25日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2072"
+    },
+    {
+      "code": "7786",
+      "company": "東方風能",
+      "date": "2026-10-09",
+      "time": "3655",
+      "title": "本公司受邀參加寬量國際主辦之20th QIC CEO Week",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7786"
+    },
+    {
+      "code": "4569",
+      "company": "六方科-KY",
+      "date": "2026-10-09",
+      "time": "185319",
+      "title": "代本公司之子公司Global-Thaixon Precision Industry\r\nCompany Limited公告董事會決議股利分派事宜",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4569"
+    },
+    {
+      "code": "6645",
+      "company": "金萬林-創",
+      "date": "2026-10-09",
+      "time": "121640",
+      "title": "公告本公司初次申請股票創新板上市時所出具之承諾事項暨\r\n其後續執行情形",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6645"
+    },
     {
       "code": "6949",
       "company": "沛爾生醫*-創",
@@ -11925,8 +11979,8 @@
   "sourceStats": [
     {
       "source": "TWSE Open Data",
-      "rows": 116,
-      "notices": 116,
+      "rows": 6,
+      "notices": 6,
       "ok": true
     },
     {
@@ -11942,12 +11996,6 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-08",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
       "date": "2026-10-07",
       "notices": 0,
       "ok": false
@@ -11960,13 +12008,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-09",
+      "date": "2026-10-08",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-05",
+      "date": "2026-10-09",
       "notices": 0,
       "ok": false
     },
@@ -11979,6 +12027,12 @@
     {
       "source": "MOPS 重大訊息",
       "date": "2026-10-04",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-05",
       "notices": 0,
       "ok": false
     },
