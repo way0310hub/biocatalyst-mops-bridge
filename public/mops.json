@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-10T13:43:52.881846+08:00",
+  "fetchedAt": "2026-10-10T14:15:45.902617+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-10-10",
   "historyTo": "2026-10-10",
@@ -22,6 +22,15 @@
       "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣0.5元」，\r\n公告期間：115年08月06日至115年11月05日。",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "4747",
+      "company": "強生*",
+      "date": "2026-10-09",
+      "time": "70004",
+      "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣5元」\r\n公告期間：115年7月22日至115年10月21日",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4747"
     },
     {
       "code": "2072",
@@ -51,6 +60,24 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4569"
     },
     {
+      "code": "1264",
+      "company": "德麥",
+      "date": "2026-10-09",
+      "time": "184635",
+      "title": "代重要子公司芝蘭雅烘焙原料(無錫)有限公司公告 取得結構性存款(更正)",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1264"
+    },
+    {
+      "code": "1264",
+      "company": "德麥",
+      "date": "2026-10-09",
+      "time": "184606",
+      "title": "代重要子公司芝蘭雅烘焙原料(無錫)有限公司公告 取得結構性存款",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1264"
+    },
+    {
       "code": "6645",
       "company": "金萬林-創",
       "date": "2026-10-09",
@@ -58,6 +85,15 @@
       "title": "公告本公司初次申請股票創新板上市時所出具之承諾事項暨\r\n其後續執行情形",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6645"
+    },
+    {
+      "code": "4953",
+      "company": "緯致",
+      "date": "2026-10-09",
+      "time": "111647",
+      "title": "本公司發生網路資安事件",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4953"
     },
     {
       "code": "6949",
@@ -11985,8 +12021,8 @@
     },
     {
       "source": "TPEx Open Data OTC",
-      "rows": 63,
-      "notices": 63,
+      "rows": 4,
+      "notices": 4,
       "ok": true
     },
     {
@@ -11996,7 +12032,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-09",
+      "date": "2026-10-07",
       "notices": 0,
       "ok": false
     },
@@ -12014,7 +12050,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-07",
+      "date": "2026-10-06",
       "notices": 0,
       "ok": false
     },
@@ -12026,19 +12062,19 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-06",
+      "date": "2026-10-05",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-09",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
       "date": "2026-10-03",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-05",
       "notices": 0,
       "ok": false
     },
