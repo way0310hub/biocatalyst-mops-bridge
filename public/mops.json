@@ -1,10 +1,46 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-11T05:11:06.013712+08:00",
+  "fetchedAt": "2026-10-11T05:42:59.064458+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-10-11",
   "historyTo": "2026-10-11",
   "notices": [
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-10-10",
+      "time": "70003",
+      "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣0.5元」，\r\n公告期間：115年08月06日至115年11月05日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "2072",
+      "company": "世紀風電",
+      "date": "2026-10-10",
+      "time": "70003",
+      "title": "公告本公司名稱由「世紀離岸風電設備股份有限公司」更名\r\n為「世紀能源設備股份有限公司」，公告期間：115年8月26日至\r\n115年11月25日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2072"
+    },
+    {
+      "code": "3432",
+      "company": "台端",
+      "date": "2026-10-10",
+      "time": "211554",
+      "title": "依臺灣證券交易所股份有限公司臺證上一字第1121801204\r\n號函辦理",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3432"
+    },
+    {
+      "code": "2328",
+      "company": "廣宇",
+      "date": "2026-10-10",
+      "time": "121121",
+      "title": "(補充115/01/20公告) 公告董事會通過投資取得Magnax BV之股份",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2328"
+    },
     {
       "code": "2301",
       "company": "光寶科",
@@ -12015,8 +12051,8 @@
   "sourceStats": [
     {
       "source": "TWSE Open Data",
-      "rows": 6,
-      "notices": 6,
+      "rows": 4,
+      "notices": 4,
       "ok": true
     },
     {
@@ -12029,12 +12065,6 @@
       "source": "TPEx 官方市場重大訊息",
       "notices": 0,
       "ok": true
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-10",
-      "notices": 0,
-      "ok": false
     },
     {
       "source": "MOPS 重大訊息",
@@ -12056,6 +12086,12 @@
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-10-10",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-10-04",
       "notices": 0,
       "ok": false
@@ -12068,13 +12104,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-07",
+      "date": "2026-10-06",
       "notices": 0,
       "ok": false
     },
