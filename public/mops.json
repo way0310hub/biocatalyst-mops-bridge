@@ -1,10 +1,55 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-12T05:11:50.829172+08:00",
+  "fetchedAt": "2026-10-12T05:44:21.237939+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-10-12",
   "historyTo": "2026-10-12",
   "notices": [
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-10-11",
+      "time": "70004",
+      "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣0.5元」，\r\n公告期間：115年08月06日至115年11月05日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "2072",
+      "company": "世紀風電",
+      "date": "2026-10-11",
+      "time": "70004",
+      "title": "公告本公司名稱由「世紀離岸風電設備股份有限公司」更名\r\n為「世紀能源設備股份有限公司」，公告期間：115年8月26日至\r\n115年11月25日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2072"
+    },
+    {
+      "code": "2317",
+      "company": "鴻海",
+      "date": "2026-10-11",
+      "time": "165913",
+      "title": "關於美國國際貿易委員會337調查之說明",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2317"
+    },
+    {
+      "code": "2317",
+      "company": "鴻海",
+      "date": "2026-10-11",
+      "time": "165849",
+      "title": "代重要子公司富士康工業互聯網股份有限公司公告關於\r\n美國國際貿易委員會對公司及控股子公司開展337調查",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2317"
+    },
+    {
+      "code": "2801",
+      "company": "彰銀",
+      "date": "2026-10-11",
+      "time": "161731",
+      "title": "公告授信資產轉讓",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2801"
+    },
     {
       "code": "6949",
       "company": "沛爾生醫*-創",
@@ -12069,8 +12114,8 @@
   "sourceStats": [
     {
       "source": "TWSE Open Data",
-      "rows": 4,
-      "notices": 4,
+      "rows": 5,
+      "notices": 5,
       "ok": true
     },
     {
@@ -12086,13 +12131,19 @@
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-10-12",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-10-11",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-12",
+      "date": "2026-10-09",
       "notices": 0,
       "ok": false
     },
@@ -12104,7 +12155,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-09",
+      "date": "2026-10-07",
       "notices": 0,
       "ok": false
     },
@@ -12123,12 +12174,6 @@
     {
       "source": "MOPS 重大訊息",
       "date": "2026-10-08",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-07",
       "notices": 0,
       "ok": false
     },
