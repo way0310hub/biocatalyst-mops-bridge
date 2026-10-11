@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-11T13:44:05.811423+08:00",
+  "fetchedAt": "2026-10-11T14:15:58.701478+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-10-11",
   "historyTo": "2026-10-11",
@@ -13,6 +13,15 @@
       "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣0.5元」，\r\n公告期間：115年08月06日至115年11月05日。",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "4747",
+      "company": "強生*",
+      "date": "2026-10-10",
+      "time": "70003",
+      "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣5元」\r\n公告期間：115年7月22日至115年10月21日",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4747"
     },
     {
       "code": "2072",
@@ -31,6 +40,15 @@
       "title": "依臺灣證券交易所股份有限公司臺證上一字第1121801204\r\n號函辦理",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3432"
+    },
+    {
+      "code": "3162",
+      "company": "精確",
+      "date": "2026-10-10",
+      "time": "132739",
+      "title": "公告本公司法人董事改派代表人(更正簡歷)",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3162"
     },
     {
       "code": "2328",
@@ -12057,14 +12075,20 @@
     },
     {
       "source": "TPEx Open Data OTC",
-      "rows": 4,
-      "notices": 4,
+      "rows": 2,
+      "notices": 2,
       "ok": true
     },
     {
       "source": "TPEx 官方市場重大訊息",
       "notices": 0,
       "ok": true
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-10",
+      "notices": 0,
+      "ok": false
     },
     {
       "source": "MOPS 重大訊息",
@@ -12086,13 +12110,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-10",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "notices": 0,
       "ok": false
     },
@@ -12104,13 +12122,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-07",
+      "date": "2026-10-04",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "notices": 0,
       "ok": false
     },
