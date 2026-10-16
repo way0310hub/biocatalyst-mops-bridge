@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-17T00:00:01.718180+08:00",
+  "fetchedAt": "2026-10-17T00:31:46.381770+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
-  "historyFrom": "2025-10-16",
-  "historyTo": "2026-10-16",
+  "historyFrom": "2025-10-17",
+  "historyTo": "2026-10-17",
   "notices": [
     {
       "code": "8499",
@@ -16555,15 +16555,6 @@
       "title": "澄清媒體報導",
       "source": "MOPS 歷史重大訊息（官方網頁查詢）",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
-    },
-    {
-      "code": "6696",
-      "company": "仁新*",
-      "date": "2025-10-16",
-      "time": "20:11:23",
-      "title": "代重要子公司Belite Bio, Inc公告受邀參加Maxim Group投資銀行 舉辦之成長高峰會(Maxim Growth Summit)",
-      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
     }
   ],
   "sourceStats": [
@@ -16592,6 +16583,12 @@
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-10-17",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-10-16",
       "notices": 0,
       "ok": false
@@ -16610,18 +16607,6 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-09",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-10",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
       "date": "2026-10-11",
       "notices": 0,
       "ok": false
@@ -16629,6 +16614,12 @@
     {
       "source": "MOPS 重大訊息",
       "date": "2026-10-12",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-10",
       "notices": 0,
       "ok": false
     },
