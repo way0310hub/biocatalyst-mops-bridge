@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-16T16:25:31.349921+08:00",
+  "fetchedAt": "2026-10-16T17:04:09.040930+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-10-16",
   "historyTo": "2026-10-16",
@@ -16586,6 +16586,12 @@
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-10-13",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-10-15",
       "notices": 0,
       "ok": false
@@ -16598,25 +16604,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-16",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
       "date": "2026-10-11",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-12",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-13",
       "notices": 0,
       "ok": false
     },
@@ -16628,9 +16616,22 @@
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-10-12",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-10-09",
       "notices": 0,
       "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-16",
+      "notices": 0,
+      "ok": false,
+      "error": "The read operation timed out"
     },
     {
       "source": "MOPS 重大訊息",
