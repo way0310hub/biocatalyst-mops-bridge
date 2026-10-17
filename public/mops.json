@@ -1,10 +1,55 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-18T05:18:36.089059+08:00",
+  "fetchedAt": "2026-10-18T05:51:45.574043+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-10-18",
   "historyTo": "2026-10-18",
   "notices": [
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-10-17",
+      "time": "70003",
+      "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣0.5元」，\r\n公告期間：115年08月06日至115年11月05日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "2072",
+      "company": "世紀風電",
+      "date": "2026-10-17",
+      "time": "70003",
+      "title": "公告本公司名稱由「世紀離岸風電設備股份有限公司」更名\r\n為「世紀能源設備股份有限公司」，公告期間：115年8月26日至\r\n115年11月25日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2072"
+    },
+    {
+      "code": "7722",
+      "company": "LINEPAY",
+      "date": "2026-10-17",
+      "time": "205305",
+      "title": "澄清媒體報導",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7722"
+    },
+    {
+      "code": "3432",
+      "company": "台端",
+      "date": "2026-10-17",
+      "time": "194439",
+      "title": "依臺灣證券交易所股份有限公司臺證上一字第1121801204\r\n號函辦理",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3432"
+    },
+    {
+      "code": "7799",
+      "company": "禾榮科",
+      "date": "2026-10-17",
+      "time": "123051",
+      "title": "本公司與GE Precision Healthcare LLC簽署合作協議",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7799"
+    },
     {
       "code": "6949",
       "company": "沛爾生醫*-創",
@@ -17658,8 +17703,8 @@
   "sourceStats": [
     {
       "source": "TWSE Open Data",
-      "rows": 86,
-      "notices": 86,
+      "rows": 5,
+      "notices": 5,
       "ok": true
     },
     {
@@ -17681,7 +17726,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "notices": 0,
       "ok": false
     },
@@ -17693,19 +17738,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-18",
+      "date": "2026-10-17",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
       "date": "2026-10-14",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-13",
       "notices": 0,
       "ok": false
     },
@@ -17718,6 +17757,12 @@
     {
       "source": "MOPS 重大訊息",
       "date": "2026-10-11",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-13",
       "notices": 0,
       "ok": false
     },
