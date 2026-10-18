@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-18T13:54:09.655289+08:00",
+  "fetchedAt": "2026-10-18T14:23:37.886361+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-10-18",
   "historyTo": "2026-10-18",
@@ -13,6 +13,15 @@
       "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣0.5元」，\r\n公告期間：115年08月06日至115年11月05日。",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "4747",
+      "company": "強生*",
+      "date": "2026-10-17",
+      "time": "70003",
+      "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣5元」\r\n公告期間：115年7月22日至115年10月21日",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4747"
     },
     {
       "code": "2072",
@@ -17709,26 +17718,14 @@
     },
     {
       "source": "TPEx Open Data OTC",
-      "rows": 36,
-      "notices": 36,
+      "rows": 1,
+      "notices": 1,
       "ok": true
     },
     {
       "source": "TPEx 官方市場重大訊息",
       "notices": 0,
       "ok": true
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-18",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-17",
-      "notices": 0,
-      "ok": false
     },
     {
       "source": "MOPS 重大訊息",
@@ -17744,6 +17741,24 @@
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-10-17",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-18",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-11",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-10-13",
       "notices": 0,
       "ok": false
@@ -17751,12 +17766,6 @@
     {
       "source": "MOPS 重大訊息",
       "date": "2026-10-14",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-11",
       "notices": 0,
       "ok": false
     },
