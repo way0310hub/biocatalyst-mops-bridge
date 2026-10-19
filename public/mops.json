@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-19T13:08:45.315048+08:00",
+  "fetchedAt": "2026-10-19T14:01:08.014191+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-10-19",
   "historyTo": "2026-10-19",
@@ -13,6 +13,15 @@
       "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣0.5元」，\r\n公告期間：115年08月06日至115年11月05日。",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "4747",
+      "company": "強生*",
+      "date": "2026-10-18",
+      "time": "70003",
+      "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣5元」\r\n公告期間：115年7月22日至115年10月21日",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4747"
     },
     {
       "code": "2072",
@@ -40,6 +49,15 @@
       "title": "代子公司 PRO3C (Malaysia) Sdn. Bhd.\r\n公告與Cape EMS Berhad 簽署策略合作備忘錄（MOA）",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3701"
+    },
+    {
+      "code": "4157",
+      "company": "太景*-KY",
+      "date": "2026-10-18",
+      "time": "145245",
+      "title": "公告本公司接獲越南合作夥伴Fideschem Inc.通知已遞交\r\n太捷信(奈諾沙星)口服膠囊及靜脈輸液新藥上市許可申請(NDA)\r\n，並獲越南藥品管理局（DAV）正式受理。",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4157"
     },
     {
       "code": "6949",
@@ -17754,8 +17772,8 @@
     },
     {
       "source": "TPEx Open Data OTC",
-      "rows": 1,
-      "notices": 1,
+      "rows": 2,
+      "notices": 2,
       "ok": true
     },
     {
@@ -17765,31 +17783,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-16",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
       "date": "2026-10-19",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-17",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-15",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "notices": 0,
       "ok": false
     },
@@ -17801,13 +17801,31 @@
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-10-15",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-10-13",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-10-14",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-10-12",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-17",
       "notices": 0,
       "ok": false
     },
