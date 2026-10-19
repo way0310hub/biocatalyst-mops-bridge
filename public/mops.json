@@ -1,10 +1,487 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-20T05:30:31.313321+08:00",
+  "fetchedAt": "2026-10-20T06:23:34.202787+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-10-20",
   "historyTo": "2026-10-20",
   "notices": [
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-10-19",
+      "time": "70003",
+      "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣0.5元」，\r\n公告期間：115年08月06日至115年11月05日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "2072",
+      "company": "世紀風電",
+      "date": "2026-10-19",
+      "time": "70003",
+      "title": "公告本公司名稱由「世紀離岸風電設備股份有限公司」更名\r\n為「世紀能源設備股份有限公司」，公告期間：115年8月26日至\r\n115年11月25日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2072"
+    },
+    {
+      "code": "4540",
+      "company": "全球傳動",
+      "date": "2026-10-19",
+      "time": "190407",
+      "title": "代子公司全傳科技（蘇州）有限公司公告收到\r\n侵害商標權糾紛之民事起訴狀。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4540"
+    },
+    {
+      "code": "5203",
+      "company": "訊連",
+      "date": "2026-10-19",
+      "time": "190056",
+      "title": "代子公司CyberLink International Technology Corp.公告\r\n投票支持Perfect Corp.下市及私有化提案，該提案業經\r\nPerfect Corp.股東臨時會通過",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5203"
+    },
+    {
+      "code": "2323",
+      "company": "中環",
+      "date": "2026-10-19",
+      "time": "181159",
+      "title": "公告本公司處分有價證券",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2323"
+    },
+    {
+      "code": "2323",
+      "company": "中環",
+      "date": "2026-10-19",
+      "time": "180718",
+      "title": "公告本公司取得有價證券",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2323"
+    },
+    {
+      "code": "2891",
+      "company": "中信金",
+      "date": "2026-10-19",
+      "time": "180353",
+      "title": "代子公司Land and Houses Bank Public Company Limited\r\n公告115年第二次股東臨時會重要決議事項",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2891"
+    },
+    {
+      "code": "1623",
+      "company": "大東電",
+      "date": "2026-10-19",
+      "time": "175913",
+      "title": "公告本公司董事會決議通過向關係人取得使用權資產",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1623"
+    },
+    {
+      "code": "3266",
+      "company": "昇陽",
+      "date": "2026-10-19",
+      "time": "175817",
+      "title": "代子公司新東陽營造股份有限公司公告工程承攬案",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3266"
+    },
+    {
+      "code": "4958",
+      "company": "臻鼎-KY",
+      "date": "2026-10-19",
+      "time": "175739",
+      "title": "代子公司鵬鼎控股(深圳)股份有限公司公告董事會通過\r\n以集中競價交易方式回購公司股份",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4958"
+    },
+    {
+      "code": "4958",
+      "company": "臻鼎-KY",
+      "date": "2026-10-19",
+      "time": "175703",
+      "title": "代子公司鵬鼎控股(深圳)股份有限公司公告董事會通過之議案",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4958"
+    },
+    {
+      "code": "2891",
+      "company": "中信金",
+      "date": "2026-10-19",
+      "time": "175508",
+      "title": "代子公司中國信託商業銀行公告授信資產之轉讓",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2891"
+    },
+    {
+      "code": "2891",
+      "company": "中信金",
+      "date": "2026-10-19",
+      "time": "175420",
+      "title": "代子公司中國信託商業銀行公告授信資產之轉讓",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2891"
+    },
+    {
+      "code": "4958",
+      "company": "臻鼎-KY",
+      "date": "2026-10-19",
+      "time": "175400",
+      "title": "代子公司PENG SHEN TECHNOLOGY (THAILAND) CO., LTD.公告取得機器設備",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4958"
+    },
+    {
+      "code": "5215",
+      "company": "科嘉-KY",
+      "date": "2026-10-19",
+      "time": "173228",
+      "title": "代子公司蘇州嘉吉/科德/嘉財/艾普來/百宏/嘉皇/嘉駿 \r\n公告一年內累積取得同一有價證券達實收資本額20%",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5215"
+    },
+    {
+      "code": "5215",
+      "company": "科嘉-KY",
+      "date": "2026-10-19",
+      "time": "173158",
+      "title": "代子公司蘇州嘉吉/科德/嘉財/艾普來/百宏/嘉皇/嘉駿 \r\n公告一年內累積處分同一有價證券達實收資本額20%",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5215"
+    },
+    {
+      "code": "9955",
+      "company": "佳龍",
+      "date": "2026-10-19",
+      "time": "171630",
+      "title": "公告本公司115年現金增資收足股款暨增資基準日",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=9955"
+    },
+    {
+      "code": "1626",
+      "company": "艾美特-KY",
+      "date": "2026-10-19",
+      "time": "170439",
+      "title": "依「公開發行公司資金貸與及背書保證處理準則」\r\n第二十五條第一項第三款規定公告",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1626"
+    },
+    {
+      "code": "2883",
+      "company": "凱基金",
+      "date": "2026-10-19",
+      "time": "170422",
+      "title": "代子公司凱基銀行公告資訊安全長異動",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2883"
+    },
+    {
+      "code": "6658",
+      "company": "聯策",
+      "date": "2026-10-19",
+      "time": "170420",
+      "title": "公告本公司國內第一次無擔保轉換公司債代收價款行庫及存\r\n儲專戶行庫",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6658"
+    },
+    {
+      "code": "1225",
+      "company": "福懋油",
+      "date": "2026-10-19",
+      "time": "170255",
+      "title": "公告本公司資金貸與達\r\n「公開發行公司資金貸與及背書保證處理準則」\r\n第22條第1項第3款標準",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1225"
+    },
+    {
+      "code": "2881",
+      "company": "富邦金",
+      "date": "2026-10-19",
+      "time": "170233",
+      "title": "富邦金控代富邦閩投公告取得「富邦綜合證券股份有限公司」\r\n之使用權資產",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2881"
+    },
+    {
+      "code": "1225",
+      "company": "福懋油",
+      "date": "2026-10-19",
+      "time": "170223",
+      "title": "公告本公司董事會決議召開一一五年股東常會事宜\n(修正召集事由二)",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1225"
+    },
+    {
+      "code": "2316",
+      "company": "楠梓電",
+      "date": "2026-10-19",
+      "time": "170131",
+      "title": "公告本公司國內第一次無擔保轉換公司債收足債款",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2316"
+    },
+    {
+      "code": "2881",
+      "company": "富邦金",
+      "date": "2026-10-19",
+      "time": "170111",
+      "title": "富邦金控代子公司富邦證券公告處分(轉租)使用權資產予富邦閩投",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2881"
+    },
+    {
+      "code": "1626",
+      "company": "艾美特-KY",
+      "date": "2026-10-19",
+      "time": "170104",
+      "title": "代子公司艾美特電器(九江)有限公司依「公開發行公司資金貸與\r\n及背書保證處理準則」第二十五條第一項第三、四款規定公告",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1626"
+    },
+    {
+      "code": "2466",
+      "company": "冠西電",
+      "date": "2026-10-19",
+      "time": "170055",
+      "title": "代子公司COSMO ELECTRONICS (HK)\r\nCOMPANY LIMITED公告收到臺灣臺北地方法院執行命令",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2466"
+    },
+    {
+      "code": "1626",
+      "company": "艾美特-KY",
+      "date": "2026-10-19",
+      "time": "165838",
+      "title": "代子公司艾美特電器(深圳)有限公司依「公開發行公司資金貸與\r\n及背書保證處理準則」第二十五條第一項第三、四款規定公告",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1626"
+    },
+    {
+      "code": "6239",
+      "company": "力成",
+      "date": "2026-10-19",
+      "time": "165558",
+      "title": "本公司訂購機器設備公告",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6239"
+    },
+    {
+      "code": "2801",
+      "company": "彰銀",
+      "date": "2026-10-19",
+      "time": "165556",
+      "title": "董事會通過辦理115年度應分攤捐助財團法人中小企業信用\r\n保證基金款項",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2801"
+    },
+    {
+      "code": "1437",
+      "company": "勤益控",
+      "date": "2026-10-19",
+      "time": "165453",
+      "title": "公告本公司董事會決議第十七次買回庫藏股事宜",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1437"
+    },
+    {
+      "code": "2885",
+      "company": "元大金",
+      "date": "2026-10-19",
+      "time": "165245",
+      "title": "元大金控代子公司元大銀行公告與元大證金之租賃關係消滅",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2885"
+    },
+    {
+      "code": "2885",
+      "company": "元大金",
+      "date": "2026-10-19",
+      "time": "165205",
+      "title": "元大金控代子公司元大銀行公告與元大證金之租賃關係消滅",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2885"
+    },
+    {
+      "code": "2467",
+      "company": "志聖",
+      "date": "2026-10-19",
+      "time": "165139",
+      "title": "代子公司蘇州創峰光電科技有限公司公告\r\n擬增資蘇州創峰光電智能科技有限公司",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2467"
+    },
+    {
+      "code": "2885",
+      "company": "元大金",
+      "date": "2026-10-19",
+      "time": "163446",
+      "title": "元大金控代子公司元大投信公告變更與元大證金之租賃契約",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2885"
+    },
+    {
+      "code": "2885",
+      "company": "元大金",
+      "date": "2026-10-19",
+      "time": "163424",
+      "title": "元大金控代子公司元大人壽公告變更與元大證金之租賃契約",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2885"
+    },
+    {
+      "code": "2885",
+      "company": "元大金",
+      "date": "2026-10-19",
+      "time": "163312",
+      "title": "元大金控代子公司元大證券公告變更與元大證金之租賃契約",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2885"
+    },
+    {
+      "code": "7610",
+      "company": "聯友金屬-創",
+      "date": "2026-10-19",
+      "time": "162658",
+      "title": "本公司可轉換公司聯友金屬一創(代號:76101)近期達公布\r\n注意交易資訊標準，故公告相關訊息，以利投資人區別瞭解",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7610"
+    },
+    {
+      "code": "2415",
+      "company": "錩新",
+      "date": "2026-10-19",
+      "time": "161141",
+      "title": "代重要子公司錩新(越南)公告召開股東臨時會",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2415"
+    },
+    {
+      "code": "6715",
+      "company": "嘉基",
+      "date": "2026-10-19",
+      "time": "155748",
+      "title": "本公司有價證券於集中交易市場達公布注意交易資訊標準\r\n故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6715"
+    },
+    {
+      "code": "9930",
+      "company": "中聯資源",
+      "date": "2026-10-19",
+      "time": "155154",
+      "title": "本公司法人董事之代表人變動",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=9930"
+    },
+    {
+      "code": "1216",
+      "company": "統一",
+      "date": "2026-10-19",
+      "time": "153444",
+      "title": "代重要子公司Cayman President Holdings LTD.公告\r\n董事會決議發放股利",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1216"
+    },
+    {
+      "code": "1457",
+      "company": "宜進",
+      "date": "2026-10-19",
+      "time": "152841",
+      "title": "公告本公司及子公司一年內累積取得有價證券達三億元",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1457"
+    },
+    {
+      "code": "4766",
+      "company": "南寶",
+      "date": "2026-10-19",
+      "time": "152231",
+      "title": "代重要子公司Nan Pao Materials Vietnam Co., Ltd.\r\n公告財會主管異動",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4766"
+    },
+    {
+      "code": "2301",
+      "company": "光寶科",
+      "date": "2026-10-19",
+      "time": "150646",
+      "title": "光寶科技115年第三季法人說明會",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2301"
+    },
+    {
+      "code": "5546",
+      "company": "永固-KY",
+      "date": "2026-10-19",
+      "time": "150208",
+      "title": "代子公司重慶永固新型建材有限公司公告新增背書\r\n保證金額達公開發行公司資金貸與及背書保證處理準則第25條\r\n第1項第3款公告申報事項",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5546"
+    },
+    {
+      "code": "6467",
+      "company": "泰合",
+      "date": "2026-10-19",
+      "time": "143820",
+      "title": "本公司股票即將終止興櫃交易並轉至臺灣\r\n證券交易所上市交易",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6467"
+    },
+    {
+      "code": "2385",
+      "company": "群光",
+      "date": "2026-10-19",
+      "time": "142623",
+      "title": "公告子公司資金貸與達「公開發行公司資金貸與及背書保證處理\r\n準則」第22條第1項第3款標準",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2385"
+    },
+    {
+      "code": "2231",
+      "company": "為升",
+      "date": "2026-10-19",
+      "time": "133932",
+      "title": "為升電裝策略長新任說明",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2231"
+    },
+    {
+      "code": "2609",
+      "company": "陽明",
+      "date": "2026-10-19",
+      "time": "133619",
+      "title": "代子公司好好國際物流公告租入高雄港中島商港區36號倉庫辦公室",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2609"
+    },
+    {
+      "code": "1504",
+      "company": "東元",
+      "date": "2026-10-19",
+      "time": "113310",
+      "title": "說明媒體報導",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1504"
+    },
+    {
+      "code": "4137",
+      "company": "麗豐-KY",
+      "date": "2026-10-19",
+      "time": "102755",
+      "title": "澄清媒體報導",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4137"
+    },
+    {
+      "code": "6923",
+      "company": "中台",
+      "date": "2026-10-19",
+      "time": "101358",
+      "title": "中台-澄清媒體報導",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6923"
+    },
     {
       "code": "6949",
       "company": "沛爾生醫*-創",
@@ -17766,8 +18243,8 @@
   "sourceStats": [
     {
       "source": "TWSE Open Data",
-      "rows": 4,
-      "notices": 4,
+      "rows": 53,
+      "notices": 53,
       "ok": true
     },
     {
@@ -17783,7 +18260,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-20",
+      "date": "2026-10-19",
       "notices": 0,
       "ok": false
     },
@@ -17801,13 +18278,19 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-19",
+      "date": "2026-10-20",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
       "date": "2026-10-14",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-15",
       "notices": 0,
       "ok": false
     },
@@ -17820,12 +18303,6 @@
     {
       "source": "MOPS 重大訊息",
       "date": "2026-10-13",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-15",
       "notices": 0,
       "ok": false
     },
