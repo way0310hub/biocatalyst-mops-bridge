@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-21T23:02:47.896450+08:00",
+  "fetchedAt": "2026-10-22T00:05:07.622268+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
-  "historyFrom": "2025-10-21",
-  "historyTo": "2026-10-21",
+  "historyFrom": "2025-10-22",
+  "historyTo": "2026-10-22",
   "notices": [
     {
       "code": "6949",
@@ -20038,15 +20038,6 @@
       "title": "公告本公司董事會決議發行限制員工權利新股案",
       "source": "MOPS 歷史重大訊息（官方網頁查詢）",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
-    },
-    {
-      "code": "6696",
-      "company": "仁新*",
-      "date": "2025-10-21",
-      "time": "12:01:18",
-      "title": "澄清媒體報導",
-      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
     }
   ],
   "sourceStats": [
@@ -20069,13 +20060,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-18",
+      "date": "2026-10-20",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-20",
+      "date": "2026-10-22",
       "notices": 0,
       "ok": false
     },
@@ -20111,7 +20102,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-14",
+      "date": "2026-10-18",
       "notices": 0,
       "ok": false
     },
