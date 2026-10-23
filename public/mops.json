@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-23T21:09:10.437954+08:00",
+  "fetchedAt": "2026-10-24T01:56:01.833089+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
-  "historyFrom": "2025-10-23",
-  "historyTo": "2026-10-23",
+  "historyFrom": "2025-10-24",
+  "historyTo": "2026-10-24",
   "notices": [
     {
       "code": "6949",
@@ -22639,42 +22639,6 @@
       "title": "公告本公司114年度第三季合併財務報告董事會召開日期",
       "source": "MOPS 歷史重大訊息（官方網頁查詢）",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
-    },
-    {
-      "code": "7729",
-      "company": "仲恩生醫",
-      "date": "2025-10-23",
-      "time": "21:58:36",
-      "title": "公告本公司董事會決議召開114年第一次股東臨時會",
-      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
-    },
-    {
-      "code": "7729",
-      "company": "仲恩生醫",
-      "date": "2025-10-23",
-      "time": "21:25:45",
-      "title": "公告本公司董事會決議員工認股權憑證轉換普通股增資基準日",
-      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
-    },
-    {
-      "code": "7729",
-      "company": "仲恩生醫",
-      "date": "2025-10-23",
-      "time": "21:25:05",
-      "title": "公告本公司董事會決議辦理私募現金增資發行普通股案",
-      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
-    },
-    {
-      "code": "7729",
-      "company": "仲恩生醫",
-      "date": "2025-10-23",
-      "time": "21:24:40",
-      "title": "公告本公司董事會決議發行限制員工權利新股案",
-      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
     }
   ],
   "sourceStats": [
@@ -22697,6 +22661,12 @@
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-10-23",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-10-22",
       "notices": 0,
       "ok": false
@@ -22709,19 +22679,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-20",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-23",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-19",
+      "date": "2026-10-24",
       "notices": 0,
       "ok": false
     },
@@ -22733,13 +22691,19 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-17",
+      "date": "2026-10-20",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-16",
+      "date": "2026-10-19",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-17",
       "notices": 0,
       "ok": false
     },
