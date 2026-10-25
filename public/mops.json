@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-25T13:05:57.091946+08:00",
+  "fetchedAt": "2026-10-25T18:01:02.654067+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-10-25",
   "historyTo": "2026-10-25",
@@ -31,6 +31,15 @@
       "title": "依臺灣證券交易所股份有限公司臺證上一字第1121801204\r\n號函辦理",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3432"
+    },
+    {
+      "code": "6279",
+      "company": "胡連",
+      "date": "2026-10-24",
+      "time": "171717",
+      "title": "本公司公告通過義大利子公司Hu Lane Associate Europe S.r.l.,\r\n取得LA PUNTA S.R.L.80%股權之收購案",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6279"
     },
     {
       "code": "6467",
@@ -23343,8 +23352,8 @@
     },
     {
       "source": "TPEx Open Data OTC",
-      "rows": 26,
-      "notices": 26,
+      "rows": 1,
+      "notices": 1,
       "ok": true
     },
     {
@@ -23355,12 +23364,6 @@
     {
       "source": "MOPS 重大訊息",
       "date": "2026-10-24",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-25",
       "notices": 0,
       "ok": false
     },
@@ -23378,7 +23381,19 @@
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-10-21",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-10-20",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-25",
       "notices": 0,
       "ok": false
     },
@@ -23391,12 +23406,6 @@
     {
       "source": "MOPS 重大訊息",
       "date": "2026-10-18",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-21",
       "notices": 0,
       "ok": false
     },
