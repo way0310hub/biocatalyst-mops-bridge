@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-25T08:02:45.832844+08:00",
+  "fetchedAt": "2026-10-25T13:05:57.091946+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-10-25",
   "historyTo": "2026-10-25",
@@ -23354,35 +23354,25 @@
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-10-24",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-10-25",
       "notices": 0,
-      "ok": false,
-      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+      "ok": false
     },
     {
       "source": "MOPS 重大訊息",
       "date": "2026-10-23",
       "notices": 0,
-      "ok": false,
-      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+      "ok": false
     },
     {
       "source": "MOPS 重大訊息",
       "date": "2026-10-22",
-      "notices": 0,
-      "ok": false,
-      "error": "<urlopen error [Errno 104] Connection reset by peer>"
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-24",
-      "notices": 0,
-      "ok": false,
-      "error": "<urlopen error [Errno 104] Connection reset by peer>"
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-19",
       "notices": 0,
       "ok": false
     },
@@ -23394,13 +23384,19 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-21",
+      "date": "2026-10-19",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
       "date": "2026-10-18",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-21",
       "notices": 0,
       "ok": false
     },
