@@ -1,10 +1,91 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-27T03:50:42.268771+08:00",
+  "fetchedAt": "2026-10-27T07:36:32.468499+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-10-27",
   "historyTo": "2026-10-27",
   "notices": [
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-10-26",
+      "time": "70004",
+      "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣0.5元」，\r\n公告期間：115年08月06日至115年11月05日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "2072",
+      "company": "世紀能源",
+      "date": "2026-10-26",
+      "time": "70004",
+      "title": "公告本公司名稱由「世紀離岸風電設備股份有限公司」更名\r\n為「世紀能源設備股份有限公司」，公告期間：115年8月26日至\r\n115年11月25日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2072"
+    },
+    {
+      "code": "6908",
+      "company": "宏碁遊戲-創",
+      "date": "2026-10-26",
+      "time": "233009",
+      "title": "代子公司Winking Studios Limited公告庫藏股執行情形",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6908"
+    },
+    {
+      "code": "4958",
+      "company": "臻鼎-KY",
+      "date": "2026-10-26",
+      "time": "210433",
+      "title": "代子公司禮鼎半導體科技(深圳)股份有限公司公告取得機器設備",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4958"
+    },
+    {
+      "code": "4958",
+      "company": "臻鼎-KY",
+      "date": "2026-10-26",
+      "time": "210420",
+      "title": "代子公司禮鼎半導體科技(深圳)股份有限公司公告取得機器設備",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4958"
+    },
+    {
+      "code": "9904",
+      "company": "寶成",
+      "date": "2026-10-26",
+      "time": "174228",
+      "title": "代重要子公司裕元工業(集團)有限公司公告盈利警告",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=9904"
+    },
+    {
+      "code": "8499",
+      "company": "鼎炫-KY",
+      "date": "2026-10-26",
+      "time": "171002",
+      "title": "代&#12070;公司隆揚電&#12070;(昆&#12077;)股份有限公司公告取得理財產品",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=8499"
+    },
+    {
+      "code": "5215",
+      "company": "科嘉-KY",
+      "date": "2026-10-26",
+      "time": "132546",
+      "title": "代子公司蘇州嘉吉/科德/嘉財/艾普來/百宏/嘉皇/嘉駿 \r\n公告一年內累積取得同一有價證券達實收資本額20%",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5215"
+    },
+    {
+      "code": "5215",
+      "company": "科嘉-KY",
+      "date": "2026-10-26",
+      "time": "132521",
+      "title": "代子公司蘇州嘉吉/科德/嘉財/艾普來/百宏/嘉皇/嘉駿 \r\n公告一年內累積處分同一有價證券達實收資本額20%",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5215"
+    },
     {
       "code": "6949",
       "company": "沛爾生醫*-創",
@@ -23364,8 +23445,8 @@
   "sourceStats": [
     {
       "source": "TWSE Open Data",
-      "rows": 1,
-      "notices": 1,
+      "rows": 9,
+      "notices": 9,
       "ok": true
     },
     {
@@ -23381,6 +23462,12 @@
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-10-27",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-10-25",
       "notices": 0,
       "ok": false
@@ -23388,12 +23475,6 @@
     {
       "source": "MOPS 重大訊息",
       "date": "2026-10-26",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-27",
       "notices": 0,
       "ok": false
     },
@@ -23417,13 +23498,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-22",
+      "date": "2026-10-21",
       "notices": 0,
       "ok": false
     },
