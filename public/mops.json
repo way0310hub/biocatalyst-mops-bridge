@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-26T09:01:06.998624+08:00",
+  "fetchedAt": "2026-10-26T14:44:54.111287+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-10-26",
   "historyTo": "2026-10-26",
@@ -13,6 +13,15 @@
       "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣0.5元」，\r\n公告期間：115年08月06日至115年11月05日。",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "3680",
+      "company": "家登",
+      "date": "2026-10-25",
+      "time": "191051",
+      "title": "公告本公司調整現金股利配息率",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3680"
     },
     {
       "code": "6949",
@@ -23372,6 +23381,12 @@
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-10-25",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-10-24",
       "notices": 0,
       "ok": false
@@ -23390,12 +23405,6 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-25",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
       "date": "2026-10-22",
       "notices": 0,
       "ok": false
@@ -23408,13 +23417,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-20",
+      "date": "2026-10-19",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-19",
+      "date": "2026-10-20",
       "notices": 0,
       "ok": false
     },
