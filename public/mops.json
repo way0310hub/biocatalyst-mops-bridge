@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-27T23:49:44.656281+08:00",
+  "fetchedAt": "2026-10-28T04:28:23.113498+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
-  "historyFrom": "2025-10-27",
-  "historyTo": "2026-10-27",
+  "historyFrom": "2025-10-28",
+  "historyTo": "2026-10-28",
   "notices": [
     {
       "code": "6949",
@@ -23494,15 +23494,6 @@
       "title": "代重要子公司Belite Bio, Inc公告受邀參加Deutsche Bank投資 銀行舉辦之美國存託憑證線上投資論壇(ADR Virtual Investor Conference)",
       "source": "MOPS 歷史重大訊息（官方網頁查詢）",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
-    },
-    {
-      "code": "6949",
-      "company": "沛爾生醫*-創",
-      "date": "2025-10-27",
-      "time": "19:04:04",
-      "title": "公告本公司114年度第三季合併財務報告董事會召開日期",
-      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
     }
   ],
   "sourceStats": [
@@ -23525,7 +23516,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-24",
+      "date": "2026-10-27",
       "notices": 0,
       "ok": false
     },
@@ -23537,13 +23528,25 @@
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-10-28",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-10-25",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-27",
+      "date": "2026-10-24",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-21",
       "notices": 0,
       "ok": false
     },
@@ -23556,18 +23559,6 @@
     {
       "source": "MOPS 重大訊息",
       "date": "2026-10-22",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-20",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-21",
       "notices": 0,
       "ok": false
     },
