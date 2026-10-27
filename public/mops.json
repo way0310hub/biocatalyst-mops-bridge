@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-27T12:03:32.524333+08:00",
+  "fetchedAt": "2026-10-27T17:57:50.336079+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-10-27",
   "historyTo": "2026-10-27",
@@ -69,6 +69,15 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=8499"
     },
     {
+      "code": "3272",
+      "company": "東碩",
+      "date": "2026-10-26",
+      "time": "141242",
+      "title": "公告本公司115年第三季合併財務報告董事會召開日期為\r\n115年11月03日",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3272"
+    },
+    {
       "code": "5215",
       "company": "科嘉-KY",
       "date": "2026-10-26",
@@ -85,6 +94,60 @@
       "title": "代子公司蘇州嘉吉/科德/嘉財/艾普來/百宏/嘉皇/嘉駿 \r\n公告一年內累積處分同一有價證券達實收資本額20%",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5215"
+    },
+    {
+      "code": "3625",
+      "company": "西勝",
+      "date": "2026-10-26",
+      "time": "111237",
+      "title": "公告本公司董事辭世",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3625"
+    },
+    {
+      "code": "6244",
+      "company": "茂迪",
+      "date": "2026-10-26",
+      "time": "111052",
+      "title": "代重要子公司Cheer View Investment Limited公告法人董事\r\n代表人逝世",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6244"
+    },
+    {
+      "code": "6244",
+      "company": "茂迪",
+      "date": "2026-10-26",
+      "time": "111039",
+      "title": "代重要子公司Power Islands Limited公告法人董事\r\n代表人逝世",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6244"
+    },
+    {
+      "code": "6244",
+      "company": "茂迪",
+      "date": "2026-10-26",
+      "time": "111024",
+      "title": "公告本公司董事逝世",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6244"
+    },
+    {
+      "code": "5013",
+      "company": "強新",
+      "date": "2026-10-26",
+      "time": "102134",
+      "title": "公告本公司董事逝世",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5013"
+    },
+    {
+      "code": "5013",
+      "company": "強新",
+      "date": "2026-10-26",
+      "time": "102041",
+      "title": "公告本公司副董事長逝世",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5013"
     },
     {
       "code": "6949",
@@ -23451,20 +23514,14 @@
     },
     {
       "source": "TPEx Open Data OTC",
-      "rows": 1,
-      "notices": 1,
+      "rows": 7,
+      "notices": 7,
       "ok": true
     },
     {
       "source": "TPEx 官方市場重大訊息",
       "notices": 0,
       "ok": true
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-26",
-      "notices": 0,
-      "ok": false
     },
     {
       "source": "MOPS 重大訊息",
@@ -23480,19 +23537,19 @@
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-10-26",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-10-24",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-23",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "notices": 0,
       "ok": false
     },
@@ -23504,7 +23561,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-22",
+      "date": "2026-10-21",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-23",
       "notices": 0,
       "ok": false
     },
