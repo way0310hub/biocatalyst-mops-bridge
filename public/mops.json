@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-29T23:26:30.607731+08:00",
+  "fetchedAt": "2026-10-30T04:28:36.080844+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
-  "historyFrom": "2025-10-29",
-  "historyTo": "2026-10-29",
+  "historyFrom": "2025-10-30",
+  "historyTo": "2026-10-30",
   "notices": [
     {
       "code": "3357",
@@ -27328,15 +27328,6 @@
       "title": "公告本公司114年第一次現金增資催繳期間屆滿暨股票發放事宜",
       "source": "MOPS 歷史重大訊息（官方網頁查詢）",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
-    },
-    {
-      "code": "6696",
-      "company": "仁新*",
-      "date": "2025-10-29",
-      "time": "20:15:44",
-      "title": "代重要子公司Belite Bio, Inc公告受邀參加Deutsche Bank投資 銀行舉辦之美國存託憑證線上投資論壇(ADR Virtual Investor Conference)",
-      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
     }
   ],
   "sourceStats": [
@@ -27359,13 +27350,19 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-27",
+      "date": "2026-10-30",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
       "date": "2026-10-28",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-27",
       "notices": 0,
       "ok": false
     },
@@ -27396,12 +27393,6 @@
     {
       "source": "MOPS 重大訊息",
       "date": "2026-10-23",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-22",
       "notices": 0,
       "ok": false
     },
