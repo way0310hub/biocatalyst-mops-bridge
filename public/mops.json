@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "fetchedAt": "2026-10-31T23:08:11.237462+08:00",
+  "fetchedAt": "2026-11-01T03:28:04.097928+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
-  "historyFrom": "2025-10-31",
-  "historyTo": "2026-10-31",
+  "historyFrom": "2025-11-01",
+  "historyTo": "2026-11-01",
   "notices": [
     {
       "code": "6139",
@@ -31756,15 +31756,6 @@
       "title": "係因本公司有價證券於集中交易市場達公布注意交易資訊 標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
       "source": "MOPS 歷史重大訊息（官方網頁查詢）",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
-    },
-    {
-      "code": "7729",
-      "company": "仲恩生醫",
-      "date": "2025-10-31",
-      "time": "19:11:01",
-      "title": "公告本公司114年第一次現金增資催繳期間屆滿暨股票發放事宜",
-      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=7729"
     }
   ],
   "sourceStats": [
@@ -31787,13 +31778,19 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-29",
+      "date": "2026-10-31",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-28",
+      "date": "2026-11-01",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-29",
       "notices": 0,
       "ok": false
     },
@@ -31805,7 +31802,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-31",
+      "date": "2026-10-26",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-28",
       "notices": 0,
       "ok": false
     },
@@ -31818,18 +31821,6 @@
     {
       "source": "MOPS 重大訊息",
       "date": "2026-10-25",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-26",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-24",
       "notices": 0,
       "ok": false
     },
