@@ -1,10 +1,37 @@
 {
   "ok": true,
-  "fetchedAt": "2026-11-01T03:28:04.097928+08:00",
+  "fetchedAt": "2026-11-01T06:45:16.125089+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-11-01",
   "historyTo": "2026-11-01",
   "notices": [
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-10-31",
+      "time": "70003",
+      "title": "公告本公司股票面額由「新台幣10元」變更為「新台幣0.5元」，\r\n公告期間：115年08月06日至115年11月05日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "2072",
+      "company": "世紀能源",
+      "date": "2026-10-31",
+      "time": "70003",
+      "title": "公告本公司名稱由「世紀離岸風電設備股份有限公司」更名\r\n為「世紀能源設備股份有限公司」，公告期間：115年8月26日至\r\n115年11月25日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2072"
+    },
+    {
+      "code": "1316",
+      "company": "上曜",
+      "date": "2026-10-31",
+      "time": "134558",
+      "title": "更正115年7~9月背書保證與資金貸放餘額資訊、\r\n資金貸與及背書保證明細表資訊",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1316"
+    },
     {
       "code": "6139",
       "company": "亞翔",
@@ -31761,8 +31788,8 @@
   "sourceStats": [
     {
       "source": "TWSE Open Data",
-      "rows": 170,
-      "notices": 170,
+      "rows": 3,
+      "notices": 3,
       "ok": true
     },
     {
@@ -31784,25 +31811,19 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-01",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
       "date": "2026-10-29",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-30",
+      "date": "2026-11-01",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-26",
+      "date": "2026-10-30",
       "notices": 0,
       "ok": false
     },
@@ -31821,6 +31842,12 @@
     {
       "source": "MOPS 重大訊息",
       "date": "2026-10-25",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-26",
       "notices": 0,
       "ok": false
     },
