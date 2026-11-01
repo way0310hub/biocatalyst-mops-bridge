@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "fetchedAt": "2026-11-01T09:55:54.226727+08:00",
+  "fetchedAt": "2026-11-01T16:53:54.736016+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-11-01",
   "historyTo": "2026-11-01",
@@ -22,6 +22,15 @@
       "title": "公告本公司名稱由「世紀離岸風電設備股份有限公司」更名\r\n為「世紀能源設備股份有限公司」，公告期間：115年8月26日至\r\n115年11月25日。",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2072"
+    },
+    {
+      "code": "8358",
+      "company": "金居",
+      "date": "2026-10-31",
+      "time": "181650",
+      "title": "代子公司COTECH DEVELOPMENT (PENANG) SDN. BHD.公告取得土地使用權資產",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=8358"
     },
     {
       "code": "1316",
@@ -31794,8 +31803,8 @@
     },
     {
       "source": "TPEx Open Data OTC",
-      "rows": 67,
-      "notices": 67,
+      "rows": 1,
+      "notices": 1,
       "ok": true
     },
     {
@@ -31805,19 +31814,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-29",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-30",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
       "date": "2026-10-31",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-29",
       "notices": 0,
       "ok": false
     },
@@ -31829,7 +31832,19 @@
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-10-30",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-10-27",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-26",
       "notices": 0,
       "ok": false
     },
@@ -31842,12 +31857,6 @@
     {
       "source": "MOPS 重大訊息",
       "date": "2026-10-28",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-26",
       "notices": 0,
       "ok": false
     },
