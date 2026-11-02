@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "fetchedAt": "2026-11-02T12:52:03.199493+08:00",
+  "fetchedAt": "2026-11-02T21:11:56.209270+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-11-02",
   "historyTo": "2026-11-02",
@@ -31,6 +31,15 @@
       "title": "公告本公司自行結算115年10月合併營收約新台幣11.34億元。",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2402"
+    },
+    {
+      "code": "3666",
+      "company": "光耀",
+      "date": "2026-11-01",
+      "time": "154051",
+      "title": "公告本公司永續發展委員會委員異動",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3666"
     },
     {
       "code": "3432",
@@ -31850,7 +31859,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-02",
+      "date": "2026-11-01",
       "notices": 0,
       "ok": false
     },
@@ -31868,7 +31877,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-01",
+      "date": "2026-10-29",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-11-02",
       "notices": 0,
       "ok": false
     },
@@ -31880,19 +31895,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-26",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-10-29",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
       "date": "2026-10-28",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-10-26",
       "notices": 0,
       "ok": false
     },
