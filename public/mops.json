@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "fetchedAt": "2026-11-04T23:12:00.445921+08:00",
+  "fetchedAt": "2026-11-05T05:25:56.491091+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
-  "historyFrom": "2025-11-04",
-  "historyTo": "2026-11-04",
+  "historyFrom": "2025-11-05",
+  "historyTo": "2026-11-05",
   "notices": [
     {
       "code": "1907",
@@ -35671,51 +35671,6 @@
       "title": "代重要子公司Belite Bio, Inc公告董事會決議通過現金增資 子公司Belite Bio (HK) Limited",
       "source": "MOPS 歷史重大訊息（官方網頁查詢）",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
-    },
-    {
-      "code": "6949",
-      "company": "沛爾生醫*-創",
-      "date": "2025-11-04",
-      "time": "21:44:07",
-      "title": "公告本公司董事會決議設立大陸子公司",
-      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
-    },
-    {
-      "code": "6949",
-      "company": "沛爾生醫*-創",
-      "date": "2025-11-04",
-      "time": "21:42:58",
-      "title": "公告本公司背書保證達「公開發行公司資金貸與及背書保證處 理準則」第二十五條第一項第三款及第四款規定之標準",
-      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
-    },
-    {
-      "code": "6949",
-      "company": "沛爾生醫*-創",
-      "date": "2025-11-04",
-      "time": "18:34:09",
-      "title": "公告本公司董事會決議員工認股權憑證轉換普通股之增資基準日",
-      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
-    },
-    {
-      "code": "6949",
-      "company": "沛爾生醫*-創",
-      "date": "2025-11-04",
-      "time": "18:33:05",
-      "title": "公告本公司董事會通過114年第3季合併財務報表",
-      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
-    },
-    {
-      "code": "6949",
-      "company": "沛爾生醫*-創",
-      "date": "2025-11-04",
-      "time": "18:31:41",
-      "title": "公告法人董事指派代表人出席114/11/04董事會",
-      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
     }
   ],
   "sourceStats": [
@@ -35738,6 +35693,12 @@
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-11-02",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-11-03",
       "notices": 0,
       "ok": false
@@ -35750,13 +35711,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-01",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-11-02",
+      "date": "2026-11-05",
       "notices": 0,
       "ok": false
     },
@@ -35768,7 +35723,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "notices": 0,
       "ok": false
     },
@@ -35780,7 +35735,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-10-29",
+      "date": "2026-11-01",
       "notices": 0,
       "ok": false
     },
