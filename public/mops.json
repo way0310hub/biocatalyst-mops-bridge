@@ -1,10 +1,46 @@
 {
   "ok": true,
-  "fetchedAt": "2026-11-09T03:22:14.095478+08:00",
+  "fetchedAt": "2026-11-09T07:00:31.261659+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-11-09",
   "historyTo": "2026-11-09",
   "notices": [
+    {
+      "code": "4912",
+      "company": "聯德控股-KY",
+      "date": "2026-11-08",
+      "time": "90741",
+      "title": "公告本公司115年10月份自結合併營收情形",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4912"
+    },
+    {
+      "code": "2072",
+      "company": "世紀能源",
+      "date": "2026-11-08",
+      "time": "70003",
+      "title": "公告本公司名稱由「世紀離岸風電設備股份有限公司」更名\r\n為「世紀能源設備股份有限公司」，公告期間：115年8月26日至\r\n115年11月25日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2072"
+    },
+    {
+      "code": "2618",
+      "company": "長榮航",
+      "date": "2026-11-08",
+      "time": "153304",
+      "title": "公告本公司使用權資產變更租賃對象",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2618"
+    },
+    {
+      "code": "1904",
+      "company": "正隆",
+      "date": "2026-11-08",
+      "time": "115403",
+      "title": "公告本公司大園廠C廠區戶外料廠火災因強風吹襲再度引燃",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1904"
+    },
     {
       "code": "3489",
       "company": "長耀地產",
@@ -50715,8 +50751,8 @@
   "sourceStats": [
     {
       "source": "TWSE Open Data",
-      "rows": 5,
-      "notices": 5,
+      "rows": 4,
+      "notices": 4,
       "ok": true
     },
     {
@@ -50738,7 +50774,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "notices": 0,
       "ok": false
     },
@@ -50750,7 +50786,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-09",
+      "date": "2026-11-08",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-11-04",
       "notices": 0,
       "ok": false
     },
@@ -50762,19 +50804,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-03",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
       "date": "2026-11-05",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-04",
+      "date": "2026-11-03",
       "notices": 0,
       "ok": false
     },
