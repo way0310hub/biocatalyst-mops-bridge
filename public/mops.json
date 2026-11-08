@@ -1,10 +1,55 @@
 {
   "ok": true,
-  "fetchedAt": "2026-11-08T05:31:28.742591+08:00",
+  "fetchedAt": "2026-11-08T09:08:59.225850+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-11-08",
   "historyTo": "2026-11-08",
   "notices": [
+    {
+      "code": "2072",
+      "company": "世紀能源",
+      "date": "2026-11-07",
+      "time": "70003",
+      "title": "公告本公司名稱由「世紀離岸風電設備股份有限公司」更名\r\n為「世紀能源設備股份有限公司」，公告期間：115年8月26日至\r\n115年11月25日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2072"
+    },
+    {
+      "code": "3432",
+      "company": "台端",
+      "date": "2026-11-07",
+      "time": "210828",
+      "title": "依臺灣證券交易所股份有限公司臺證上一字第1121801204\r\n號函辦理",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3432"
+    },
+    {
+      "code": "4771",
+      "company": "望隼",
+      "date": "2026-11-07",
+      "time": "171545",
+      "title": "本公司代子公司江蘇視准醫療器械有限公司公告現金\r\n股利除息基準日",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4771"
+    },
+    {
+      "code": "6272",
+      "company": "驊陞",
+      "date": "2026-11-07",
+      "time": "120051",
+      "title": "公告本公司董事會決議通過115年度第三季合併財務報告",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6272"
+    },
+    {
+      "code": "2248",
+      "company": "華勝-KY",
+      "date": "2026-11-07",
+      "time": "105902",
+      "title": "公告本公司董事會通過115年第三季合併財務報告",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2248"
+    },
     {
       "code": "4147",
       "company": "中裕",
@@ -50643,8 +50688,8 @@
   "sourceStats": [
     {
       "source": "TWSE Open Data",
-      "rows": 401,
-      "notices": 401,
+      "rows": 5,
+      "notices": 5,
       "ok": true
     },
     {
@@ -50660,13 +50705,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-05",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-11-07",
+      "date": "2026-11-06",
       "notices": 0,
       "ok": false
     },
@@ -50678,13 +50717,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-01",
+      "date": "2026-11-05",
       "notices": 0,
       "ok": false
     },
@@ -50696,13 +50735,19 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-02",
+      "date": "2026-11-04",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-04",
+      "date": "2026-11-01",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-11-02",
       "notices": 0,
       "ok": false
     },
