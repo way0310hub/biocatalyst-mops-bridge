@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "fetchedAt": "2026-11-09T10:53:30.322845+08:00",
+  "fetchedAt": "2026-11-09T18:59:37.428500+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-11-09",
   "historyTo": "2026-11-09",
@@ -15,6 +15,15 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4912"
     },
     {
+      "code": "3489",
+      "company": "長耀地產",
+      "date": "2026-11-08",
+      "time": "70003",
+      "title": "公告本公司名稱由「森寶開發股份有限公司」更名為 \r\n「長耀地產投資股份有限公司」，公告期間：\r\n115年11月4日至116年2月3日",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3489"
+    },
+    {
       "code": "2072",
       "company": "世紀能源",
       "date": "2026-11-08",
@@ -22,6 +31,15 @@
       "title": "公告本公司名稱由「世紀離岸風電設備股份有限公司」更名\r\n為「世紀能源設備股份有限公司」，公告期間：115年8月26日至\r\n115年11月25日。",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2072"
+    },
+    {
+      "code": "6844",
+      "company": "諾貝兒",
+      "date": "2026-11-08",
+      "time": "155353",
+      "title": "說明本公司線上商店平台委外服務廠商資安事件",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6844"
     },
     {
       "code": "2618",
@@ -50757,8 +50775,8 @@
     },
     {
       "source": "TPEx Open Data OTC",
-      "rows": 3,
-      "notices": 3,
+      "rows": 2,
+      "notices": 2,
       "ok": true
     },
     {
@@ -50768,25 +50786,19 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-06",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-11-09",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-11-04",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
       "date": "2026-11-07",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-11-08",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-11-06",
       "notices": 0,
       "ok": false
     },
@@ -50804,7 +50816,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-11-04",
       "notices": 0,
       "ok": false
     },
