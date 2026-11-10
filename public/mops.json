@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "fetchedAt": "2026-11-10T20:14:43.585732+08:00",
+  "fetchedAt": "2026-11-11T03:55:16.565991+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
-  "historyFrom": "2025-11-10",
-  "historyTo": "2026-11-10",
+  "historyFrom": "2025-11-11",
+  "historyTo": "2026-11-11",
   "notices": [
     {
       "code": "4168",
@@ -55957,15 +55957,6 @@
       "title": "代子公司Belite Bio (Swiss) AG公告轉投資設立日本子公司及 指派轉投資子公司董事事宜",
       "source": "MOPS 歷史重大訊息（官方網頁查詢）",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
-    },
-    {
-      "code": "6696",
-      "company": "仁新*",
-      "date": "2025-11-10",
-      "time": "21:28:22",
-      "title": "代重要子公司Belite Bio, Inc公告董事會決議通過現金增資 子公司Belite Bio (HK) Limited",
-      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
     }
   ],
   "sourceStats": [
@@ -55977,24 +55968,38 @@
     },
     {
       "source": "TPEx Open Data OTC",
-      "rows": 207,
-      "notices": 207,
-      "ok": true
+      "rows": 0,
+      "notices": 0,
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "source": "TPEx 官方市場重大訊息",
       "notices": 0,
-      "ok": true
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-09",
+      "date": "2026-11-11",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
       "date": "2026-11-08",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-11-10",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-11-09",
       "notices": 0,
       "ok": false
     },
@@ -56013,18 +56018,6 @@
     {
       "source": "MOPS 重大訊息",
       "date": "2026-11-05",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-11-10",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-11-03",
       "notices": 0,
       "ok": false
     },
