@@ -1,10 +1,19 @@
 {
   "ok": true,
-  "fetchedAt": "2026-11-15T08:09:49.255337+08:00",
+  "fetchedAt": "2026-11-15T14:58:48.171438+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-11-15",
   "historyTo": "2026-11-15",
   "notices": [
+    {
+      "code": "4174",
+      "company": "浩鼎",
+      "date": "2026-11-14",
+      "time": "93729",
+      "title": "公告本公司與Novartis Pharma AG簽訂ADC平台技術合作暨授權\r\n合約",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4174"
+    },
     {
       "code": "3432",
       "company": "台端",
@@ -15,6 +24,15 @@
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3432"
     },
     {
+      "code": "3489",
+      "company": "長耀地產",
+      "date": "2026-11-14",
+      "time": "70003",
+      "title": "公告本公司名稱由「森寶開發股份有限公司」更名為 \r\n「長耀地產投資股份有限公司」，公告期間：\r\n115年11月4日至116年2月3日",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3489"
+    },
+    {
       "code": "2072",
       "company": "世紀能源",
       "date": "2026-11-14",
@@ -22,6 +40,24 @@
       "title": "公告本公司名稱由「世紀離岸風電設備股份有限公司」更名\r\n為「世紀能源設備股份有限公司」，公告期間：115年8月26日至\r\n115年11月25日。",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2072"
+    },
+    {
+      "code": "3324",
+      "company": "雙鴻",
+      "date": "2026-11-14",
+      "time": "213126",
+      "title": "公告本公司受邀參加 JP Morgan APAC Technology, Innovation and Growth Conference",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3324"
+    },
+    {
+      "code": "2754",
+      "company": "亞洲藏壽司",
+      "date": "2026-11-14",
+      "time": "193623",
+      "title": "更正公告本公司民國115年第3季合併財務報告經董事會\r\n決議通過",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2754"
     },
     {
       "code": "2314",
@@ -82752,8 +82788,8 @@
     },
     {
       "source": "TPEx Open Data OTC",
-      "rows": 173,
-      "notices": 173,
+      "rows": 4,
+      "notices": 4,
       "ok": true
     },
     {
@@ -82769,7 +82805,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "notices": 0,
       "ok": false
     },
@@ -82781,19 +82817,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-13",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-11-10",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-11-08",
+      "date": "2026-11-12",
       "notices": 0,
       "ok": false
     },
@@ -82806,6 +82830,18 @@
     {
       "source": "MOPS 重大訊息",
       "date": "2026-11-09",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-11-10",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-11-08",
       "notices": 0,
       "ok": false
     },
