@@ -1,10 +1,28 @@
 {
   "ok": true,
-  "fetchedAt": "2026-11-15T04:28:35.382033+08:00",
+  "fetchedAt": "2026-11-15T08:09:49.255337+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-11-15",
   "historyTo": "2026-11-15",
   "notices": [
+    {
+      "code": "3432",
+      "company": "台端",
+      "date": "2026-11-14",
+      "time": "81104",
+      "title": "依臺灣證券交易所股份有限公司臺證上一字第1121801204\r\n號函辦理",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3432"
+    },
+    {
+      "code": "2072",
+      "company": "世紀能源",
+      "date": "2026-11-14",
+      "time": "70003",
+      "title": "公告本公司名稱由「世紀離岸風電設備股份有限公司」更名\r\n為「世紀能源設備股份有限公司」，公告期間：115年8月26日至\r\n115年11月25日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2072"
+    },
     {
       "code": "2314",
       "company": "台揚",
@@ -82728,8 +82746,8 @@
   "sourceStats": [
     {
       "source": "TWSE Open Data",
-      "rows": 282,
-      "notices": 282,
+      "rows": 2,
+      "notices": 2,
       "ok": true
     },
     {
@@ -82745,13 +82763,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-12",
+      "date": "2026-11-15",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-13",
+      "date": "2026-11-12",
       "notices": 0,
       "ok": false
     },
@@ -82763,7 +82781,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-15",
+      "date": "2026-11-13",
       "notices": 0,
       "ok": false
     },
@@ -82781,13 +82799,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-09",
+      "date": "2026-11-11",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-11",
+      "date": "2026-11-09",
       "notices": 0,
       "ok": false
     },
