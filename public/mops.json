@@ -1,10 +1,46 @@
 {
   "ok": true,
-  "fetchedAt": "2026-11-16T04:11:49.340813+08:00",
+  "fetchedAt": "2026-11-16T08:11:43.367674+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-11-16",
   "historyTo": "2026-11-16",
   "notices": [
+    {
+      "code": "2072",
+      "company": "世紀能源",
+      "date": "2026-11-15",
+      "time": "70004",
+      "title": "公告本公司名稱由「世紀離岸風電設備股份有限公司」更名\r\n為「世紀能源設備股份有限公司」，公告期間：115年8月26日至\r\n115年11月25日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2072"
+    },
+    {
+      "code": "6994",
+      "company": "富威電力",
+      "date": "2026-11-15",
+      "time": "174749",
+      "title": "公告本公司永續發展委員會成員異動",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6994"
+    },
+    {
+      "code": "6994",
+      "company": "富威電力",
+      "date": "2026-11-15",
+      "time": "174736",
+      "title": "公告本公司自然人董事異動",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6994"
+    },
+    {
+      "code": "6994",
+      "company": "富威電力",
+      "date": "2026-11-15",
+      "time": "174706",
+      "title": "公告本公司董事長異動",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6994"
+    },
     {
       "code": "4174",
       "company": "浩鼎",
@@ -82782,8 +82818,8 @@
   "sourceStats": [
     {
       "source": "TWSE Open Data",
-      "rows": 2,
-      "notices": 2,
+      "rows": 4,
+      "notices": 4,
       "ok": true
     },
     {
@@ -82811,25 +82847,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-14",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
       "date": "2026-11-15",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-09",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-11-10",
+      "date": "2026-11-14",
       "notices": 0,
       "ok": false
     },
@@ -82841,7 +82865,19 @@
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-11-09",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-11-11",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-11-10",
       "notices": 0,
       "ok": false
     },
