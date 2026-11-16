@@ -1,10 +1,19 @@
 {
   "ok": true,
-  "fetchedAt": "2026-11-16T08:11:43.367674+08:00",
+  "fetchedAt": "2026-11-16T15:05:55.222744+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-11-16",
   "historyTo": "2026-11-16",
   "notices": [
+    {
+      "code": "3489",
+      "company": "長耀地產",
+      "date": "2026-11-15",
+      "time": "70004",
+      "title": "公告本公司名稱由「森寶開發股份有限公司」更名為 \r\n「長耀地產投資股份有限公司」，公告期間：\r\n115年11月4日至116年2月3日",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3489"
+    },
     {
       "code": "2072",
       "company": "世紀能源",
@@ -82824,8 +82833,8 @@
     },
     {
       "source": "TPEx Open Data OTC",
-      "rows": 4,
-      "notices": 4,
+      "rows": 1,
+      "notices": 1,
       "ok": true
     },
     {
@@ -82835,19 +82844,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-13",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-11-16",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
       "date": "2026-11-15",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-11-13",
       "notices": 0,
       "ok": false
     },
@@ -82859,7 +82862,19 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-12",
+      "date": "2026-11-11",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-11-16",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-11-10",
       "notices": 0,
       "ok": false
     },
@@ -82871,13 +82886,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-11",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-11-10",
+      "date": "2026-11-12",
       "notices": 0,
       "ok": false
     },
