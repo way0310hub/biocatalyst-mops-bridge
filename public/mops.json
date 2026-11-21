@@ -1,10 +1,37 @@
 {
   "ok": true,
-  "fetchedAt": "2026-11-22T01:53:47.405036+08:00",
+  "fetchedAt": "2026-11-22T06:51:51.136599+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-11-22",
   "historyTo": "2026-11-22",
   "notices": [
+    {
+      "code": "2072",
+      "company": "世紀能源",
+      "date": "2026-11-21",
+      "time": "70003",
+      "title": "公告本公司名稱由「世紀離岸風電設備股份有限公司」更名\r\n為「世紀能源設備股份有限公司」，公告期間：115年8月26日至\r\n115年11月25日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2072"
+    },
+    {
+      "code": "3711",
+      "company": "日月光投控",
+      "date": "2026-11-21",
+      "time": "54035",
+      "title": "補充說明子公司環旭電子(股)公司115年10月28日公告",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3711"
+    },
+    {
+      "code": "3432",
+      "company": "台端",
+      "date": "2026-11-21",
+      "time": "103620",
+      "title": "依臺灣證券交易所股份有限公司臺證上一字第1121801204\r\n號函辦理",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3432"
+    },
     {
       "code": "2613",
       "company": "中櫃",
@@ -89973,8 +90000,8 @@
   "sourceStats": [
     {
       "source": "TWSE Open Data",
-      "rows": 110,
-      "notices": 110,
+      "rows": 3,
+      "notices": 3,
       "ok": true
     },
     {
@@ -90014,13 +90041,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-18",
+      "date": "2026-11-16",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-16",
+      "date": "2026-11-18",
       "notices": 0,
       "ok": false
     },
