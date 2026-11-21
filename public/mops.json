@@ -1,10 +1,1000 @@
 {
   "ok": true,
-  "fetchedAt": "2026-11-21T05:27:06.924164+08:00",
+  "fetchedAt": "2026-11-21T10:43:08.959779+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-11-21",
   "historyTo": "2026-11-21",
   "notices": [
+    {
+      "code": "2613",
+      "company": "中櫃",
+      "date": "2026-11-20",
+      "time": "95402",
+      "title": "本公司受邀參加富邦證券舉辦之線上法人說明會",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2613"
+    },
+    {
+      "code": "5236",
+      "company": "凌陽創新",
+      "date": "2026-11-20",
+      "time": "94602",
+      "title": "澄清媒體有關本公司之報導",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5236"
+    },
+    {
+      "code": "1446",
+      "company": "宏和",
+      "date": "2026-11-20",
+      "time": "84532",
+      "title": "本公司受邀參加元大證券舉辦之線上法人說明會",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1446"
+    },
+    {
+      "code": "2072",
+      "company": "世紀能源",
+      "date": "2026-11-20",
+      "time": "70004",
+      "title": "公告本公司名稱由「世紀離岸風電設備股份有限公司」更名\r\n為「世紀能源設備股份有限公司」，公告期間：115年8月26日至\r\n115年11月25日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2072"
+    },
+    {
+      "code": "3715",
+      "company": "定穎投控",
+      "date": "2026-11-20",
+      "time": "230157",
+      "title": "代子公司超穎電子電路股份有限公司公告取得設備",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3715"
+    },
+    {
+      "code": "2912",
+      "company": "統一超",
+      "date": "2026-11-20",
+      "time": "212237",
+      "title": "代重要子公司統一超商維京控股有限公司\r\n公告增資統一超商納閩島控股有限公司",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2912"
+    },
+    {
+      "code": "2912",
+      "company": "統一超",
+      "date": "2026-11-20",
+      "time": "211859",
+      "title": "代重要子公司統一超商維京控股有限公司更正\r\n增資統一超商納閩島控股有限公司公告(取消未動用額度)",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2912"
+    },
+    {
+      "code": "1472",
+      "company": "三洋實業",
+      "date": "2026-11-20",
+      "time": "211255",
+      "title": "代子公司上鋌營造股份有限公司公告董事會決議辦理\r\n發行新股",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1472"
+    },
+    {
+      "code": "1795",
+      "company": "美時",
+      "date": "2026-11-20",
+      "time": "202337",
+      "title": "係因本公司有價證券於集中交易市場達公布注意\r\n交易資訊標準，故公布相關財務業務等重大訊息，\r\n以利投資人區別瞭解",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1795"
+    },
+    {
+      "code": "3189",
+      "company": "景碩",
+      "date": "2026-11-20",
+      "time": "193755",
+      "title": "本公司受邀參加第一金證券舉辦之投資論壇",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3189"
+    },
+    {
+      "code": "3189",
+      "company": "景碩",
+      "date": "2026-11-20",
+      "time": "193635",
+      "title": "本公司受邀參加花旗證券舉辦之投資論壇",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3189"
+    },
+    {
+      "code": "4771",
+      "company": "望隼",
+      "date": "2026-11-20",
+      "time": "192729",
+      "title": "公告本公司受邀參加凱基證券舉辦之法人說明會",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4771"
+    },
+    {
+      "code": "5880",
+      "company": "合庫金",
+      "date": "2026-11-20",
+      "time": "185757",
+      "title": "代子公司合作金庫證券公告向合作金庫商業銀行取得使用權資產",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5880"
+    },
+    {
+      "code": "1558",
+      "company": "伸興",
+      "date": "2026-11-20",
+      "time": "184409",
+      "title": "公告本公司庫藏股買回數量累積達已發行股份總數百分之二",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1558"
+    },
+    {
+      "code": "2477",
+      "company": "美隆電",
+      "date": "2026-11-20",
+      "time": "183800",
+      "title": "公告本公司召開法人說明會之相關資訊",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2477"
+    },
+    {
+      "code": "2881",
+      "company": "富邦金",
+      "date": "2026-11-20",
+      "time": "182646",
+      "title": "富邦金控代富邦人壽公告擬參與Anthropic, PBC之普通股初次公開發行\r\n(補充115/11/19公告)",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2881"
+    },
+    {
+      "code": "2883",
+      "company": "凱基金",
+      "date": "2026-11-20",
+      "time": "182132",
+      "title": "代子公司中華開發資本公告董事會通過解除經理人\r\n競業禁止之限制案",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2883"
+    },
+    {
+      "code": "1418",
+      "company": "東華",
+      "date": "2026-11-20",
+      "time": "181215",
+      "title": "更正115年第三季合併財報之iXBRL申報資訊",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1418"
+    },
+    {
+      "code": "4912",
+      "company": "聯德控股-KY",
+      "date": "2026-11-20",
+      "time": "180202",
+      "title": "公告本公司115年第3季除息基準日",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4912"
+    },
+    {
+      "code": "2881",
+      "company": "富邦金",
+      "date": "2026-11-20",
+      "time": "180048",
+      "title": "富邦金控代子公司富邦證券公告擬取得富邦人壽保險\r\n無擔保累積次順位普通公司債",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2881"
+    },
+    {
+      "code": "2890",
+      "company": "永豐金",
+      "date": "2026-11-20",
+      "time": "174640",
+      "title": "永豐金控代子公司永豐銀行公告董事會通過115年度捐助財\r\n團法人中小企業信用保證基金捐助款",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2890"
+    },
+    {
+      "code": "2890",
+      "company": "永豐金",
+      "date": "2026-11-20",
+      "time": "174611",
+      "title": "永豐金控代子公司永豐銀行公告董事會決議申請發行\r\n主次順位金融債券上限新臺幣200億元(或等值外幣)",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2890"
+    },
+    {
+      "code": "2890",
+      "company": "永豐金",
+      "date": "2026-11-20",
+      "time": "174539",
+      "title": "永豐金控公告董事會決議通過子公司永豐銀行\r\n代理發言人異動",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2890"
+    },
+    {
+      "code": "2547",
+      "company": "日勝生",
+      "date": "2026-11-20",
+      "time": "173317",
+      "title": "代子公司樂濤公司公告向關係人取得(租賃)使用權資產",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2547"
+    },
+    {
+      "code": "2474",
+      "company": "可成",
+      "date": "2026-11-20",
+      "time": "173030",
+      "title": "公告本公司買回股份金額達新台幣三億元以上",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2474"
+    },
+    {
+      "code": "2901",
+      "company": "欣欣",
+      "date": "2026-11-20",
+      "time": "172736",
+      "title": "更正公告本公司總經理異動",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2901"
+    },
+    {
+      "code": "6451",
+      "company": "訊芯-KY",
+      "date": "2026-11-20",
+      "time": "171001",
+      "title": "代重要子公司訊芯香港公告董事會決議增資子公司訊芯越南",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6451"
+    },
+    {
+      "code": "2882",
+      "company": "國泰金",
+      "date": "2026-11-20",
+      "time": "170954",
+      "title": "本公司向利害關係人取得使用權資產共2筆",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2882"
+    },
+    {
+      "code": "2444",
+      "company": "兆勁",
+      "date": "2026-11-20",
+      "time": "170901",
+      "title": "公告本公司將於115年11月27日舉辦法人說明會",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2444"
+    },
+    {
+      "code": "2901",
+      "company": "欣欣",
+      "date": "2026-11-20",
+      "time": "165624",
+      "title": "公告本公司總經理異動",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2901"
+    },
+    {
+      "code": "1225",
+      "company": "福懋油",
+      "date": "2026-11-20",
+      "time": "165138",
+      "title": "本公司接獲臺灣臺北地方法院公告",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1225"
+    },
+    {
+      "code": "3044",
+      "company": "健鼎",
+      "date": "2026-11-20",
+      "time": "165108",
+      "title": "健鼎受邀參加花旗證券2026 Taiwan Corporate Day",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3044"
+    },
+    {
+      "code": "2330",
+      "company": "台積電",
+      "date": "2026-11-20",
+      "time": "165044",
+      "title": "代子公司Emerging Fund, L.P.公告投資Element Labs Ltd.",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2330"
+    },
+    {
+      "code": "5546",
+      "company": "永固-KY",
+      "date": "2026-11-20",
+      "time": "164558",
+      "title": "公告本公司庫藏股註銷完成",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5546"
+    },
+    {
+      "code": "8114",
+      "company": "振樺電",
+      "date": "2026-11-20",
+      "time": "164519",
+      "title": "代孫公司 American Portwell Technology, Inc. 公告\r\n財務長異動",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=8114"
+    },
+    {
+      "code": "2618",
+      "company": "長榮航",
+      "date": "2026-11-20",
+      "time": "164339",
+      "title": "受邀參加由凱基證券舉辦之線上法人說明會",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2618"
+    },
+    {
+      "code": "2891",
+      "company": "中信金",
+      "date": "2026-11-20",
+      "time": "163908",
+      "title": "代子公司中信銀公告擬取得台灣人壽臺外幣計價之\r\n無擔保次順位普通公司債",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2891"
+    },
+    {
+      "code": "2891",
+      "company": "中信金",
+      "date": "2026-11-20",
+      "time": "163705",
+      "title": "代子公司中國信託商業銀行公告關係人捐贈案",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2891"
+    },
+    {
+      "code": "2486",
+      "company": "一詮",
+      "date": "2026-11-20",
+      "time": "163629",
+      "title": "公告本公司董事會決議買回庫藏股",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2486"
+    },
+    {
+      "code": "5215",
+      "company": "科嘉-KY",
+      "date": "2026-11-20",
+      "time": "163050",
+      "title": "代子公司蘇州嘉吉/科德/嘉財/艾普來/百宏/嘉皇/嘉駿 \r\n公告一年內累積取得同一有價證券達實收資本額20%",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5215"
+    },
+    {
+      "code": "5215",
+      "company": "科嘉-KY",
+      "date": "2026-11-20",
+      "time": "163037",
+      "title": "代子公司蘇州嘉吉/科德/嘉財/艾普來/百宏/嘉皇/嘉駿 \r\n公告一年內累積處分同一有價證券達實收資本額20%",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5215"
+    },
+    {
+      "code": "1590",
+      "company": "亞德客-KY",
+      "date": "2026-11-20",
+      "time": "162644",
+      "title": "公告本公司受邀參加兆豐證券股份有限公司舉辦之法人說明會",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1590"
+    },
+    {
+      "code": "2762",
+      "company": "世界健身-KY",
+      "date": "2026-11-20",
+      "time": "162446",
+      "title": "本公司受邀請參加富邦證券舉辦之線上法人說明會",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2762"
+    },
+    {
+      "code": "6277",
+      "company": "宏正",
+      "date": "2026-11-20",
+      "time": "162420",
+      "title": "公告本公司董事長決定115年第二季現金股利除息基準日",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6277"
+    },
+    {
+      "code": "2486",
+      "company": "一詮",
+      "date": "2026-11-20",
+      "time": "162112",
+      "title": "公告本公司董事會通過執行長委任案",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2486"
+    },
+    {
+      "code": "8163",
+      "company": "達方",
+      "date": "2026-11-20",
+      "time": "161751",
+      "title": "代子公司蘇州達方電子有限公司公告資金貸與\r\n鐵欣(深圳)貿易有限公司",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=8163"
+    },
+    {
+      "code": "2369",
+      "company": "菱生",
+      "date": "2026-11-20",
+      "time": "161611",
+      "title": "本公司受邀於11月30日參加兆豐證券舉辦之線上法人說明會",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2369"
+    },
+    {
+      "code": "6949",
+      "company": "沛爾生醫*-創",
+      "date": "2026-11-20",
+      "time": "161244",
+      "title": "公告本公司證券簡稱由「沛爾生醫*-創」變更為「沛爾*-創」",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
+    },
+    {
+      "code": "2645",
+      "company": "長榮航太",
+      "date": "2026-11-20",
+      "time": "161239",
+      "title": "本公司受邀參加由凱基證券舉辦之法&#12040;說明會，說明公司營運之現況及未來發展。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2645"
+    },
+    {
+      "code": "2890",
+      "company": "永豐金",
+      "date": "2026-11-20",
+      "time": "161152",
+      "title": "永豐金控公告董事會決議通過子公司京城銀行資訊安全長\r\n異動",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2890"
+    },
+    {
+      "code": "2890",
+      "company": "永豐金",
+      "date": "2026-11-20",
+      "time": "161119",
+      "title": "永豐金控公告董事會決議通過子公司京城銀行發言人異動",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2890"
+    },
+    {
+      "code": "2890",
+      "company": "永豐金",
+      "date": "2026-11-20",
+      "time": "161048",
+      "title": "永豐金控公告董事會決議通過子公司京城銀行總稽核異動",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2890"
+    },
+    {
+      "code": "2890",
+      "company": "永豐金",
+      "date": "2026-11-20",
+      "time": "161016",
+      "title": "永豐金控公告董事會決議通過子公司京城銀行總經理異動",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2890"
+    },
+    {
+      "code": "2890",
+      "company": "永豐金",
+      "date": "2026-11-20",
+      "time": "160944",
+      "title": "公告本公司115年第3季合併財務報告經董事會決議通過",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2890"
+    },
+    {
+      "code": "3711",
+      "company": "日月光投控",
+      "date": "2026-11-20",
+      "time": "160900",
+      "title": "代子公司矽品精密工業(股)公司公告取得廠務工程",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3711"
+    },
+    {
+      "code": "3706",
+      "company": "神達",
+      "date": "2026-11-20",
+      "time": "160603",
+      "title": "公告本公司訂定115年現金增資認股基準日相關事宜【補充\r\n公告原股東認購比率、發行價格暨代收股款及存儲價款機構】",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3706"
+    },
+    {
+      "code": "2887",
+      "company": "台新新光金",
+      "date": "2026-11-20",
+      "time": "160534",
+      "title": "公告本公司將於115年11月27日召開115年第三季法人說明會",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2887"
+    },
+    {
+      "code": "3494",
+      "company": "誠研",
+      "date": "2026-11-20",
+      "time": "160354",
+      "title": "公告本公司財務主管、會計主管及公司治理主管異動",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3494"
+    },
+    {
+      "code": "2885",
+      "company": "元大金",
+      "date": "2026-11-20",
+      "time": "160017",
+      "title": "元大金控公告115年第三季合併財務報告經董事會決議通過",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2885"
+    },
+    {
+      "code": "2460",
+      "company": "建通",
+      "date": "2026-11-20",
+      "time": "155930",
+      "title": "公告本公司召開法人說明會相關資訊",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2460"
+    },
+    {
+      "code": "2923",
+      "company": "鼎固-KY",
+      "date": "2026-11-20",
+      "time": "155708",
+      "title": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，\r\n故公布相關自結財務業務等重大訊息，以利投資人區別瞭解",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2923"
+    },
+    {
+      "code": "2481",
+      "company": "強茂",
+      "date": "2026-11-20",
+      "time": "155356",
+      "title": "代重要子公司PAN-JIT ASIA INTERNATIONAL INC.公告\r\n董事會決議盈餘分配案",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2481"
+    },
+    {
+      "code": "9945",
+      "company": "潤泰新",
+      "date": "2026-11-20",
+      "time": "155214",
+      "title": "更正本公司115年7月至115年9月關係人交易申報之部分資訊",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=9945"
+    },
+    {
+      "code": "4566",
+      "company": "時碩工業",
+      "date": "2026-11-20",
+      "time": "155147",
+      "title": "係因本公司有價證券於集中交易市場達公布注意交易資訊\r\n標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4566"
+    },
+    {
+      "code": "3622",
+      "company": "洋華",
+      "date": "2026-11-20",
+      "time": "155116",
+      "title": "本公司將於115年11月30日召開線上法人說明會",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3622"
+    },
+    {
+      "code": "2597",
+      "company": "潤弘",
+      "date": "2026-11-20",
+      "time": "154807",
+      "title": "更正本公司115年7月至9月關係人交易申報之部分資訊",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2597"
+    },
+    {
+      "code": "2820",
+      "company": "華票",
+      "date": "2026-11-20",
+      "time": "154538",
+      "title": "公告本公司2026年第三季法人說明會相關資訊",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2820"
+    },
+    {
+      "code": "2812",
+      "company": "台中銀",
+      "date": "2026-11-20",
+      "time": "154412",
+      "title": "公告本公司召開法人說明會相關資訊",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2812"
+    },
+    {
+      "code": "4927",
+      "company": "泰鼎-KY",
+      "date": "2026-11-20",
+      "time": "154200",
+      "title": "因本公司有價證券於集中交易市場達公布注意交易資訊\r\n標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4927"
+    },
+    {
+      "code": "3653",
+      "company": "健策",
+      "date": "2026-11-20",
+      "time": "154046",
+      "title": "因本公司有價證券於集中交易市場達公布\r\n注意交易資訊標準，故公布相關財務業務等\r\n重大訊息，以利投資人區別瞭解。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3653"
+    },
+    {
+      "code": "8021",
+      "company": "尖點",
+      "date": "2026-11-20",
+      "time": "153835",
+      "title": "本公司有價證券於集中交易市場達公布注意交易資訊標準，\r\n故公布有關財務業務等重大訊息，以利投資人區別瞭解。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=8021"
+    },
+    {
+      "code": "2409",
+      "company": "友達",
+      "date": "2026-11-20",
+      "time": "153512",
+      "title": "公告本公司將參加Citi舉辦之「2026 Taiwan Corporate Day」",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2409"
+    },
+    {
+      "code": "1535",
+      "company": "中宇",
+      "date": "2026-11-20",
+      "time": "153444",
+      "title": "本公司法人董事之代表變動",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1535"
+    },
+    {
+      "code": "6770",
+      "company": "力積電",
+      "date": "2026-11-20",
+      "time": "153413",
+      "title": "公告本公司受邀參加花旗證券舉辦之法人說明會",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6770"
+    },
+    {
+      "code": "8046",
+      "company": "南電",
+      "date": "2026-11-20",
+      "time": "153144",
+      "title": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，\r\n故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=8046"
+    },
+    {
+      "code": "2836",
+      "company": "高雄銀",
+      "date": "2026-11-20",
+      "time": "152403",
+      "title": "公告本公司召開2026年第3季法人說明會",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2836"
+    },
+    {
+      "code": "3035",
+      "company": "智原",
+      "date": "2026-11-20",
+      "time": "151635",
+      "title": "本公司受邀參加花旗證券舉辦之「Citi's 2026 Taiwan Corporate Day」",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3035"
+    },
+    {
+      "code": "6438",
+      "company": "迅得",
+      "date": "2026-11-20",
+      "time": "151559",
+      "title": "公告本公司受凱基證券邀請參加法人說明會",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6438"
+    },
+    {
+      "code": "3518",
+      "company": "柏騰",
+      "date": "2026-11-20",
+      "time": "151535",
+      "title": "公告本公司及子公司達公開發行公司資金貸與及背書保證\r\n處理準則第二十二條第一項第二款及第三款",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3518"
+    },
+    {
+      "code": "4736",
+      "company": "泰博",
+      "date": "2026-11-20",
+      "time": "151314",
+      "title": "公告本公司召開法人說明會相關資訊",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4736"
+    },
+    {
+      "code": "8996",
+      "company": "高力",
+      "date": "2026-11-20",
+      "time": "150851",
+      "title": "公告本公司受邀參加Morgan Stanley舉辦之「Post AP-Summit Taiwan Tech Trip 2026」法人說明會",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=8996"
+    },
+    {
+      "code": "1447",
+      "company": "力鵬",
+      "date": "2026-11-20",
+      "time": "150838",
+      "title": "公告受邀參加兆豐證券舉辦之法人說明會。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1447"
+    },
+    {
+      "code": "2492",
+      "company": "華新科",
+      "date": "2026-11-20",
+      "time": "150136",
+      "title": "公告本公司更正115年8-9月關係人交易申報資訊",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2492"
+    },
+    {
+      "code": "5907",
+      "company": "大洋-KY",
+      "date": "2026-11-20",
+      "time": "145800",
+      "title": "對深圳市大馬化投資有限公司應收款收回情形",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5907"
+    },
+    {
+      "code": "6715",
+      "company": "嘉基",
+      "date": "2026-11-20",
+      "time": "145124",
+      "title": "本公司有價證券於集中交易市場達公布注意交易資訊標準\r\n故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6715"
+    },
+    {
+      "code": "2891",
+      "company": "中信金",
+      "date": "2026-11-20",
+      "time": "144633",
+      "title": "本公司115年前三季合併財務報告經董事會決議通過",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2891"
+    },
+    {
+      "code": "1444",
+      "company": "力麗",
+      "date": "2026-11-20",
+      "time": "144446",
+      "title": "公告受邀參加兆豐證券舉辦之法人說明會。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1444"
+    },
+    {
+      "code": "1439",
+      "company": "雋揚",
+      "date": "2026-11-20",
+      "time": "144244",
+      "title": "更正本公司115年8~9月背書保證資訊揭露明細表(編號誤植)",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1439"
+    },
+    {
+      "code": "2314",
+      "company": "台揚",
+      "date": "2026-11-20",
+      "time": "144021",
+      "title": "公告本公司會計主管異動",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2314"
+    },
+    {
+      "code": "2314",
+      "company": "台揚",
+      "date": "2026-11-20",
+      "time": "143947",
+      "title": "公告本公司財務主管及公司治理主管暨代理發言人異動",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2314"
+    },
+    {
+      "code": "3447",
+      "company": "展達",
+      "date": "2026-11-20",
+      "time": "143904",
+      "title": "代子公司公告資金貸與達「公開發行公司資金貸與及背書保證處理\r\n準則」第22條第1項第3款標準",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3447"
+    },
+    {
+      "code": "8996",
+      "company": "高力",
+      "date": "2026-11-20",
+      "time": "143754",
+      "title": "更正本公司115年9月關係人交易仟元表達申報事項",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=8996"
+    },
+    {
+      "code": "3027",
+      "company": "盛達",
+      "date": "2026-11-20",
+      "time": "143500",
+      "title": "公告本公司115年10月份自結合併財務報告之相關資訊",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3027"
+    },
+    {
+      "code": "1560",
+      "company": "中砂",
+      "date": "2026-11-20",
+      "time": "143027",
+      "title": "本公司受邀參加元大證券舉辦之「2026年元大證券第四季投資論壇」",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1560"
+    },
+    {
+      "code": "6412",
+      "company": "群電",
+      "date": "2026-11-20",
+      "time": "141933",
+      "title": "本公司受邀參加花旗證券舉辦之 Citi's 2026 Taiwan Corporate Day",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6412"
+    },
+    {
+      "code": "6834",
+      "company": "天二科技",
+      "date": "2026-11-20",
+      "time": "141151",
+      "title": "公告本公司115年度現金增資收足股款暨增資基準日",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6834"
+    },
+    {
+      "code": "2236",
+      "company": "百達-KY",
+      "date": "2026-11-20",
+      "time": "140814",
+      "title": "公告本公司內部稽核主管異動",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2236"
+    },
+    {
+      "code": "1540",
+      "company": "喬福",
+      "date": "2026-11-20",
+      "time": "140428",
+      "title": "本公司陳沛然董事出贈公司股票\r\n依公司法第197條達選任時1/2,即解任。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1540"
+    },
+    {
+      "code": "1319",
+      "company": "東陽",
+      "date": "2026-11-20",
+      "time": "140141",
+      "title": "代重要子公司TONG YANG HOLDING CORPORATION公告\r\n董事會決議發放現金股利",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=1319"
+    },
+    {
+      "code": "2103",
+      "company": "台橡",
+      "date": "2026-11-20",
+      "time": "135636",
+      "title": "代子公司TSRC (Lux.) Corporation S.a r.l.\r\n公告股東臨時會重要決議事宜",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2103"
+    },
+    {
+      "code": "2103",
+      "company": "台橡",
+      "date": "2026-11-20",
+      "time": "135617",
+      "title": "代子公司TSRC (Lux.) Corporation S.a r.l.\r\n公告召開股東臨時會",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2103"
+    },
+    {
+      "code": "2412",
+      "company": "中華電",
+      "date": "2026-11-20",
+      "time": "134813",
+      "title": "本公司將參加UBS舉辦之投資人會議",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2412"
+    },
+    {
+      "code": "2385",
+      "company": "群光",
+      "date": "2026-11-20",
+      "time": "134552",
+      "title": "公告本公司參加花旗證券舉辦之Taiwan Corporate Day，會中向投資人說明本公司業務概況及未來前景",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2385"
+    },
+    {
+      "code": "6271",
+      "company": "同欣電",
+      "date": "2026-11-20",
+      "time": "134440",
+      "title": "本公司受邀參加花旗證券舉辦之「Citi's 2026 Taiwan Corporate Day」",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6271"
+    },
+    {
+      "code": "6285",
+      "company": "啟碁",
+      "date": "2026-11-20",
+      "time": "134354",
+      "title": "本公司收回已發行之限制員工權利新股註銷減資變更登記完成",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6285"
+    },
+    {
+      "code": "4942",
+      "company": "嘉彰",
+      "date": "2026-11-20",
+      "time": "133702",
+      "title": "本公司受邀參加國票綜合證券舉辦之法人說明會",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=4942"
+    },
+    {
+      "code": "2408",
+      "company": "南亞科",
+      "date": "2026-11-20",
+      "time": "133516",
+      "title": "本公司受邀參加Citi Taiwan Corporate Day",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2408"
+    },
+    {
+      "code": "2881",
+      "company": "富邦金",
+      "date": "2026-11-20",
+      "time": "11550",
+      "title": "富邦金控代富邦人壽公告擬參與Anthropic, PBC之普通股\r\n初次公開發行(補充115/11/13公告)",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2881"
+    },
+    {
+      "code": "2328",
+      "company": "廣宇",
+      "date": "2026-11-20",
+      "time": "111258",
+      "title": "說明媒體報導",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2328"
+    },
+    {
+      "code": "3406",
+      "company": "玉晶光",
+      "date": "2026-11-20",
+      "time": "111005",
+      "title": "澄清媒體報導內容-經濟日報C01版",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3406"
+    },
     {
       "code": "1514",
       "company": "亞力",
@@ -88488,8 +89478,8 @@
   "sourceStats": [
     {
       "source": "TWSE Open Data",
-      "rows": 82,
-      "notices": 82,
+      "rows": 110,
+      "notices": 110,
       "ok": true
     },
     {
@@ -88517,25 +89507,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-19",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
       "date": "2026-11-20",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-17",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-11-15",
+      "date": "2026-11-19",
       "notices": 0,
       "ok": false
     },
@@ -88547,7 +89525,19 @@
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-11-15",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-11-14",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-11-17",
       "notices": 0,
       "ok": false
     },
