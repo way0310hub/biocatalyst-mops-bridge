@@ -1,10 +1,28 @@
 {
   "ok": true,
-  "fetchedAt": "2026-11-22T10:51:44.284229+08:00",
+  "fetchedAt": "2026-11-22T18:48:57.639344+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-11-22",
   "historyTo": "2026-11-22",
   "notices": [
+    {
+      "code": "6474",
+      "company": "維夫拉克控股",
+      "date": "2026-11-21",
+      "time": "70003",
+      "title": "公告本公司名稱由「華豫寧股份有限公司」更名為「維夫拉克控股\r\n股份有限公司」，公告期間：115年11月16日至116年2月15日",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6474"
+    },
+    {
+      "code": "3489",
+      "company": "長耀地產",
+      "date": "2026-11-21",
+      "time": "70003",
+      "title": "公告本公司名稱由「森寶開發股份有限公司」更名為 \r\n「長耀地產投資股份有限公司」，公告期間：\r\n115年11月4日至116年2月3日",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3489"
+    },
     {
       "code": "2072",
       "company": "世紀能源",
@@ -22,6 +40,15 @@
       "title": "補充說明子公司環旭電子(股)公司115年10月28日公告",
       "source": "TWSE Open Data",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=3711"
+    },
+    {
+      "code": "5278",
+      "company": "尚凡*",
+      "date": "2026-11-21",
+      "time": "181534",
+      "title": "本公司網路資安事件說明",
+      "source": "TPEx Open Data OTC",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=5278"
     },
     {
       "code": "3432",
@@ -90006,26 +90033,14 @@
     },
     {
       "source": "TPEx Open Data OTC",
-      "rows": 55,
-      "notices": 55,
+      "rows": 3,
+      "notices": 3,
       "ok": true
     },
     {
       "source": "TPEx 官方市場重大訊息",
       "notices": 0,
       "ok": true
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-11-22",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-11-19",
-      "notices": 0,
-      "ok": false
     },
     {
       "source": "MOPS 重大訊息",
@@ -90041,7 +90056,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-17",
+      "date": "2026-11-19",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-11-22",
       "notices": 0,
       "ok": false
     },
@@ -90053,13 +90074,19 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-16",
+      "date": "2026-11-15",
       "notices": 0,
       "ok": false
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-15",
+      "date": "2026-11-17",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-11-16",
       "notices": 0,
       "ok": false
     },
