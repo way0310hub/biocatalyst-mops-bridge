@@ -1,10 +1,28 @@
 {
   "ok": true,
-  "fetchedAt": "2026-11-23T02:16:49.096958+08:00",
+  "fetchedAt": "2026-11-23T07:44:12.032841+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
   "historyFrom": "2025-11-23",
   "historyTo": "2026-11-23",
   "notices": [
+    {
+      "code": "2072",
+      "company": "世紀能源",
+      "date": "2026-11-22",
+      "time": "70004",
+      "title": "公告本公司名稱由「世紀離岸風電設備股份有限公司」更名\r\n為「世紀能源設備股份有限公司」，公告期間：115年8月26日至\r\n115年11月25日。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=2072"
+    },
+    {
+      "code": "8101",
+      "company": "華冠",
+      "date": "2026-11-22",
+      "time": "234555",
+      "title": "本公司受邀參加福邦證券舉辦線上法人說明會。",
+      "source": "TWSE Open Data",
+      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=8101"
+    },
     {
       "code": "6474",
       "company": "維夫拉克控股",
@@ -90027,8 +90045,8 @@
   "sourceStats": [
     {
       "source": "TWSE Open Data",
-      "rows": 3,
-      "notices": 3,
+      "rows": 2,
+      "notices": 2,
       "ok": true
     },
     {
@@ -90044,6 +90062,18 @@
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-11-20",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-11-23",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-11-21",
       "notices": 0,
       "ok": false
@@ -90056,13 +90086,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-23",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-11-20",
+      "date": "2026-11-18",
       "notices": 0,
       "ok": false
     },
@@ -90074,19 +90098,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-17",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-11-18",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
       "date": "2026-11-16",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-11-17",
       "notices": 0,
       "ok": false
     },
