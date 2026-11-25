@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "fetchedAt": "2026-11-25T16:59:02.256408+08:00",
+  "fetchedAt": "2026-11-26T03:07:17.579525+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
-  "historyFrom": "2025-11-25",
-  "historyTo": "2026-11-25",
+  "historyFrom": "2025-11-26",
+  "historyTo": "2026-11-26",
   "notices": [
     {
       "code": "6649",
@@ -92956,15 +92956,6 @@
       "title": "公告本公司召開重大訊息說明記者會",
       "source": "MOPS 歷史重大訊息（官方網頁查詢）",
       "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6696"
-    },
-    {
-      "code": "6949",
-      "company": "沛爾生醫*-創",
-      "date": "2025-11-25",
-      "time": "18:47:09",
-      "title": "公告本公司114年現金增資發行新股認股基準日等相關事宜",
-      "source": "MOPS 歷史重大訊息（官方網頁查詢）",
-      "url": "https://mops.twse.com.tw/mops/#/web/t146sb05?companyId=6949"
     }
   ],
   "sourceStats": [
@@ -92987,19 +92978,13 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-22",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-11-23",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
       "date": "2026-11-24",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-11-26",
       "notices": 0,
       "ok": false
     },
@@ -93011,13 +92996,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-19",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-11-18",
+      "date": "2026-11-23",
       "notices": 0,
       "ok": false
     },
@@ -93029,7 +93008,19 @@
     },
     {
       "source": "MOPS 重大訊息",
+      "date": "2026-11-19",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
       "date": "2026-11-21",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-11-22",
       "notices": 0,
       "ok": false
     },
