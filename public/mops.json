@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "fetchedAt": "2026-11-26T19:20:03.094221+08:00",
+  "fetchedAt": "2026-11-27T04:25:42.671196+08:00",
   "source": "MOPS + TWSE／TPEx Open Data",
-  "historyFrom": "2025-11-26",
-  "historyTo": "2026-11-26",
+  "historyFrom": "2025-11-27",
+  "historyTo": "2026-11-27",
   "notices": [
     {
       "code": "6658",
@@ -94433,19 +94433,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-23",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
       "date": "2026-11-26",
-      "notices": 0,
-      "ok": false
-    },
-    {
-      "source": "MOPS 重大訊息",
-      "date": "2026-11-22",
       "notices": 0,
       "ok": false
     },
@@ -94457,7 +94445,7 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-20",
+      "date": "2026-11-23",
       "notices": 0,
       "ok": false
     },
@@ -94469,9 +94457,22 @@
     },
     {
       "source": "MOPS 重大訊息",
-      "date": "2026-11-19",
+      "date": "2026-11-22",
       "notices": 0,
       "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-11-20",
+      "notices": 0,
+      "ok": false
+    },
+    {
+      "source": "MOPS 重大訊息",
+      "date": "2026-11-27",
+      "notices": 0,
+      "ok": false,
+      "error": "<urlopen error timed out>"
     },
     {
       "source": "MOPS 重大訊息",
